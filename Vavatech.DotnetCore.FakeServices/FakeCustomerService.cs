@@ -33,7 +33,12 @@ namespace Vavatech.DotnetCore.FakeServices
 
         public Customer Get(int id)
         {
-            return customers.SingleOrDefault(c => c.Id == id);
+            Customer customer =  customers.SingleOrDefault(c => c.Id == id);
+
+            customer.Partner = customers.First();
+            customer.Partner.Partner = customer;
+
+            return customer;
         }
 
         public IEnumerable<Customer> Get(CustomerType? customerType, bool? isRemoved)

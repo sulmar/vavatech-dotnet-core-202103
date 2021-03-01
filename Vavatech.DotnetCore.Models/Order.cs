@@ -8,5 +8,7 @@ namespace Vavatech.DotnetCore.Models
     {
         public string Number { get; set; }
         public DateTime CreatedDate { get; set; }
+
+        public Customer Customer { get; set; }
     }
 }

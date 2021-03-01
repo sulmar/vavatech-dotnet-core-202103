@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Vavatech.DotnetCore.Models
 {
@@ -19,5 +20,9 @@ namespace Vavatech.DotnetCore.Models
         public string HashedPassword { get; set; }
 
         public bool IsRemoved { get; set; }
+
+        public Customer Partner { get; set; }
+
+        // public IEnumerable<Order> Orders { get; set; }
     }
 }

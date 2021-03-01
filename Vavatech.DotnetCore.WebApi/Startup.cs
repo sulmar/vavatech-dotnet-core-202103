@@ -7,6 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +36,12 @@ namespace Vavatech.DotnetCore.WebApi
             services.AddSingleton<ICustomerService, FakeCustomerService>();
 
             // dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson -Version 3.1.2
-            services.AddControllers().AddNewtonsoftJson();
+            services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+                options.SerializerSettings.Converters.Add(new StringEnumConverter(camelCaseText: true));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
