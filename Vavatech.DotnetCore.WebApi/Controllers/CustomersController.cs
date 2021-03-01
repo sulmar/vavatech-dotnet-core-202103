@@ -155,6 +155,20 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
             return NoContent();
         }
 
+        // DELETE api/customers/{id}
+        
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            customerService.Remove(id);
+
+            return NoContent();
+        }
+
+
+       
+
+        
     }
 
     public class ErrorResponse
