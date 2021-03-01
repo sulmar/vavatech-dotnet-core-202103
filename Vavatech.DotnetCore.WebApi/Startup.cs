@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -12,11 +13,13 @@ using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using Vavatech.DotnetCore.Fakers;
 using Vavatech.DotnetCore.FakeServices;
 using Vavatech.DotnetCore.IServices;
 using Vavatech.DotnetCore.Models;
+using Vavatech.DotnetCore.WebApi.RouteConstraints;
 
 namespace Vavatech.DotnetCore.WebApi
 {
@@ -35,6 +38,7 @@ namespace Vavatech.DotnetCore.WebApi
             services.AddSingleton<Faker<Customer>, CustomerFaker>();
             services.AddSingleton<ICustomerService, FakeCustomerService>();
 
+            // Newtonsoft.Json
             // dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson -Version 3.1.2
             services.AddControllers().AddNewtonsoftJson(options =>
             {
@@ -42,6 +46,19 @@ namespace Vavatech.DotnetCore.WebApi
                 options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
                 options.SerializerSettings.Converters.Add(new StringEnumConverter(camelCaseText: true));
             });
+
+
+            services.Configure<RouteOptions>(options =>
+            {
+                options.ConstraintMap.Add("pesel", typeof(PeselRouteConstraint));
+            });
+
+            // System.Text.Json serialization
+            //services.AddControllers()
+            //    .AddJsonOptions(options =>
+            //    {
+            //        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+            //    });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -41,8 +41,9 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
             return customers;
         }
 
+        // https://docs.microsoft.com/pl-pl/aspnet/core/fundamentals/routing?view=aspnetcore-5.0#route-constraint-reference
         // GET api/customers/{id}
-        [HttpGet("{id}", Name = "GetCustomerById")]
+        [HttpGet("{id:int:min(1)}", Name = "GetCustomerById")]
         public IActionResult Get(int id)
         {
             var customer = customerService.Get(id);
@@ -61,17 +62,34 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
             return Ok(customer);
         }
 
+        [HttpGet("{name}")]
+        public IActionResult Get(string name)
+        {
+            var customer = customerService.Get(name);
 
-        //// GET api/customers?CustomerType=Smiling&IsRemoved=0   // query string ? & & &
-        //[HttpGet]
-        //public IActionResult Get(CustomerType? customerType, bool? isRemoved)
-        //{
-        //    throw new NotImplementedException();
-        //}
+            return Ok(customer);
+        }
+
+        // GET api/customers/{pesel}
+        [HttpGet("{number:pesel}")]
+        public IActionResult GetByPesel(string number)
+        {
+            var customer = customerService.GetByPesel(number);
+
+            return Ok(customer);
+        }
 
 
-        // GET api/customers?CustomerType=Smiling&From=
-        [HttpGet]
+            //// GET api/customers?CustomerType=Smiling&IsRemoved=0   // query string ? & & &
+            //[HttpGet]
+            //public IActionResult Get(CustomerType? customerType, bool? isRemoved)
+            //{
+            //    throw new NotImplementedException();
+            //}
+
+
+            // GET api/customers?CustomerType=Smiling&From=
+            [HttpGet]
         public IActionResult Get(CustomerSearchCriteria searchCriteria)
         {
             var customers = customerService.Get(searchCriteria);

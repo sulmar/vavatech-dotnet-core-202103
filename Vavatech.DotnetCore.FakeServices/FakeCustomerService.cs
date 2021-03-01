@@ -41,6 +41,7 @@ namespace Vavatech.DotnetCore.FakeServices
             return customer;
         }
 
+
         public IEnumerable<Customer> Get(CustomerType? customerType, bool? isRemoved)
         {
             throw new NotImplementedException();
@@ -94,6 +95,16 @@ namespace Vavatech.DotnetCore.FakeServices
         {
             Remove(entity.Id);
             customers.Add(entity);
+        }
+
+        public Customer Get(string name)
+        {
+            return customers.FirstOrDefault(c => c.LastName == name);
+        }
+
+        public Customer GetByPesel(string pesel)
+        {
+            return customers.SingleOrDefault(c => c.Pesel == pesel);
         }
     }
 }
