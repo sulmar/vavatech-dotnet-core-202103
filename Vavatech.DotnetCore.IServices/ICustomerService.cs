@@ -6,13 +6,13 @@ namespace Vavatech.DotnetCore.IServices
 {
 
 
-    public interface ICustomerService : IEntityService<Customer>
+    public interface ICustomerService : IEntityService<Customer, CustomerSearchCriteria>
     {
         IEnumerable<Customer> GetByGender(Gender gender);
 
         // IEnumerable<Customer> Get(CustomerType? customerType, bool? isRemoved);
 
-        IEnumerable<Customer> Get(CustomerSearchCriteria searchCriteria);
+        // IEnumerable<Customer> Get(CustomerSearchCriteria searchCriteria);
        
     }
 }

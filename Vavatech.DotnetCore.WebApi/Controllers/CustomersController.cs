@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using Vavatech.DotnetCore.IServices;
@@ -77,6 +78,15 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         }
 
         // GET api/customers/10/orders
+
+
+        // GET api/customers?lat=53.04&lng=21.04
+
+        //[HttpGet]
+        //public IActionResult Get([Required, Range(-180, 180)] float lat, [Required] float lng)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
     }
 

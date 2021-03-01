@@ -43,7 +43,36 @@ namespace Vavatech.DotnetCore.FakeServices
 
         public IEnumerable<Customer> Get(CustomerSearchCriteria searchCriteria)
         {
-            throw new NotImplementedException();
+            IQueryable<Customer> query = UseFilter(searchCriteria);
+
+            return query.ToList();
+        }
+
+        private IQueryable<Customer> UseFilter(CustomerSearchCriteria searchCriteria)
+        {
+            IQueryable<Customer> query = customers.AsQueryable();
+
+            if (searchCriteria.CustomerType.HasValue)
+            {
+                query = query.Where(c => c.Type == searchCriteria.CustomerType);
+            }
+
+            if (searchCriteria.IsRemoved.HasValue)
+            {
+                query = query.Where(c => c.IsRemoved == searchCriteria.IsRemoved);
+            }
+
+            if (searchCriteria.From.HasValue)
+            {
+                query = query.Where(c => c.Birthday >= searchCriteria.From);
+            }
+
+            if (searchCriteria.To.HasValue)
+            {
+                query = query.Where(c => c.Birthday <= searchCriteria.To);
+            }
+
+            return query;
         }
 
         public IEnumerable<Customer> GetByGender(Gender gender)
