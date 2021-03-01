@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -10,6 +11,7 @@ using Vavatech.DotnetCore.Models.SearchCriterias;
 
 namespace Vavatech.DotnetCore.WebApi.Controllers
 {
+    [ApiController]
     // [Route("api/customers")]
     [Route("api/[controller]")]
     public class CustomersController : ControllerBase
@@ -40,7 +42,7 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         }
 
         // GET api/customers/{id}
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "GetCustomerById")]
         public IActionResult Get(int id)
         {
             var customer = customerService.Get(id);
@@ -87,6 +89,53 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         //{
         //    throw new NotImplementedException();
         //}
+
+
+        // POST api/customers
+        // content-type: application/json
+        // {json}
+
+        [HttpPost]
+        public IActionResult Post([FromBody] Customer customer)
+        {
+            customerService.Add(customer);
+
+            // return Created($"http://localhost:5000/api/customers/{customer.Id}", customer);
+
+            return CreatedAtRoute("GetCustomerById", new { id = customer.Id }, customer);
+        }
+
+        // PUT api/customers/{id}
+        // content-type: application/json
+        // {json}
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, Customer customer)
+        {
+            if (id != customer.Id)
+            {
+                return BadRequest();
+            }
+
+            customerService.Update(customer);
+
+            return NoContent();
+        }
+
+
+        // dotnet add package Microsoft.AspNetCore.JsonPatch
+
+        // PATCH api/customers/{id}
+        // content-type: application/merge-patch+json
+        // {json}
+        [HttpPatch("{id}")]
+        public IActionResult Patch(int id, [FromBody] JsonPatchDocument jsonPatch)
+        {
+            Customer customer = customerService.Get(id);
+
+            jsonPatch.ApplyTo(customer);
+
+            return NoContent();
+        }
 
     }
 

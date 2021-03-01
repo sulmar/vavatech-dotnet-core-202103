@@ -31,9 +31,10 @@ namespace Vavatech.DotnetCore.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<Faker<Customer>, CustomerFaker>();
-            services.AddSingleton<ICustomerService, FakeCustomerService>();                        
+            services.AddSingleton<ICustomerService, FakeCustomerService>();
 
-            services.AddControllers();
+            // dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson -Version 3.1.2
+            services.AddControllers().AddNewtonsoftJson();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
