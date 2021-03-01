@@ -1,4 +1,6 @@
-﻿using Vavatech.DotnetCore.Models;
+﻿using System.Collections.Generic;
+using Vavatech.DotnetCore.Models;
+using Vavatech.DotnetCore.Models.SearchCriterias;
 
 namespace Vavatech.DotnetCore.IServices
 {
@@ -6,6 +8,11 @@ namespace Vavatech.DotnetCore.IServices
 
     public interface ICustomerService : IEntityService<Customer>
     {
+        IEnumerable<Customer> GetByGender(Gender gender);
+
+        // IEnumerable<Customer> Get(CustomerType? customerType, bool? isRemoved);
+
+        IEnumerable<Customer> Get(CustomerSearchCriteria searchCriteria);
        
     }
 }

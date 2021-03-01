@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vavatech.DotnetCore.FakeServices\Vavatech.DotnetCore.FakeServices.csproj" />
+    <ProjectReference Include="..\Vavatech.DotnetCore.IServices\Vavatech.DotnetCore.IServices.csproj" />
+    <ProjectReference Include="..\Vavatech.DotnetCore.Models\Vavatech.DotnetCore.Models.csproj" />
+  </ItemGroup>
+
+
+</Project>

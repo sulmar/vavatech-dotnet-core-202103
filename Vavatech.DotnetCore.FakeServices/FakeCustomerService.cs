@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Vavatech.DotnetCore.IServices;
 using Vavatech.DotnetCore.Models;
+using Vavatech.DotnetCore.Models.SearchCriterias;
 
 namespace Vavatech.DotnetCore.FakeServices
 {
@@ -33,6 +34,21 @@ namespace Vavatech.DotnetCore.FakeServices
         public Customer Get(int id)
         {
             return customers.SingleOrDefault(c => c.Id == id);
+        }
+
+        public IEnumerable<Customer> Get(CustomerType? customerType, bool? isRemoved)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Customer> Get(CustomerSearchCriteria searchCriteria)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Customer> GetByGender(Gender gender)
+        {
+            return customers.Where(c => c.Gender == gender);
         }
 
         public void Remove(int id)
