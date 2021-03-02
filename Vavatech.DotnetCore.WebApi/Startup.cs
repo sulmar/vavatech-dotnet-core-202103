@@ -40,7 +40,9 @@ namespace Vavatech.DotnetCore.WebApi
 
             // Newtonsoft.Json
             // dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson -Version 3.1.2
-            services.AddControllers().AddNewtonsoftJson(options =>
+            services.AddControllers()
+                .AddXmlSerializerFormatters()
+                .AddNewtonsoftJson(options =>
             {
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                 options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
