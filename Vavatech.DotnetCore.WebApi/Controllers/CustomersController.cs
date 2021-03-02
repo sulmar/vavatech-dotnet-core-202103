@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,10 +20,12 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
     public class CustomersController : ControllerBase
     {
         private readonly ICustomerService customerService;
+        private readonly IConfiguration configuration;
 
-        public CustomersController(ICustomerService customerService)
+        public CustomersController(ICustomerService customerService, IConfiguration configuration)
         {
             this.customerService = customerService;
+            this.configuration = configuration;
         }
 
         // GET api/customers        
@@ -49,6 +52,8 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         public IActionResult Get(int id)
         {
             var customer = customerService.Get(id);
+
+            string openStreetMapMode = configuration["OpenStreetMap:Mode"];
 
             if (customer == null)
                 return NotFound();

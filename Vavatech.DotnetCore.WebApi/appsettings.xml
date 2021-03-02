@@ -1,0 +1,11 @@
+﻿<configuration>
+
+	<OpenStreetMap>
+		<Url>https://www.openstreetmap.org</Url>
+		<Mode>satelite</Mode>
+	</OpenStreetMap>
+	
+	<CustomerOptions>
+		<Count>70</Count>
+	</CustomerOptions>
+</configuration>

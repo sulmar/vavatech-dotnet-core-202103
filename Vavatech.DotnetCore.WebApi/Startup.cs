@@ -67,6 +67,10 @@ namespace Vavatech.DotnetCore.WebApi
                 options.ConstraintMap.Add("pesel", typeof(PeselRouteConstraint));
             });
 
+            services.Configure<FakeCustomerServiceOptions>(Configuration.GetSection("CustomerOptions"));
+
+            // services.Configure<FakeCustomerServiceOptions>(options => options.Count = 50);
+
             // System.Text.Json serialization
             //services.AddControllers()
             //    .AddJsonOptions(options =>
@@ -78,6 +82,11 @@ namespace Vavatech.DotnetCore.WebApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            string googleMapsUrl = Configuration["GoogleMapsUrl"];
+
+            string openStreetMapMode = Configuration["OpenStreetMap:Mode"];
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

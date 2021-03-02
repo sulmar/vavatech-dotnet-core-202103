@@ -1,4 +1,5 @@
 ﻿using Bogus;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,13 +9,20 @@ using Vavatech.DotnetCore.Models.SearchCriterias;
 
 namespace Vavatech.DotnetCore.FakeServices
 {
+    public class FakeCustomerServiceOptions
+    {
+        public int Count { get; set; } = 99;
+        public string Url { get; set; } 
+    }
+
     public class FakeCustomerService : ICustomerService
     {
         private readonly ICollection<Customer> customers;
 
-        public FakeCustomerService(Faker<Customer> faker)
-        {
-            customers = faker.Generate(100);
+        // dotnet add package Microsoft.Extensions.Options
+        public FakeCustomerService(Faker<Customer> faker, IOptionsSnapshot<FakeCustomerServiceOptions> options)
+        {            
+            customers = faker.Generate(options.Value.Count);
         }
 
         public void Add(Customer entity)
