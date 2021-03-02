@@ -9,20 +9,20 @@ namespace Vavatech.DotnetCore.Models
     {
         public string FirstName { get; set; }
         
-        [Required]
+       // [Required]
         public string LastName { get; set; }
         public Gender Gender { get; set; }
         
-        [Required]
-        [EmailAddress]
+        //[Required]
+        //[EmailAddress]
         public string Email { get; set; }
         public DateTime Birthday { get; set; }
         
-        [Range(1, 1000)]
+       // [Range(1, 1000)]
         public decimal? CreditAmount { get; set; }
 
-        [Required]
-        [StringLength(11, MinimumLength = 11)]
+        //[Required]
+        //[StringLength(11, MinimumLength = 11)]
         public string Pesel { get; set; }
         public CustomerType Type { get; set; }
         public string Description { get; set; }

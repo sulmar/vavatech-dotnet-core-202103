@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.Models", "Vavatech.DotnetCore.Models\Vavatech.DotnetCore.Models.csproj", "{EDD71205-8398-4A39-B3E9-2DAD4E61047C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.Models", "Vavatech.DotnetCore.Models\Vavatech.DotnetCore.Models.csproj", "{EDD71205-8398-4A39-B3E9-2DAD4E61047C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.IServices", "Vavatech.DotnetCore.IServices\Vavatech.DotnetCore.IServices.csproj", "{79FFFFF0-FDCD-4C38-AE57-92433D5E2E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.IServices", "Vavatech.DotnetCore.IServices\Vavatech.DotnetCore.IServices.csproj", "{79FFFFF0-FDCD-4C38-AE57-92433D5E2E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.FakeServices", "Vavatech.DotnetCore.FakeServices\Vavatech.DotnetCore.FakeServices.csproj", "{8C64904F-DC55-42CA-A8EC-889097FD27C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.FakeServices", "Vavatech.DotnetCore.FakeServices\Vavatech.DotnetCore.FakeServices.csproj", "{8C64904F-DC55-42CA-A8EC-889097FD27C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.Fakers", "Vavatech.DotnetCore.Fakers\Vavatech.DotnetCore.Fakers.csproj", "{268EA646-25F4-43C8-8B2D-93442D8885E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.Fakers", "Vavatech.DotnetCore.Fakers\Vavatech.DotnetCore.Fakers.csproj", "{268EA646-25F4-43C8-8B2D-93442D8885E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.WebApi", "Vavatech.DotnetCore.WebApi\Vavatech.DotnetCore.WebApi.csproj", "{64BBFF22-C092-4E68-AFD4-EF58DE17F2F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.WebApi", "Vavatech.DotnetCore.WebApi\Vavatech.DotnetCore.WebApi.csproj", "{64BBFF22-C092-4E68-AFD4-EF58DE17F2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.Models.Validators", "Vavatech.DotnetCore.Models.Validators\Vavatech.DotnetCore.Models.Validators.csproj", "{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{64BBFF22-C092-4E68-AFD4-EF58DE17F2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64BBFF22-C092-4E68-AFD4-EF58DE17F2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64BBFF22-C092-4E68-AFD4-EF58DE17F2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

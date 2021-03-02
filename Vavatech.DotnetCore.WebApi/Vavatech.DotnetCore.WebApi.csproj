@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.5.1" />
     <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="5.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.12" />
     <PackageReference Include="PolishValidators" Version="1.0.0" />
@@ -13,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Vavatech.DotnetCore.FakeServices\Vavatech.DotnetCore.FakeServices.csproj" />
     <ProjectReference Include="..\Vavatech.DotnetCore.IServices\Vavatech.DotnetCore.IServices.csproj" />
+    <ProjectReference Include="..\Vavatech.DotnetCore.Models.Validators\Vavatech.DotnetCore.Models.Validators.csproj" />
     <ProjectReference Include="..\Vavatech.DotnetCore.Models\Vavatech.DotnetCore.Models.csproj" />
   </ItemGroup>
 
