@@ -113,6 +113,28 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         // content-type: application/json
         // {json}
 
+        /*
+         
+        POST /api/customers HTTP/1.1
+        Host: localhost:5000
+        Content-Type: application/json
+        Content-Length: 505
+
+        {
+                "firstName": "Marcin",
+                "lastName": "Sulecki",
+                "gender": 0,
+                "email": "marcin.sulecki@domain.com",
+                "birthday": "1951-09-04T11:50:49.3359767+02:00",
+                "creditAmount": 875.945692483310692,
+                "pesel": "51090470635",
+                "type": 2,
+                "description": "Laudantium cumque eum quis consequuntur similique temporibus animi.\nHarum culpa perspiciatis sint ratione blanditiis.\nNobis est qui vel reiciendis.",
+                "username": "marcin"
+            }
+
+        */
+
         [HttpPost]
         public IActionResult Post([FromBody] Customer customer)
         {
@@ -145,6 +167,20 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         // PATCH api/customers/{id}
         // content-type: application/merge-patch+json
         // {json}
+
+        /*
+        PATCH /api/customers/10 HTTP/1.1
+        Host: localhost:5000
+        Content-Type: application/merge-patch+json
+        Content-Length: 135
+
+        [p
+          { "op": "replace", "path": "/firstname", "value": "Marcin" },
+          { "op": "replace", "path": "/lastname", "value": "Sulecki" }
+        ]
+
+        */
+
         [HttpPatch("{id}")]
         public IActionResult Patch(int id, [FromBody] JsonPatchDocument jsonPatch)
         {
@@ -164,6 +200,10 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
 
             return NoContent();
         }
+
+        // POST api/
+        [HttpPost("upload")]
+        public IActionResult Upload()
 
 
        
