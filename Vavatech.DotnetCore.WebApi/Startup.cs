@@ -86,6 +86,8 @@ namespace Vavatech.DotnetCore.WebApi
 
             string openStreetMapMode = Configuration["OpenStreetMap:Mode"];
 
+            string googleMapSecretKey = Configuration["GoogleMapsSecretKey"];
+
 
             if (env.IsDevelopment())
             {
