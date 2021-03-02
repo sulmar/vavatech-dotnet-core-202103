@@ -9,9 +9,12 @@ namespace Vavatech.DotnetCore.NBPExchangeRateService
 {
     public interface IExchangeRateService
     {
-        Task<IEnumerable<ExchangeRate>> GetAsync(string table);
+        Task<ExchangeRate> GetAsync(string table);
         Task<ExchangeRate> GetAsync(string table, string currencyCode);        
     }
+
+
+    // dotnet add package Microsoft.AspNet.WebApi.Client
 
     public class NBPApiExchangeRateService : IExchangeRateService
     {
@@ -22,9 +25,32 @@ namespace Vavatech.DotnetCore.NBPExchangeRateService
             this.client = client;
         }
 
-        public Task<IEnumerable<ExchangeRate>> GetAsync(string table)
+        /// <summary>
+        /// Aktualnie obowiązująca tabela kursów typu {table}
+        /// </summary>
+        /// <param name="table"></param>
+        /// <returns></returns>
+        // http://api.nbp.pl/api/exchangerates/tables/{table}/
+        public async Task<ExchangeRate> GetAsync(string table)
         {
-            throw new NotImplementedException();
+            string url = $"api/exchangerates/tables/{table}/";
+
+            HttpResponseMessage response = await client.GetAsync(url);
+
+            //if (response.IsSuccessStatusCode)
+            //{
+            //        throw new Exception();
+            //}
+
+            response.EnsureSuccessStatusCode();
+
+            string json = await response.Content.ReadAsStringAsync();
+
+            Rootobject exchangeRate = JsonConvert.DeserializeObject<Rootobject>(json);
+
+
+
+            return exchangeRate.ExchangeRates[0];
         }
 
         /// <summary>
@@ -47,9 +73,11 @@ namespace Vavatech.DotnetCore.NBPExchangeRateService
 
             response.EnsureSuccessStatusCode();
 
-            string json = await response.Content.ReadAsStringAsync();
+            //string json = await response.Content.ReadAsStringAsync();
 
-            ExchangeRate exchangeRate = JsonConvert.DeserializeObject<ExchangeRate>(json);
+            //ExchangeRate exchangeRate = JsonConvert.DeserializeObject<ExchangeRate>(json);
+
+            ExchangeRate exchangeRate = await response.Content.ReadAsAsync<ExchangeRate>();
 
             return exchangeRate;
         }

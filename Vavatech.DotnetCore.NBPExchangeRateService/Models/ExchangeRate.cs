@@ -15,9 +15,19 @@ namespace Vavatech.DotnetCore.NBPExchangeRateService.Models
 
     public class Rate
     {
+        public string Currency { get; set; }
         public string No { get; set; }
         public string EffectiveDate { get; set; }
         public float Mid { get; set; }
     }
+
+
+    public class Rootobject
+    {
+        public ExchangeRate[] ExchangeRates { get; set; }
+    }
+
+   
+
 
 }

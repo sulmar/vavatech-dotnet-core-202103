@@ -20,6 +20,21 @@ namespace Vavatech.DotnetCore.ConsoleClient
 
             await GetExchangeRateTest(client);
 
+           // await GetExchangeRatesTest(client);
+
+        }
+
+        private static async Task GetExchangeRatesTest(HttpClient client)
+        {
+            IExchangeRateService exchangeRateService = new NBPApiExchangeRateService(client);
+
+            ExchangeRate exchangeRate = await exchangeRateService.GetAsync("A");
+
+            foreach (var rate in exchangeRate.Rates)
+            {
+                Console.WriteLine($"{rate.Currency} {rate.Mid}");
+            }
+          
         }
 
         private static async Task GetExchangeRateTest(HttpClient client)
