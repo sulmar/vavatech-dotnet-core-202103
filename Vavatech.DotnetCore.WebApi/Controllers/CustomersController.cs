@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.JsonPatch;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Vavatech.DotnetCore.IServices;
@@ -174,7 +176,7 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         Content-Type: application/merge-patch+json
         Content-Length: 135
 
-        [p
+        [
           { "op": "replace", "path": "/firstname", "value": "Marcin" },
           { "op": "replace", "path": "/lastname", "value": "Sulecki" }
         ]
@@ -201,14 +203,62 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
             return NoContent();
         }
 
-        // POST api/
-        [HttpPost("upload")]
-        public IActionResult Upload()
+        // POST api/customers/{id}/attachments
+        // Content-Type: multipart/form-data
 
 
-       
+        /*
+    POST /api/customers/10/attachments HTTP/1.1
+    Host: localhost:5000
+    Content-Length: 211
+    Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
-        
+    ----WebKitFormBoundary7MA4YWxkTrZu0gW
+    Content-Disposition: form-data; name="formFile"; filename="/C:/Users/marci/Downloads/vavatech_200.png"
+    Content-Type: image/png
+
+    (data)
+    ----WebKitFormBoundary7MA4YWxkTrZu0gW
+        */
+
+        // Upload pojedycznego pliku
+
+        //[HttpPost("{id}/attachments")]
+        //public IActionResult Upload(int id, IFormFile formFile)
+        //{
+        //    string filename = Path.Combine("attachments", formFile.FileName);
+
+        //    using(var stream = new FileStream(filename, FileMode.Create))
+        //    {
+        //        formFile.CopyTo(stream);
+        //    }
+
+        //    return Ok();
+        //}
+
+
+        // Upload wielu plików
+
+        [HttpPost("{id}/attachments")]
+        public IActionResult Upload(int id, IEnumerable<IFormFile> file)
+        {
+            foreach (var formFile in file)
+            {
+                string filename = Path.Combine("attachments", formFile.FileName);
+
+                using (var stream = new FileStream(filename, FileMode.Create))
+                {
+                    formFile.CopyTo(stream);
+                }
+            }
+
+            return Ok();
+        }
+
+
+
+
+
     }
 
     public class ErrorResponse
