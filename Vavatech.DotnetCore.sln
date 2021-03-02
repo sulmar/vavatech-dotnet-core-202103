@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.Fakers"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.WebApi", "Vavatech.DotnetCore.WebApi\Vavatech.DotnetCore.WebApi.csproj", "{64BBFF22-C092-4E68-AFD4-EF58DE17F2F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.Models.Validators", "Vavatech.DotnetCore.Models.Validators\Vavatech.DotnetCore.Models.Validators.csproj", "{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.Models.Validators", "Vavatech.DotnetCore.Models.Validators\Vavatech.DotnetCore.Models.Validators.csproj", "{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

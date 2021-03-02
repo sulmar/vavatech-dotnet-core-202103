@@ -14,7 +14,7 @@ using Vavatech.DotnetCore.Models.SearchCriterias;
 
 namespace Vavatech.DotnetCore.WebApi.Controllers
 {
-    // [ApiController]
+    [ApiController]
     // [Route("api/customers")]
     [Route("api/[controller]")]
     public class CustomersController : ControllerBase
@@ -49,7 +49,10 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         // https://docs.microsoft.com/pl-pl/aspnet/core/fundamentals/routing?view=aspnetcore-5.0#route-constraint-reference
         // GET api/customers/{id}
         [HttpGet("{id:int:min(1)}", Name = "GetCustomerById")]
-        public IActionResult Get(int id)
+        [ProducesResponseType(typeof(Customer), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public ActionResult<Customer> Get(int id)
         {
             var customer = customerService.Get(id);
 
@@ -79,9 +82,15 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
 
         // GET api/customers/{pesel}
         [HttpGet("{number:length(11):pesel}")]
+        [ProducesResponseType(typeof(Customer), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public IActionResult GetByPesel(string number)
         {
+
             var customer = customerService.GetByPesel(number);
+
+            if (customer == null)
+                return NotFound();
 
             return Ok(customer);
         }
@@ -95,9 +104,9 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
             //}
 
 
-            // GET api/customers?CustomerType=Smiling&From=
-            [HttpGet]
-        public IActionResult Get(CustomerSearchCriteria searchCriteria)
+        // GET api/customers?CustomerType=Smiling&From=
+        [HttpGet]
+        public ActionResult<IEnumerable<Customer>> Get(CustomerSearchCriteria searchCriteria)
         {
             var customers = customerService.Get(searchCriteria);
 
@@ -143,6 +152,9 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         */
 
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary), StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
         public IActionResult Post([FromBody] Customer customer)
         {
             if (!this.ModelState.IsValid)
@@ -161,6 +173,9 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         // content-type: application/json
         // {json}
         [HttpPut("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesDefaultResponseType]
         public IActionResult Put(int id, Customer customer)
         {
             if (id != customer.Id)
@@ -194,6 +209,8 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         */
 
         [HttpPatch("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesDefaultResponseType]
         public IActionResult Patch(int id, [FromBody] JsonPatchDocument jsonPatch)
         {
             Customer customer = customerService.Get(id);
@@ -206,6 +223,8 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         // DELETE api/customers/{id}
         
         [HttpDelete("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesDefaultResponseType]
         public IActionResult Delete(int id)
         {
             customerService.Remove(id);

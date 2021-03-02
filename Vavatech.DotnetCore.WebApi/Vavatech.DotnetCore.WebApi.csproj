@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>5db56e8f-7e27-4b97-b796-ffaba2505101</UserSecretsId>
+	<IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="appsettings.xml" />
@@ -16,6 +17,7 @@
     <PackageReference Include="FluentValidation.AspNetCore" Version="9.5.1" />
     <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="5.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.12" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.10.7" />
     <PackageReference Include="PolishValidators" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>

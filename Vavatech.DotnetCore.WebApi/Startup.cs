@@ -27,9 +27,10 @@ using Vavatech.DotnetCore.WebApi.RouteConstraints;
 
 namespace Vavatech.DotnetCore.WebApi
 {
+
     // dotnet add package FluentValidation.AspNetCore
 
-    public class Startup
+    public class Startup 
     {
         public Startup(IConfiguration configuration)
         {
@@ -53,13 +54,13 @@ namespace Vavatech.DotnetCore.WebApi
             // dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson -Version 3.1.2
             services.AddControllers()
                 .AddFluentValidation(options => options.RegisterValidatorsFromAssemblyContaining<OrderValidator>())
-                .AddXmlSerializerFormatters()
+            //    .AddXmlSerializerFormatters()
                 .AddNewtonsoftJson(options =>
-            {
-                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
-                options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
-                options.SerializerSettings.Converters.Add(new StringEnumConverter(camelCaseText: true));
-            });
+                {
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                    options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+                    options.SerializerSettings.Converters.Add(new StringEnumConverter(camelCaseText: true));
+                });
 
 
             services.Configure<RouteOptions>(options =>
@@ -77,6 +78,18 @@ namespace Vavatech.DotnetCore.WebApi
             //    {
             //        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
             //    });
+
+
+
+            // dotnet add package NSwag.AspNetCore
+            services.AddOpenApiDocument(options =>
+            {
+                options.Title = "NET Core API";
+                options.DocumentName = "Api ze szkolenia";
+                options.Version = "v1";
+                options.Description = "Lorem ipsum";
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -84,14 +97,25 @@ namespace Vavatech.DotnetCore.WebApi
         {
             string googleMapsUrl = Configuration["GoogleMapsUrl"];
 
-            string openStreetMapMode = Configuration["OpenStreetMap:Mode"];
-
             string googleMapSecretKey = Configuration["GoogleMapsSecretKey"];
+
+            if (env.EnvironmentName == "TestowoProdukcyjne")
+            {
+
+            }
+
+            if (env.IsEnvironment("TestowoProdukcyjne"))
+            {
+                string openStreetMapMode = Configuration["OpenStreetMap:Mode"];
+            }
 
 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                app.UseOpenApi();
+                app.UseSwaggerUi3();
             }
 
             app.UseHttpsRedirection();
