@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.WebApi"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.Models.Validators", "Vavatech.DotnetCore.Models.Validators\Vavatech.DotnetCore.Models.Validators.csproj", "{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.NBPExchangeRateService", "Vavatech.DotnetCore.NBPExchangeRateService\Vavatech.DotnetCore.NBPExchangeRateService.csproj", "{2F350FC2-6C88-42A9-AC9D-AEDA3036F34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.ConsoleClient", "Vavatech.DotnetCore.ConsoleClient\Vavatech.DotnetCore.ConsoleClient.csproj", "{595D8C0F-7FFE-48A5-AFB4-BD161E149E13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD45511-AA32-4D5C-B4EE-6B00EC457A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F350FC2-6C88-42A9-AC9D-AEDA3036F34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F350FC2-6C88-42A9-AC9D-AEDA3036F34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F350FC2-6C88-42A9-AC9D-AEDA3036F34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F350FC2-6C88-42A9-AC9D-AEDA3036F34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595D8C0F-7FFE-48A5-AFB4-BD161E149E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595D8C0F-7FFE-48A5-AFB4-BD161E149E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595D8C0F-7FFE-48A5-AFB4-BD161E149E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595D8C0F-7FFE-48A5-AFB4-BD161E149E13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
