@@ -13,7 +13,7 @@ using Vavatech.DotnetCore.Models.SearchCriterias;
 
 namespace Vavatech.DotnetCore.WebApi.Controllers
 {
-   // [ApiController]
+    // [ApiController]
     // [Route("api/customers")]
     [Route("api/[controller]")]
     public class CustomersController : ControllerBase
