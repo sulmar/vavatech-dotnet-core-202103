@@ -15,6 +15,11 @@ namespace Vavatech.DotnetCore.FakeServices
         public string Url { get; set; } 
     }
 
+
+    // Custom Configuration Provider
+    // https://docs.microsoft.com/en-us/dotnet/core/extensions/custom-configuration-provider
+    // https://ofpinewood.com/blog/creating-a-custom-configurationprovider-for-a-entity-framework-core-source
+
     public class FakeCustomerService : ICustomerService
     {
         private readonly ICollection<Customer> customers;
