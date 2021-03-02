@@ -71,7 +71,7 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         }
 
         // GET api/customers/{pesel}
-        [HttpGet("{number:pesel}")]
+        [HttpGet("{number:length(11):pesel}")]
         public IActionResult GetByPesel(string number)
         {
             var customer = customerService.GetByPesel(number);
