@@ -34,6 +34,10 @@ namespace Vavatech.DotnetCore.Models
 
         public Customer Partner { get; set; }
 
+        public bool IsHoliday { get; set; }
+        public DateTime? From { get; set; }
+        public DateTime? To { get; set; }
+
         // public IEnumerable<Order> Orders { get; set; }
     }
 }

@@ -18,6 +18,8 @@ namespace Vavatech.DotnetCore.Models.Validators
             RuleFor(p => p.Email).NotEmpty().EmailAddress();
             RuleFor(p => p.CreditAmount).InclusiveBetween(1, 1000);
             RuleFor(p => p.Pesel).NotEmpty().Length(11).Must(p=>validator.IsValid(p)).WithMessage("Nieprawidłowy numer PESEL");
+
+            RuleFor(p => p.From).LessThanOrEqualTo(p => p.To).When(p=>p.IsHoliday);
         }
 
     }
