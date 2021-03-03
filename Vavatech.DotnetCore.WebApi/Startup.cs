@@ -3,6 +3,7 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
@@ -115,6 +116,8 @@ namespace Vavatech.DotnetCore.WebApi
                 app.UseDeveloperExceptionPage();
 
                 app.UseOpenApi();
+
+                // /swagger
                 app.UseSwaggerUi3();
             }
 
@@ -126,6 +129,12 @@ namespace Vavatech.DotnetCore.WebApi
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapGet("/", context =>
+                {
+                    context.Response.Redirect("/swagger");
+                    return Task.CompletedTask;
+                });
+
                 endpoints.MapControllers();
             });
         }

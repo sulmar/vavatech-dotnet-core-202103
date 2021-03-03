@@ -25,7 +25,7 @@ namespace Vavatech.DotnetCore.FakeServices
         private readonly ICollection<Customer> customers;
 
         // dotnet add package Microsoft.Extensions.Options
-        public FakeCustomerService(Faker<Customer> faker, IOptionsSnapshot<FakeCustomerServiceOptions> options)
+        public FakeCustomerService(Faker<Customer> faker, IOptions<FakeCustomerServiceOptions> options)
         {            
             customers = faker.Generate(options.Value.Count);
         }
@@ -48,8 +48,8 @@ namespace Vavatech.DotnetCore.FakeServices
         {
             Customer customer =  customers.SingleOrDefault(c => c.Id == id);
 
-            customer.Partner = customers.First();
-            customer.Partner.Partner = customer;
+            //customer.Partner = customers.First();
+            //customer.Partner.Partner = customer;
 
             return customer;
         }

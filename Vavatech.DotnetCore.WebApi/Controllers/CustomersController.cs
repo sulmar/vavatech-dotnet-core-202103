@@ -14,6 +14,7 @@ using Vavatech.DotnetCore.Models.SearchCriterias;
 
 namespace Vavatech.DotnetCore.WebApi.Controllers
 {
+    
     [ApiController]
     // [Route("api/customers")]
     [Route("api/[controller]")]
