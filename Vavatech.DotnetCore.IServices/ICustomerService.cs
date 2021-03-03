@@ -17,6 +17,8 @@ namespace Vavatech.DotnetCore.IServices
         // IEnumerable<Customer> Get(CustomerType? customerType, bool? isRemoved);
 
         // IEnumerable<Customer> Get(CustomerSearchCriteria searchCriteria);
+
+        Customer Get(string username, string password);
        
     }
 }

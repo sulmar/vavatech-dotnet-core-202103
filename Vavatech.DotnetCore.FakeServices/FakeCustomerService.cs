@@ -119,5 +119,10 @@ namespace Vavatech.DotnetCore.FakeServices
         {
             return customers.SingleOrDefault(c => c.Pesel == pesel);
         }
+
+        public Customer Get(string username, string password)
+        {
+            return customers.SingleOrDefault(c => c.Username == username && c.HashedPassword == password);
+        }
     }
 }

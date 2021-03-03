@@ -2,6 +2,7 @@ using Bogus;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -26,6 +27,7 @@ using Vavatech.DotnetCore.IServices;
 using Vavatech.DotnetCore.Models;
 using Vavatech.DotnetCore.Models.Validators;
 using Vavatech.DotnetCore.NBPExchangeRateService;
+using Vavatech.DotnetCore.WebApi.AuthenticationHandlers;
 using Vavatech.DotnetCore.WebApi.HealthChecks;
 using Vavatech.DotnetCore.WebApi.RouteConstraints;
 
@@ -46,8 +48,8 @@ namespace Vavatech.DotnetCore.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<Faker<Customer>, CustomerFaker>();
-            services.AddTransient<ICustomerService, FakeCustomerService>();
+            services.AddSingleton<Faker<Customer>, CustomerFaker>();
+            services.AddSingleton<ICustomerService, FakeCustomerService>();
             services.AddTransient<IMessageService, FakeSmsMessageService>();
 
             //services.AddTransient<IValidator<Customer>, CustomerValidator>();
@@ -120,6 +122,12 @@ namespace Vavatech.DotnetCore.WebApi
             })
                 .AddInMemoryStorage();
 
+
+            services.AddAuthentication("Basic")
+                .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);
+
+            services.AddTransient<IServices.IAuthenticationService, Identity.AuthenticationService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -154,6 +162,7 @@ namespace Vavatech.DotnetCore.WebApi
 
             app.UseRouting();
 
+            app.UseAuthentication();  // uwaga na kolejnoœæ!
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
