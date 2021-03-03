@@ -57,6 +57,8 @@ namespace Vavatech.DotnetCore.WebApi.AuthenticationHandlers
             ClaimsIdentity identity = new ClaimsIdentity(Scheme.Name);
             ClaimsPrincipal principal = new ClaimsPrincipal(identity);
 
+            identity.AddClaim(new Claim(ClaimTypes.Email, customer.Email));
+
             var ticket = new AuthenticationTicket(principal, Scheme.Name);
 
             return AuthenticateResult.Success(ticket);
