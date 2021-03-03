@@ -45,6 +45,7 @@ namespace Vavatech.DotnetCore.WebApi
         {
             services.AddTransient<Faker<Customer>, CustomerFaker>();
             services.AddTransient<ICustomerService, FakeCustomerService>();
+            services.AddTransient<IMessageService, FakeSmsMessageService>();
 
             //services.AddTransient<IValidator<Customer>, CustomerValidator>();
             //services.AddTransient<IValidator<Order>, OrderValidator>();

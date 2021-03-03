@@ -25,7 +25,10 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         private readonly IConfiguration configuration;
         private readonly ILogger<CustomersController> logger;
 
-        public CustomersController(ICustomerService customerService, IConfiguration configuration, ILogger<CustomersController> logger)
+        public CustomersController(
+            ICustomerService customerService, 
+            IConfiguration configuration, 
+            ILogger<CustomersController> logger)
         {
             this.customerService = customerService;
             this.configuration = configuration;
@@ -161,7 +164,7 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary), StatusCodes.Status400BadRequest)]
         [ProducesDefaultResponseType]
-        public IActionResult Post([FromBody] Customer customer)
+        public IActionResult Post([FromBody] Customer customer, [FromServices] IMessageService messageService)
         {
             if (!this.ModelState.IsValid)
             {
@@ -169,6 +172,8 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
             }
 
             customerService.Add(customer);
+
+            messageService.Send($"Welcome {customer.FirstName} {customer.LastName}!");
 
             // return Created($"http://localhost:5000/api/customers/{customer.Id}", customer);
 
