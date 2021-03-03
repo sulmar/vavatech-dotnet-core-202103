@@ -1,0 +1,98 @@
+2021-03-03 12:21:53.105 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 12:21:53.209 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 12:21:53.215 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 12:21:53.219 +01:00 [INF] Hosting environment: Development
+2021-03-03 12:21:53.231 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 12:21:57.364 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 12:21:57.473 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:21:57.614 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:22:00.686 +01:00 [INF] Get Customers!
+2021-03-03 12:22:00.779 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 12:22:01.938 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-03 12:22:01.954 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:22:01.997 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:22:02.052 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 4390.8604ms
+2021-03-03 12:22:02.107 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:22:02.255 +01:00 [INF] Request finished in 4895.2529ms 200 application/json; charset=utf-8
+2021-03-03 12:22:02.624 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 12:22:02.633 +01:00 [INF] Request finished in 8.4215ms 404 
+2021-03-03 12:22:03.597 +01:00 [INF] Get Customers!
+2021-03-03 12:22:03.609 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 12:22:03.617 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1601.3667ms
+2021-03-03 12:22:03.620 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:22:03.623 +01:00 [INF] Request finished in 1686.2379ms 200 application/json; charset=utf-8
+2021-03-03 12:22:07.076 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 12:22:07.089 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:22:07.124 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:22:08.564 +01:00 [INF] Get Customers!
+2021-03-03 12:22:08.573 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 12:22:08.603 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1471.5096ms
+2021-03-03 12:22:08.628 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:22:08.656 +01:00 [INF] Request finished in 1580.4476ms 200 application/json; charset=utf-8
+2021-03-03 12:24:44.477 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 12:24:44.618 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 12:24:44.628 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 12:24:44.631 +01:00 [INF] Hosting environment: Development
+2021-03-03 12:24:44.642 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 12:24:48.245 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 12:24:48.397 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:24:48.514 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:24:50.907 +01:00 [INF] Get Customers!
+2021-03-03 12:24:50.959 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 12:24:51.319 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 2765.3715ms
+2021-03-03 12:24:51.351 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:24:51.373 +01:00 [INF] Request finished in 3129.6012ms 200 application/json; charset=utf-8
+2021-03-03 12:24:51.656 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 12:24:51.668 +01:00 [INF] Request finished in 12.1171ms 404 
+2021-03-03 12:24:57.363 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 12:24:57.370 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:24:57.380 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:24:58.740 +01:00 [INF] Get Customers!
+2021-03-03 12:24:58.743 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 12:24:58.748 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1363.8005ms
+2021-03-03 12:24:58.751 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:24:58.756 +01:00 [INF] Request finished in 1394.219ms 200 application/json; charset=utf-8
+2021-03-03 12:29:15.425 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 12:29:15.599 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 12:29:15.602 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 12:29:15.604 +01:00 [INF] Hosting environment: Development
+2021-03-03 12:29:15.608 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 12:29:17.685 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 12:29:17.756 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:29:17.888 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:29:19.262 +01:00 [INF] Get Customers!
+2021-03-03 12:29:19.303 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 12:29:19.634 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1734.9008ms
+2021-03-03 12:29:19.638 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:29:19.645 +01:00 [INF] Request finished in 1961.2739ms 200 application/json; charset=utf-8
+2021-03-03 12:29:19.842 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 12:29:19.849 +01:00 [INF] Request finished in 7.3672ms 404 
+2021-03-03 12:29:22.218 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers/10  
+2021-03-03 12:29:22.221 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:29:22.240 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Vavatech.DotnetCore.Models.Customer] Get(Int32) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:29:25.107 +01:00 [INF] Executing ObjectResult, writing value of type 'Vavatech.DotnetCore.Models.Customer'.
+2021-03-03 12:29:25.112 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 2866.2781ms
+2021-03-03 12:29:25.115 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:29:25.124 +01:00 [INF] Request finished in 2905.9322ms 200 application/json; charset=utf-8
+2021-03-03 12:43:42.979 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 12:43:43.153 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 12:43:43.159 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 12:43:43.164 +01:00 [INF] Hosting environment: Development
+2021-03-03 12:43:43.174 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 12:43:45.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 12:43:45.621 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:43:45.718 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:43:47.155 +01:00 [INF] Get Customers!
+2021-03-03 12:43:47.195 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 12:43:47.501 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1770.4603ms
+2021-03-03 12:43:47.514 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:43:47.521 +01:00 [INF] Request finished in 2003.9521ms 200 application/json; charset=utf-8
+2021-03-03 12:43:47.712 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 12:43:47.720 +01:00 [INF] Request finished in 7.8179ms 404 
+2021-03-03 12:44:18.239 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers/10  
+2021-03-03 12:44:18.247 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:44:18.263 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Vavatech.DotnetCore.Models.Customer] Get(Int32) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 12:44:21.595 +01:00 [INF] Executing ObjectResult, writing value of type 'Vavatech.DotnetCore.Models.Customer'.
+2021-03-03 12:44:21.603 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 3335.2829ms
+2021-03-03 12:44:21.608 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 12:44:21.614 +01:00 [INF] Request finished in 3375.3449ms 200 application/json; charset=utf-8

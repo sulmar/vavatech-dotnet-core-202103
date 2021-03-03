@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -22,11 +23,13 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
     {
         private readonly ICustomerService customerService;
         private readonly IConfiguration configuration;
+        private readonly ILogger<CustomersController> logger;
 
-        public CustomersController(ICustomerService customerService, IConfiguration configuration)
+        public CustomersController(ICustomerService customerService, IConfiguration configuration, ILogger<CustomersController> logger)
         {
             this.customerService = customerService;
             this.configuration = configuration;
+            this.logger = logger;
         }
 
         // GET api/customers        
@@ -107,8 +110,10 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
 
         // GET api/customers?CustomerType=Smiling&From=
         [HttpGet]
-        public ActionResult<IEnumerable<Customer>> Get(CustomerSearchCriteria searchCriteria)
+        public ActionResult<IEnumerable<Customer>> Get([FromQuery] CustomerSearchCriteria searchCriteria)
         {
+            logger.LogInformation("Get Customers!");
+
             var customers = customerService.Get(searchCriteria);
 
             return Ok(customers);

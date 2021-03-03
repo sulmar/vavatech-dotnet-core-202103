@@ -1,0 +1,624 @@
+{
+  "@t": "2021-03-03T11:24:44.4776996Z",
+  "@mt": "Now listening on: {address}",
+  "address": "https://localhost:5001",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:24:44.6180080Z",
+  "@mt": "Now listening on: {address}",
+  "address": "http://localhost:5000",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:24:44.6289749Z",
+  "@mt": "Application started. Press Ctrl+C to shut down.",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:24:44.6316434Z",
+  "@mt": "Hosting environment: {envName}",
+  "envName": "Development",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:24:44.6426570Z",
+  "@mt": "Content root path: {contentRoot}",
+  "contentRoot": "C:\\Users\\marci\\source\\repos\\vavatech-dotnet-core-202103\\Vavatech.DotnetCore\\Vavatech.DotnetCore.WebApi",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:24:48.2455428Z",
+  "@mt": "{HostingRequestStartingLog:l}",
+  "@r": [ "Request starting HTTP/2 GET https://localhost:5001/api/customers  " ],
+  "Protocol": "HTTP/2",
+  "Method": "GET",
+  "ContentType": null,
+  "ContentLength": null,
+  "Scheme": "https",
+  "Host": "localhost:5001",
+  "PathBase": "",
+  "Path": "/api/customers",
+  "QueryString": "",
+  "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/api/customers  ",
+  "EventId": { "Id": 1 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6RP33ROG:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872a-452536f18a9050ff.",
+  "TraceId": "a6cc872a-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:48.3973460Z",
+  "@mt": "Executing endpoint '{EndpointName}'",
+  "EndpointName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "EventId": { "Name": "ExecutingEndpoint" },
+  "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+  "RequestId": "0HM6U6RP33ROG:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872a-452536f18a9050ff.",
+  "TraceId": "a6cc872a-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:48.5145154Z",
+  "@mt": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "RouteData": "{action = \"Get\", controller = \"Customers\"}",
+  "MethodInfo": "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria)",
+  "Controller": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController",
+  "AssemblyName": "Vavatech.DotnetCore.WebApi",
+  "EventId": {
+    "Id": 3,
+    "Name": "ControllerActionExecuting"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+  "ActionId": "09a6b1d9-cc93-46fe-93a6-82b16b0f539e",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6RP33ROG:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872a-452536f18a9050ff.",
+  "TraceId": "a6cc872a-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:50.9070271Z",
+  "@mt": "Get Customers!",
+  "SourceContext": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController",
+  "ActionId": "09a6b1d9-cc93-46fe-93a6-82b16b0f539e",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6RP33ROG:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872a-452536f18a9050ff.",
+  "TraceId": "a6cc872a-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:50.9594098Z",
+  "@mt": "Executing ObjectResult, writing value of type '{Type}'.",
+  "Type": "System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+  "EventId": {
+    "Id": 1,
+    "Name": "ObjectResultExecuting"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+  "ActionId": "09a6b1d9-cc93-46fe-93a6-82b16b0f539e",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6RP33ROG:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872a-452536f18a9050ff.",
+  "TraceId": "a6cc872a-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:51.3199509Z",
+  "@mt": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "ElapsedMilliseconds": 2765.3715,
+  "EventId": {
+    "Id": 2,
+    "Name": "ActionExecuted"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+  "ActionId": "09a6b1d9-cc93-46fe-93a6-82b16b0f539e",
+  "RequestId": "0HM6U6RP33ROG:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872a-452536f18a9050ff.",
+  "TraceId": "a6cc872a-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:51.3514891Z",
+  "@mt": "Executed endpoint '{EndpointName}'",
+  "EndpointName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "EventId": {
+    "Id": 1,
+    "Name": "ExecutedEndpoint"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+  "RequestId": "0HM6U6RP33ROG:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872a-452536f18a9050ff.",
+  "TraceId": "a6cc872a-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:51.3732159Z",
+  "@mt": "{HostingRequestFinishedLog:l}",
+  "@r": [ "Request finished in 3129.6012ms 200 application/json; charset=utf-8" ],
+  "ElapsedMilliseconds": 3129.6012,
+  "StatusCode": 200,
+  "ContentType": "application/json; charset=utf-8",
+  "HostingRequestFinishedLog": "Request finished in 3129.6012ms 200 application/json; charset=utf-8",
+  "EventId": { "Id": 2 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6RP33ROG:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872a-452536f18a9050ff.",
+  "TraceId": "a6cc872a-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:51.6563912Z",
+  "@mt": "{HostingRequestStartingLog:l}",
+  "@r": [ "Request starting HTTP/2 GET https://localhost:5001/favicon.ico  " ],
+  "Protocol": "HTTP/2",
+  "Method": "GET",
+  "ContentType": null,
+  "ContentLength": null,
+  "Scheme": "https",
+  "Host": "localhost:5001",
+  "PathBase": "",
+  "Path": "/favicon.ico",
+  "QueryString": "",
+  "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/favicon.ico  ",
+  "EventId": { "Id": 1 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6RP33ROG:00000003",
+  "RequestPath": "/favicon.ico",
+  "SpanId": "|a6cc872b-452536f18a9050ff.",
+  "TraceId": "a6cc872b-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:51.6681742Z",
+  "@mt": "{HostingRequestFinishedLog:l}",
+  "@r": [ "Request finished in 12.1171ms 404 " ],
+  "ElapsedMilliseconds": 12.1171,
+  "StatusCode": 404,
+  "ContentType": null,
+  "HostingRequestFinishedLog": "Request finished in 12.1171ms 404 ",
+  "EventId": { "Id": 2 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6RP33ROG:00000003",
+  "RequestPath": "/favicon.ico",
+  "SpanId": "|a6cc872b-452536f18a9050ff.",
+  "TraceId": "a6cc872b-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:57.3630863Z",
+  "@mt": "{HostingRequestStartingLog:l}",
+  "@r": [ "Request starting HTTP/2 GET https://localhost:5001/api/customers  " ],
+  "Protocol": "HTTP/2",
+  "Method": "GET",
+  "ContentType": null,
+  "ContentLength": null,
+  "Scheme": "https",
+  "Host": "localhost:5001",
+  "PathBase": "",
+  "Path": "/api/customers",
+  "QueryString": "",
+  "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/api/customers  ",
+  "EventId": { "Id": 1 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6RP33ROG:00000005",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872c-452536f18a9050ff.",
+  "TraceId": "a6cc872c-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:57.3708594Z",
+  "@mt": "Executing endpoint '{EndpointName}'",
+  "EndpointName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "EventId": { "Name": "ExecutingEndpoint" },
+  "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+  "RequestId": "0HM6U6RP33ROG:00000005",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872c-452536f18a9050ff.",
+  "TraceId": "a6cc872c-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:57.3808383Z",
+  "@mt": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "RouteData": "{action = \"Get\", controller = \"Customers\"}",
+  "MethodInfo": "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria)",
+  "Controller": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController",
+  "AssemblyName": "Vavatech.DotnetCore.WebApi",
+  "EventId": {
+    "Id": 3,
+    "Name": "ControllerActionExecuting"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+  "ActionId": "09a6b1d9-cc93-46fe-93a6-82b16b0f539e",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6RP33ROG:00000005",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872c-452536f18a9050ff.",
+  "TraceId": "a6cc872c-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:58.7409135Z",
+  "@mt": "Get Customers!",
+  "SourceContext": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController",
+  "ActionId": "09a6b1d9-cc93-46fe-93a6-82b16b0f539e",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6RP33ROG:00000005",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872c-452536f18a9050ff.",
+  "TraceId": "a6cc872c-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:58.7438982Z",
+  "@mt": "Executing ObjectResult, writing value of type '{Type}'.",
+  "Type": "System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+  "EventId": {
+    "Id": 1,
+    "Name": "ObjectResultExecuting"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+  "ActionId": "09a6b1d9-cc93-46fe-93a6-82b16b0f539e",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6RP33ROG:00000005",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872c-452536f18a9050ff.",
+  "TraceId": "a6cc872c-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:58.7483336Z",
+  "@mt": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "ElapsedMilliseconds": 1363.8005,
+  "EventId": {
+    "Id": 2,
+    "Name": "ActionExecuted"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+  "ActionId": "09a6b1d9-cc93-46fe-93a6-82b16b0f539e",
+  "RequestId": "0HM6U6RP33ROG:00000005",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872c-452536f18a9050ff.",
+  "TraceId": "a6cc872c-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:58.7517321Z",
+  "@mt": "Executed endpoint '{EndpointName}'",
+  "EndpointName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "EventId": {
+    "Id": 1,
+    "Name": "ExecutedEndpoint"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+  "RequestId": "0HM6U6RP33ROG:00000005",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872c-452536f18a9050ff.",
+  "TraceId": "a6cc872c-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:24:58.7564110Z",
+  "@mt": "{HostingRequestFinishedLog:l}",
+  "@r": [ "Request finished in 1394.219ms 200 application/json; charset=utf-8" ],
+  "ElapsedMilliseconds": 1394.219,
+  "StatusCode": 200,
+  "ContentType": "application/json; charset=utf-8",
+  "HostingRequestFinishedLog": "Request finished in 1394.219ms 200 application/json; charset=utf-8",
+  "EventId": { "Id": 2 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6RP33ROG:00000005",
+  "RequestPath": "/api/customers",
+  "SpanId": "|a6cc872c-452536f18a9050ff.",
+  "TraceId": "a6cc872c-452536f18a9050ff",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:15.4259533Z",
+  "@mt": "Now listening on: {address}",
+  "address": "https://localhost:5001",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:29:15.5996020Z",
+  "@mt": "Now listening on: {address}",
+  "address": "http://localhost:5000",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:29:15.6027281Z",
+  "@mt": "Application started. Press Ctrl+C to shut down.",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:29:15.6047473Z",
+  "@mt": "Hosting environment: {envName}",
+  "envName": "Development",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:29:15.6082092Z",
+  "@mt": "Content root path: {contentRoot}",
+  "contentRoot": "C:\\Users\\marci\\source\\repos\\vavatech-dotnet-core-202103\\Vavatech.DotnetCore\\Vavatech.DotnetCore.WebApi",
+  "SourceContext": "Microsoft.Hosting.Lifetime"
+} {
+  "@t": "2021-03-03T11:29:17.6855904Z",
+  "@mt": "{HostingRequestStartingLog:l}",
+  "@r": [ "Request starting HTTP/2 GET https://localhost:5001/api/customers  " ],
+  "Protocol": "HTTP/2",
+  "Method": "GET",
+  "ContentType": null,
+  "ContentLength": null,
+  "Scheme": "https",
+  "Host": "localhost:5001",
+  "PathBase": "",
+  "Path": "/api/customers",
+  "QueryString": "",
+  "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/api/customers  ",
+  "EventId": { "Id": 1 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6U9SOKTN:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|5260c96a-4fa584b48af5053f.",
+  "TraceId": "5260c96a-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:17.7565106Z",
+  "@mt": "Executing endpoint '{EndpointName}'",
+  "EndpointName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "EventId": { "Name": "ExecutingEndpoint" },
+  "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+  "RequestId": "0HM6U6U9SOKTN:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|5260c96a-4fa584b48af5053f.",
+  "TraceId": "5260c96a-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:17.8883507Z",
+  "@mt": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "RouteData": "{action = \"Get\", controller = \"Customers\"}",
+  "MethodInfo": "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria)",
+  "Controller": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController",
+  "AssemblyName": "Vavatech.DotnetCore.WebApi",
+  "EventId": {
+    "Id": 3,
+    "Name": "ControllerActionExecuting"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+  "ActionId": "d9c1df20-3c89-4ee6-883b-e02ff189c82d",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6U9SOKTN:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|5260c96a-4fa584b48af5053f.",
+  "TraceId": "5260c96a-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:19.2623071Z",
+  "@mt": "Get Customers!",
+  "SourceContext": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController",
+  "ActionId": "d9c1df20-3c89-4ee6-883b-e02ff189c82d",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6U9SOKTN:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|5260c96a-4fa584b48af5053f.",
+  "TraceId": "5260c96a-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:19.3033107Z",
+  "@mt": "Executing ObjectResult, writing value of type '{Type}'.",
+  "Type": "System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+  "EventId": {
+    "Id": 1,
+    "Name": "ObjectResultExecuting"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+  "ActionId": "d9c1df20-3c89-4ee6-883b-e02ff189c82d",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6U9SOKTN:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|5260c96a-4fa584b48af5053f.",
+  "TraceId": "5260c96a-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:19.6345919Z",
+  "@mt": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "ElapsedMilliseconds": 1734.9008,
+  "EventId": {
+    "Id": 2,
+    "Name": "ActionExecuted"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+  "ActionId": "d9c1df20-3c89-4ee6-883b-e02ff189c82d",
+  "RequestId": "0HM6U6U9SOKTN:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|5260c96a-4fa584b48af5053f.",
+  "TraceId": "5260c96a-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:19.6384273Z",
+  "@mt": "Executed endpoint '{EndpointName}'",
+  "EndpointName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "EventId": {
+    "Id": 1,
+    "Name": "ExecutedEndpoint"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+  "RequestId": "0HM6U6U9SOKTN:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|5260c96a-4fa584b48af5053f.",
+  "TraceId": "5260c96a-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:19.6450726Z",
+  "@mt": "{HostingRequestFinishedLog:l}",
+  "@r": [ "Request finished in 1961.2739ms 200 application/json; charset=utf-8" ],
+  "ElapsedMilliseconds": 1961.2739,
+  "StatusCode": 200,
+  "ContentType": "application/json; charset=utf-8",
+  "HostingRequestFinishedLog": "Request finished in 1961.2739ms 200 application/json; charset=utf-8",
+  "EventId": { "Id": 2 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6U9SOKTN:00000001",
+  "RequestPath": "/api/customers",
+  "SpanId": "|5260c96a-4fa584b48af5053f.",
+  "TraceId": "5260c96a-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:19.8423404Z",
+  "@mt": "{HostingRequestStartingLog:l}",
+  "@r": [ "Request starting HTTP/2 GET https://localhost:5001/favicon.ico  " ],
+  "Protocol": "HTTP/2",
+  "Method": "GET",
+  "ContentType": null,
+  "ContentLength": null,
+  "Scheme": "https",
+  "Host": "localhost:5001",
+  "PathBase": "",
+  "Path": "/favicon.ico",
+  "QueryString": "",
+  "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/favicon.ico  ",
+  "EventId": { "Id": 1 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6U9SOKTN:00000003",
+  "RequestPath": "/favicon.ico",
+  "SpanId": "|5260c96b-4fa584b48af5053f.",
+  "TraceId": "5260c96b-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:19.8497563Z",
+  "@mt": "{HostingRequestFinishedLog:l}",
+  "@r": [ "Request finished in 7.3672ms 404 " ],
+  "ElapsedMilliseconds": 7.3672,
+  "StatusCode": 404,
+  "ContentType": null,
+  "HostingRequestFinishedLog": "Request finished in 7.3672ms 404 ",
+  "EventId": { "Id": 2 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6U9SOKTN:00000003",
+  "RequestPath": "/favicon.ico",
+  "SpanId": "|5260c96b-4fa584b48af5053f.",
+  "TraceId": "5260c96b-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:22.2187593Z",
+  "@mt": "{HostingRequestStartingLog:l}",
+  "@r": [ "Request starting HTTP/2 GET https://localhost:5001/api/customers/10  " ],
+  "Protocol": "HTTP/2",
+  "Method": "GET",
+  "ContentType": null,
+  "ContentLength": null,
+  "Scheme": "https",
+  "Host": "localhost:5001",
+  "PathBase": "",
+  "Path": "/api/customers/10",
+  "QueryString": "",
+  "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/api/customers/10  ",
+  "EventId": { "Id": 1 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6U9SOKTN:00000005",
+  "RequestPath": "/api/customers/10",
+  "SpanId": "|5260c96c-4fa584b48af5053f.",
+  "TraceId": "5260c96c-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:22.2213842Z",
+  "@mt": "Executing endpoint '{EndpointName}'",
+  "EndpointName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "EventId": { "Name": "ExecutingEndpoint" },
+  "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+  "RequestId": "0HM6U6U9SOKTN:00000005",
+  "RequestPath": "/api/customers/10",
+  "SpanId": "|5260c96c-4fa584b48af5053f.",
+  "TraceId": "5260c96c-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:22.2406436Z",
+  "@mt": "Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).",
+  "RouteData": "{action = \"Get\", controller = \"Customers\"}",
+  "MethodInfo": "Microsoft.AspNetCore.Mvc.ActionResult`1[Vavatech.DotnetCore.Models.Customer] Get(Int32)",
+  "Controller": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController",
+  "AssemblyName": "Vavatech.DotnetCore.WebApi",
+  "EventId": {
+    "Id": 3,
+    "Name": "ControllerActionExecuting"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+  "ActionId": "6b4ef014-5883-4849-9288-b0937644e168",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6U9SOKTN:00000005",
+  "RequestPath": "/api/customers/10",
+  "SpanId": "|5260c96c-4fa584b48af5053f.",
+  "TraceId": "5260c96c-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:25.1071696Z",
+  "@mt": "Executing ObjectResult, writing value of type '{Type}'.",
+  "Type": "Vavatech.DotnetCore.Models.Customer",
+  "EventId": {
+    "Id": 1,
+    "Name": "ObjectResultExecuting"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor",
+  "ActionId": "6b4ef014-5883-4849-9288-b0937644e168",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "RequestId": "0HM6U6U9SOKTN:00000005",
+  "RequestPath": "/api/customers/10",
+  "SpanId": "|5260c96c-4fa584b48af5053f.",
+  "TraceId": "5260c96c-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:25.1120568Z",
+  "@mt": "Executed action {ActionName} in {ElapsedMilliseconds}ms",
+  "ActionName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "ElapsedMilliseconds": 2866.2781,
+  "EventId": {
+    "Id": 2,
+    "Name": "ActionExecuted"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker",
+  "ActionId": "6b4ef014-5883-4849-9288-b0937644e168",
+  "RequestId": "0HM6U6U9SOKTN:00000005",
+  "RequestPath": "/api/customers/10",
+  "SpanId": "|5260c96c-4fa584b48af5053f.",
+  "TraceId": "5260c96c-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:25.1155505Z",
+  "@mt": "Executed endpoint '{EndpointName}'",
+  "EndpointName": "Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)",
+  "EventId": {
+    "Id": 1,
+    "Name": "ExecutedEndpoint"
+  },
+  "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+  "RequestId": "0HM6U6U9SOKTN:00000005",
+  "RequestPath": "/api/customers/10",
+  "SpanId": "|5260c96c-4fa584b48af5053f.",
+  "TraceId": "5260c96c-4fa584b48af5053f",
+  "ParentId": ""
+} {
+  "@t": "2021-03-03T11:29:25.1246910Z",
+  "@mt": "{HostingRequestFinishedLog:l}",
+  "@r": [ "Request finished in 2905.9322ms 200 application/json; charset=utf-8" ],
+  "ElapsedMilliseconds": 2905.9322,
+  "StatusCode": 200,
+  "ContentType": "application/json; charset=utf-8",
+  "HostingRequestFinishedLog": "Request finished in 2905.9322ms 200 application/json; charset=utf-8",
+  "EventId": { "Id": 2 },
+  "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+  "RequestId": "0HM6U6U9SOKTN:00000005",
+  "RequestPath": "/api/customers/10",
+  "SpanId": "|5260c96c-4fa584b48af5053f.",
+  "TraceId": "5260c96c-4fa584b48af5053f",
+  "ParentId": ""
+}
+{"@t":"2021-03-03T11:43:42.9799117Z","@mt":"Now listening on: {address}","address":"https://localhost:5001","SourceContext":"Microsoft.Hosting.Lifetime"}
+{"@t":"2021-03-03T11:43:43.1533340Z","@mt":"Now listening on: {address}","address":"http://localhost:5000","SourceContext":"Microsoft.Hosting.Lifetime"}
+{"@t":"2021-03-03T11:43:43.1593168Z","@mt":"Application started. Press Ctrl+C to shut down.","SourceContext":"Microsoft.Hosting.Lifetime"}
+{"@t":"2021-03-03T11:43:43.1648538Z","@mt":"Hosting environment: {envName}","envName":"Development","SourceContext":"Microsoft.Hosting.Lifetime"}
+{"@t":"2021-03-03T11:43:43.1740407Z","@mt":"Content root path: {contentRoot}","contentRoot":"C:\\Users\\marci\\source\\repos\\vavatech-dotnet-core-202103\\Vavatech.DotnetCore\\Vavatech.DotnetCore.WebApi","SourceContext":"Microsoft.Hosting.Lifetime"}
+{"@t":"2021-03-03T11:43:45.5276440Z","@mt":"{HostingRequestStartingLog:l}","@r":["Request starting HTTP/2 GET https://localhost:5001/api/customers  "],"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/api/customers","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/api/customers  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HM6U76CCMFSJ:00000001","RequestPath":"/api/customers","SpanId":"|3560e9bb-479dd5a8e4b309d5.","TraceId":"3560e9bb-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:45.6214619Z","@mt":"Executing endpoint '{EndpointName}'","EndpointName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HM6U76CCMFSJ:00000001","RequestPath":"/api/customers","SpanId":"|3560e9bb-479dd5a8e4b309d5.","TraceId":"3560e9bb-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:45.7183965Z","@mt":"Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).","RouteData":"{action = \"Get\", controller = \"Customers\"}","MethodInfo":"Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria)","Controller":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController","AssemblyName":"Vavatech.DotnetCore.WebApi","EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"90c164da-96cd-40fe-b3cc-775e6706e92c","ActionName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","RequestId":"0HM6U76CCMFSJ:00000001","RequestPath":"/api/customers","SpanId":"|3560e9bb-479dd5a8e4b309d5.","TraceId":"3560e9bb-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:47.1552190Z","@mt":"Get Customers!","SourceContext":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController","ActionId":"90c164da-96cd-40fe-b3cc-775e6706e92c","ActionName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","RequestId":"0HM6U76CCMFSJ:00000001","RequestPath":"/api/customers","SpanId":"|3560e9bb-479dd5a8e4b309d5.","TraceId":"3560e9bb-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:47.1955786Z","@mt":"Executing ObjectResult, writing value of type '{Type}'.","Type":"System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]","EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"90c164da-96cd-40fe-b3cc-775e6706e92c","ActionName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","RequestId":"0HM6U76CCMFSJ:00000001","RequestPath":"/api/customers","SpanId":"|3560e9bb-479dd5a8e4b309d5.","TraceId":"3560e9bb-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:47.5012913Z","@mt":"Executed action {ActionName} in {ElapsedMilliseconds}ms","ActionName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","ElapsedMilliseconds":1770.4603,"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"90c164da-96cd-40fe-b3cc-775e6706e92c","RequestId":"0HM6U76CCMFSJ:00000001","RequestPath":"/api/customers","SpanId":"|3560e9bb-479dd5a8e4b309d5.","TraceId":"3560e9bb-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:47.5141363Z","@mt":"Executed endpoint '{EndpointName}'","EndpointName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HM6U76CCMFSJ:00000001","RequestPath":"/api/customers","SpanId":"|3560e9bb-479dd5a8e4b309d5.","TraceId":"3560e9bb-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:47.5219270Z","@mt":"{HostingRequestFinishedLog:l}","@r":["Request finished in 2003.9521ms 200 application/json; charset=utf-8"],"ElapsedMilliseconds":2003.9521,"StatusCode":200,"ContentType":"application/json; charset=utf-8","HostingRequestFinishedLog":"Request finished in 2003.9521ms 200 application/json; charset=utf-8","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HM6U76CCMFSJ:00000001","RequestPath":"/api/customers","SpanId":"|3560e9bb-479dd5a8e4b309d5.","TraceId":"3560e9bb-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:47.7123576Z","@mt":"{HostingRequestStartingLog:l}","@r":["Request starting HTTP/2 GET https://localhost:5001/favicon.ico  "],"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/favicon.ico","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/favicon.ico  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HM6U76CCMFSJ:00000003","RequestPath":"/favicon.ico","SpanId":"|3560e9bc-479dd5a8e4b309d5.","TraceId":"3560e9bc-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:43:47.7201879Z","@mt":"{HostingRequestFinishedLog:l}","@r":["Request finished in 7.8179ms 404 "],"ElapsedMilliseconds":7.8179,"StatusCode":404,"ContentType":null,"HostingRequestFinishedLog":"Request finished in 7.8179ms 404 ","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HM6U76CCMFSJ:00000003","RequestPath":"/favicon.ico","SpanId":"|3560e9bc-479dd5a8e4b309d5.","TraceId":"3560e9bc-479dd5a8e4b309d5","ParentId":""}
+{"@t":"2021-03-03T11:44:18.2394005Z","@mt":"{HostingRequestStartingLog:l}","@r":["Request starting HTTP/1.1 GET https://localhost:5001/api/customers/10  "],"Protocol":"HTTP/1.1","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/api/customers/10","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/1.1 GET https://localhost:5001/api/customers/10  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HM6U76CCMFSL:00000001","RequestPath":"/api/customers/10","SpanId":"|3560e9bd-479dd5a8e4b309d5.","TraceId":"3560e9bd-479dd5a8e4b309d5","ParentId":"","ConnectionId":"0HM6U76CCMFSL"}
+{"@t":"2021-03-03T11:44:18.2476844Z","@mt":"Executing endpoint '{EndpointName}'","EndpointName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HM6U76CCMFSL:00000001","RequestPath":"/api/customers/10","SpanId":"|3560e9bd-479dd5a8e4b309d5.","TraceId":"3560e9bd-479dd5a8e4b309d5","ParentId":"","ConnectionId":"0HM6U76CCMFSL"}
+{"@t":"2021-03-03T11:44:18.2634917Z","@mt":"Route matched with {RouteData}. Executing controller action with signature {MethodInfo} on controller {Controller} ({AssemblyName}).","RouteData":"{action = \"Get\", controller = \"Customers\"}","MethodInfo":"Microsoft.AspNetCore.Mvc.ActionResult`1[Vavatech.DotnetCore.Models.Customer] Get(Int32)","Controller":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController","AssemblyName":"Vavatech.DotnetCore.WebApi","EventId":{"Id":3,"Name":"ControllerActionExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"65baf86b-3d3c-46b0-b096-24eaddd4694c","ActionName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","RequestId":"0HM6U76CCMFSL:00000001","RequestPath":"/api/customers/10","SpanId":"|3560e9bd-479dd5a8e4b309d5.","TraceId":"3560e9bd-479dd5a8e4b309d5","ParentId":"","ConnectionId":"0HM6U76CCMFSL"}
+{"@t":"2021-03-03T11:44:21.5951424Z","@mt":"Executing ObjectResult, writing value of type '{Type}'.","Type":"Vavatech.DotnetCore.Models.Customer","EventId":{"Id":1,"Name":"ObjectResultExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor","ActionId":"65baf86b-3d3c-46b0-b096-24eaddd4694c","ActionName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","RequestId":"0HM6U76CCMFSL:00000001","RequestPath":"/api/customers/10","SpanId":"|3560e9bd-479dd5a8e4b309d5.","TraceId":"3560e9bd-479dd5a8e4b309d5","ParentId":"","ConnectionId":"0HM6U76CCMFSL"}
+{"@t":"2021-03-03T11:44:21.6036579Z","@mt":"Executed action {ActionName} in {ElapsedMilliseconds}ms","ActionName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","ElapsedMilliseconds":3335.2829,"EventId":{"Id":2,"Name":"ActionExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker","ActionId":"65baf86b-3d3c-46b0-b096-24eaddd4694c","RequestId":"0HM6U76CCMFSL:00000001","RequestPath":"/api/customers/10","SpanId":"|3560e9bd-479dd5a8e4b309d5.","TraceId":"3560e9bd-479dd5a8e4b309d5","ParentId":"","ConnectionId":"0HM6U76CCMFSL"}
+{"@t":"2021-03-03T11:44:21.6089340Z","@mt":"Executed endpoint '{EndpointName}'","EndpointName":"Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)","EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HM6U76CCMFSL:00000001","RequestPath":"/api/customers/10","SpanId":"|3560e9bd-479dd5a8e4b309d5.","TraceId":"3560e9bd-479dd5a8e4b309d5","ParentId":"","ConnectionId":"0HM6U76CCMFSL"}
+{"@t":"2021-03-03T11:44:21.6145080Z","@mt":"{HostingRequestFinishedLog:l}","@r":["Request finished in 3375.3449ms 200 application/json; charset=utf-8"],"ElapsedMilliseconds":3375.3449,"StatusCode":200,"ContentType":"application/json; charset=utf-8","HostingRequestFinishedLog":"Request finished in 3375.3449ms 200 application/json; charset=utf-8","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HM6U76CCMFSL:00000001","RequestPath":"/api/customers/10","SpanId":"|3560e9bd-479dd5a8e4b309d5.","TraceId":"3560e9bd-479dd5a8e4b309d5","ParentId":"","ConnectionId":"0HM6U76CCMFSL"}
