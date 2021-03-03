@@ -146,3 +146,1359 @@
 2021-03-03 12:53:22.394 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Post (Vavatech.DotnetCore.WebApi) in 12045.9456ms
 2021-03-03 12:53:22.398 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Post (Vavatech.DotnetCore.WebApi)'
 2021-03-03 12:53:22.403 +01:00 [INF] Request finished in 12083.4695ms 201 application/json; charset=utf-8
+2021-03-03 14:00:49.456 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 14:00:49.565 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 14:00:49.569 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 14:00:49.572 +01:00 [INF] Hosting environment: Development
+2021-03-03 14:00:49.576 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 14:00:53.540 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 14:00:53.674 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:00:53.907 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 14:00:55.835 +01:00 [INF] Get Customers!
+2021-03-03 14:00:55.884 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 14:00:56.268 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 2339.1664ms
+2021-03-03 14:00:56.282 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:00:56.299 +01:00 [INF] Request finished in 2764.4523ms 200 application/json; charset=utf-8
+2021-03-03 14:00:56.523 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 14:00:56.537 +01:00 [INF] Request finished in 13.8607ms 404 
+2021-03-03 14:01:05.262 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health  
+2021-03-03 14:01:05.265 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:01:05.278 +01:00 [ERR] Health check random completed after 1.1919ms with status "Unhealthy" and 'Test'
+2021-03-03 14:01:05.308 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:01:05.319 +01:00 [INF] Request finished in 57.4609ms 503 text/plain
+2021-03-03 14:01:24.814 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health  
+2021-03-03 14:01:24.821 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:01:30.878 +01:00 [ERR] Health check random completed after 6046.2282ms with status "Unhealthy" and 'Test'
+2021-03-03 14:01:30.890 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:01:30.897 +01:00 [INF] Request finished in 6083.1213ms 503 text/plain
+2021-03-03 14:01:44.600 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 14:01:44.607 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:01:44.613 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 14:01:45.252 +01:00 [INF] Get Customers!
+2021-03-03 14:01:45.259 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 14:01:45.273 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 655.445ms
+2021-03-03 14:01:45.299 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:01:45.312 +01:00 [INF] Request finished in 711.2242ms 200 application/json; charset=utf-8
+2021-03-03 14:01:47.297 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health  
+2021-03-03 14:01:47.303 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:01:48.895 +01:00 [ERR] Health check random completed after 1577.024ms with status "Unhealthy" and 'Test'
+2021-03-03 14:01:48.908 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:01:48.925 +01:00 [INF] Request finished in 1627.1323ms 503 text/plain
+2021-03-03 14:02:01.637 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health  
+2021-03-03 14:02:01.648 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:02:02.909 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:02:02.924 +01:00 [INF] Request finished in 1286.3055ms 200 text/plain
+2021-03-03 14:06:55.390 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 14:06:55.518 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 14:06:55.524 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 14:06:55.529 +01:00 [INF] Hosting environment: Development
+2021-03-03 14:06:55.537 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 14:06:57.806 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 14:06:57.947 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:06:58.086 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 14:06:59.667 +01:00 [INF] Get Customers!
+2021-03-03 14:06:59.698 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 14:07:00.008 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1898.3481ms
+2021-03-03 14:07:00.033 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:07:00.048 +01:00 [INF] Request finished in 2257.4254ms 200 application/json; charset=utf-8
+2021-03-03 14:07:00.242 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 14:07:00.256 +01:00 [INF] Request finished in 14.1976ms 404 
+2021-03-03 14:07:07.188 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health  
+2021-03-03 14:07:07.195 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:07:07.213 +01:00 [ERR] Health check random completed after 1.752ms with status "Unhealthy" and 'Test'
+2021-03-03 14:07:07.383 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:07:07.403 +01:00 [INF] Request finished in 215.9727ms 503 application/json
+2021-03-03 14:07:27.109 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:07:27.116 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:07:27.123 +01:00 [ERR] Health check random completed after 0.2114ms with status "Unhealthy" and 'Test'
+2021-03-03 14:07:27.141 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:07:27.149 +01:00 [INF] Request finished in 40.6127ms 503 application/json
+2021-03-03 14:07:49.306 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:07:49.317 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:07:49.326 +01:00 [ERR] Health check random completed after 0.212ms with status "Unhealthy" and 'Test'
+2021-03-03 14:07:49.349 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:07:49.357 +01:00 [INF] Request finished in 51.4391ms 503 application/json
+2021-03-03 14:14:23.989 +01:00 [INF] Initializing UI Database
+2021-03-03 14:14:25.094 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:14:25.243 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-03 14:14:25.330 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:14:25.681 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 14:14:25.685 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 14:14:25.771 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:14:25.816 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:14:25.826 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:14:25.887 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 14:14:25.891 +01:00 [INF] Hosting environment: Development
+2021-03-03 14:14:25.926 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 14:14:25.956 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:14:25.986 +01:00 [INF] Request finished in 32.2652ms 307 
+2021-03-03 14:14:26.239 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:14:26.300 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:14:26.345 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:14:26.350 +01:00 [INF] Request finished in 110.8215ms 200 application/json
+2021-03-03 14:14:26.355 +01:00 [INF] Received HTTP response after 523.5608ms - "OK"
+2021-03-03 14:14:26.358 +01:00 [INF] End processing HTTP request after 548.1813ms - "OK"
+2021-03-03 14:14:27.597 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:14:30.090 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 14:14:30.104 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:14:30.186 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 14:14:31.804 +01:00 [INF] Get Customers!
+2021-03-03 14:14:31.817 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 14:14:31.964 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1760.6853ms
+2021-03-03 14:14:31.973 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:14:31.987 +01:00 [INF] Request finished in 1898.6321ms 200 application/json; charset=utf-8
+2021-03-03 14:14:32.177 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 14:14:32.206 +01:00 [INF] Request finished in 29.0856ms 404 
+2021-03-03 14:14:36.851 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/health  
+2021-03-03 14:14:36.856 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:14:36.870 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:14:36.883 +01:00 [INF] Request finished in 32.0964ms 200 application/json
+2021-03-03 14:14:37.646 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:14:37.653 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:14:37.656 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:14:37.671 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:14:37.676 +01:00 [INF] Request finished in 4.3061ms 307 
+2021-03-03 14:14:37.677 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:14:37.682 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:14:37.686 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:14:37.686 +01:00 [INF] Received HTTP response after 29.4365ms - "OK"
+2021-03-03 14:14:37.688 +01:00 [INF] Request finished in 11.2946ms 200 application/json
+2021-03-03 14:14:37.691 +01:00 [INF] End processing HTTP request after 37.6409ms - "OK"
+2021-03-03 14:14:37.709 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:14:47.742 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:14:47.748 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:14:47.752 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:14:47.759 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:14:47.763 +01:00 [INF] Request finished in 3.8112ms 307 
+2021-03-03 14:14:47.764 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:14:47.769 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:14:47.774 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:14:47.774 +01:00 [INF] Received HTTP response after 22.1329ms - "OK"
+2021-03-03 14:14:47.776 +01:00 [INF] Request finished in 12.0644ms 200 application/json
+2021-03-03 14:14:47.779 +01:00 [INF] End processing HTTP request after 30.2175ms - "OK"
+2021-03-03 14:14:47.786 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:14:52.304 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-ui  
+2021-03-03 14:14:52.310 +01:00 [INF] Request finished in 6.158ms 404 
+2021-03-03 14:14:57.801 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:14:57.807 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:14:57.811 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:14:57.816 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:14:57.819 +01:00 [INF] Request finished in 3.2271ms 307 
+2021-03-03 14:14:57.826 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:14:57.832 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:14:57.838 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:14:57.839 +01:00 [INF] Received HTTP response after 28.1969ms - "OK"
+2021-03-03 14:14:57.842 +01:00 [INF] Request finished in 15.6247ms 200 application/json
+2021-03-03 14:14:57.846 +01:00 [INF] End processing HTTP request after 39.4663ms - "OK"
+2021-03-03 14:14:57.856 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:15:07.886 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:15:07.893 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:15:07.896 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:15:07.901 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:15:07.910 +01:00 [INF] Request finished in 8.9302ms 307 
+2021-03-03 14:15:07.911 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:15:07.916 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:15:07.926 +01:00 [ERR] Health check random completed after 0.8318ms with status "Unhealthy" and 'Test'
+2021-03-03 14:15:07.932 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:15:07.932 +01:00 [INF] Received HTTP response after 36.3742ms - "ServiceUnavailable"
+2021-03-03 14:15:07.939 +01:00 [INF] Request finished in 27.6571ms 503 application/json
+2021-03-03 14:15:07.943 +01:00 [INF] End processing HTTP request after 50.5096ms - "ServiceUnavailable"
+2021-03-03 14:15:08.006 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:15:08.025 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:16:04.803 +01:00 [INF] Initializing UI Database
+2021-03-03 14:16:05.854 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:05.997 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-03 14:16:06.089 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:16:06.442 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 14:16:06.447 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 14:16:06.484 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:06.527 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:06.533 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:06.591 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 14:16:06.607 +01:00 [INF] Hosting environment: Development
+2021-03-03 14:16:06.616 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 14:16:06.654 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:16:06.691 +01:00 [INF] Request finished in 40.2875ms 307 
+2021-03-03 14:16:06.869 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:16:06.941 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:16:06.991 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:16:06.996 +01:00 [INF] Request finished in 127.502ms 200 application/json
+2021-03-03 14:16:06.997 +01:00 [INF] Received HTTP response after 459.5078ms - "OK"
+2021-03-03 14:16:07.006 +01:00 [INF] End processing HTTP request after 484.1394ms - "OK"
+2021-03-03 14:16:07.737 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:16:08.687 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 14:16:08.704 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:16:08.791 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 14:16:10.451 +01:00 [INF] Get Customers!
+2021-03-03 14:16:10.474 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 14:16:10.685 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1872.9368ms
+2021-03-03 14:16:10.715 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:16:10.726 +01:00 [INF] Request finished in 2039.1277ms 200 application/json; charset=utf-8
+2021-03-03 14:16:10.889 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 14:16:10.914 +01:00 [INF] Request finished in 25.3934ms 404 
+2021-03-03 14:16:14.654 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-ui  
+2021-03-03 14:16:14.660 +01:00 [INF] Executing endpoint '/healthchecks-ui HTTP: GET'
+2021-03-03 14:16:14.669 +01:00 [INF] Executed endpoint '/healthchecks-ui HTTP: GET'
+2021-03-03 14:16:14.677 +01:00 [INF] Request finished in 23.3292ms 200 text/html
+2021-03-03 14:16:14.720 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/healthchecksui-min.css  
+2021-03-03 14:16:14.720 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/vendors-dll.js  
+2021-03-03 14:16:14.720 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/healthchecks-bundle.js  
+2021-03-03 14:16:14.728 +01:00 [INF] Executing endpoint '/ui/resources/healthchecksui-min.css HTTP: GET'
+2021-03-03 14:16:14.740 +01:00 [INF] Executing endpoint '/ui/resources/vendors-dll.js HTTP: GET'
+2021-03-03 14:16:14.749 +01:00 [INF] Executing endpoint '/ui/resources/healthchecks-bundle.js HTTP: GET'
+2021-03-03 14:16:14.776 +01:00 [INF] Executed endpoint '/ui/resources/healthchecksui-min.css HTTP: GET'
+2021-03-03 14:16:14.825 +01:00 [INF] Executed endpoint '/ui/resources/healthchecks-bundle.js HTTP: GET'
+2021-03-03 14:16:14.825 +01:00 [INF] Request finished in 106.1017ms 200 text/css
+2021-03-03 14:16:14.892 +01:00 [INF] Executed endpoint '/ui/resources/vendors-dll.js HTTP: GET'
+2021-03-03 14:16:14.893 +01:00 [INF] Request finished in 173.3732ms 200 text/javascript
+2021-03-03 14:16:14.907 +01:00 [INF] Request finished in 187.1588ms 200 text/javascript
+2021-03-03 14:16:15.354 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api/ui-settings  
+2021-03-03 14:16:15.378 +01:00 [INF] Executing endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:16:15.596 +01:00 [INF] Executed endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:16:15.610 +01:00 [INF] Request finished in 255.1029ms 200 application/json
+2021-03-03 14:16:15.722 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:16:15.731 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:15.854 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:15.951 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:15.955 +01:00 [INF] Request finished in 232.7463ms 200 application/json
+2021-03-03 14:16:17.855 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:17.870 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:17.876 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:17.934 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:16:17.946 +01:00 [INF] Request finished in 11.9445ms 307 
+2021-03-03 14:16:17.949 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:16:17.964 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:16:17.974 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:16:17.974 +01:00 [INF] Received HTTP response after 98.0401ms - "OK"
+2021-03-03 14:16:17.979 +01:00 [INF] Request finished in 30.0281ms 200 application/json
+2021-03-03 14:16:17.988 +01:00 [INF] End processing HTTP request after 118.4738ms - "OK"
+2021-03-03 14:16:18.017 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:16:18.202 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api/ui-settings  
+2021-03-03 14:16:18.205 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:16:18.209 +01:00 [INF] Executing endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:16:18.213 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:18.221 +01:00 [INF] Executed endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:16:18.248 +01:00 [INF] Request finished in 45.8023ms 200 application/json
+2021-03-03 14:16:18.249 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:18.297 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:18.307 +01:00 [INF] Request finished in 102.0308ms 200 application/json
+2021-03-03 14:16:28.039 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:28.052 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:28.056 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:28.079 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:16:28.094 +01:00 [INF] Request finished in 14.8209ms 307 
+2021-03-03 14:16:28.100 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:16:28.114 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:16:28.124 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:16:28.125 +01:00 [INF] Received HTTP response after 68.1468ms - "OK"
+2021-03-03 14:16:28.132 +01:00 [INF] Request finished in 31.6166ms 200 application/json
+2021-03-03 14:16:28.139 +01:00 [INF] End processing HTTP request after 87.2405ms - "OK"
+2021-03-03 14:16:28.179 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:16:28.315 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:16:28.319 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:28.331 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:28.351 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:28.360 +01:00 [INF] Request finished in 44.9975ms 200 application/json
+2021-03-03 14:16:38.199 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:38.224 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:38.234 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:38.247 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:16:38.257 +01:00 [INF] Request finished in 10.3238ms 307 
+2021-03-03 14:16:38.262 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:16:38.272 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:16:38.296 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:16:38.297 +01:00 [INF] Received HTTP response after 63.0733ms - "OK"
+2021-03-03 14:16:38.305 +01:00 [INF] Request finished in 43.4357ms 200 application/json
+2021-03-03 14:16:38.311 +01:00 [INF] End processing HTTP request after 86.8707ms - "OK"
+2021-03-03 14:16:38.322 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:16:38.374 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:16:38.380 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:38.387 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:38.403 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:38.416 +01:00 [INF] Request finished in 41.6419ms 200 application/json
+2021-03-03 14:16:48.333 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:48.342 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:48.345 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:48.351 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:16:48.354 +01:00 [INF] Request finished in 3.5996ms 307 
+2021-03-03 14:16:48.355 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:16:48.359 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:16:48.363 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:16:48.364 +01:00 [INF] Received HTTP response after 19.4223ms - "OK"
+2021-03-03 14:16:48.369 +01:00 [INF] Request finished in 14.0422ms 200 application/json
+2021-03-03 14:16:48.374 +01:00 [INF] End processing HTTP request after 32.1821ms - "OK"
+2021-03-03 14:16:48.385 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:16:48.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:16:48.440 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:48.454 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:48.468 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:48.474 +01:00 [INF] Request finished in 44.1891ms 200 application/json
+2021-03-03 14:16:58.403 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:58.432 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:58.441 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:16:58.453 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:16:58.458 +01:00 [INF] Request finished in 5.2607ms 307 
+2021-03-03 14:16:58.460 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:16:58.487 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:16:58.519 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:16:58.523 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:16:58.523 +01:00 [INF] Received HTTP response after 82.9654ms - "OK"
+2021-03-03 14:16:58.530 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:58.542 +01:00 [INF] Request finished in 81.6862ms 200 application/json
+2021-03-03 14:16:58.551 +01:00 [INF] End processing HTTP request after 119.2211ms - "OK"
+2021-03-03 14:16:58.574 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:16:58.593 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:16:58.598 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:16:58.602 +01:00 [INF] Request finished in 83.4469ms 200 application/json
+2021-03-03 14:17:05.869 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-ui  
+2021-03-03 14:17:05.878 +01:00 [INF] Executing endpoint '/healthchecks-ui HTTP: GET'
+2021-03-03 14:17:05.883 +01:00 [INF] Executed endpoint '/healthchecks-ui HTTP: GET'
+2021-03-03 14:17:05.891 +01:00 [INF] Request finished in 21.8561ms 200 text/html
+2021-03-03 14:17:05.920 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/healthchecksui-min.css  
+2021-03-03 14:17:05.923 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/vendors-dll.js  
+2021-03-03 14:17:05.925 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/healthchecks-bundle.js  
+2021-03-03 14:17:05.931 +01:00 [INF] Executing endpoint '/ui/resources/healthchecksui-min.css HTTP: GET'
+2021-03-03 14:17:05.941 +01:00 [INF] Executing endpoint '/ui/resources/vendors-dll.js HTTP: GET'
+2021-03-03 14:17:05.952 +01:00 [INF] Executing endpoint '/ui/resources/healthchecks-bundle.js HTTP: GET'
+2021-03-03 14:17:05.963 +01:00 [INF] Executed endpoint '/ui/resources/healthchecksui-min.css HTTP: GET'
+2021-03-03 14:17:06.020 +01:00 [INF] Executed endpoint '/ui/resources/healthchecks-bundle.js HTTP: GET'
+2021-03-03 14:17:06.020 +01:00 [INF] Executed endpoint '/ui/resources/vendors-dll.js HTTP: GET'
+2021-03-03 14:17:06.020 +01:00 [INF] Request finished in 100.5222ms 200 text/css
+2021-03-03 14:17:06.032 +01:00 [INF] Request finished in 105.905ms 200 text/javascript
+2021-03-03 14:17:06.043 +01:00 [INF] Request finished in 119.5532ms 200 text/javascript
+2021-03-03 14:17:06.408 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api/ui-settings  
+2021-03-03 14:17:06.426 +01:00 [INF] Executing endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:17:06.445 +01:00 [INF] Executed endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:17:06.456 +01:00 [INF] Request finished in 47.5783ms 200 application/json
+2021-03-03 14:17:06.489 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:17:06.507 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:06.548 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:06.638 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:06.664 +01:00 [INF] Request finished in 173.7856ms 200 application/json
+2021-03-03 14:17:08.625 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:08.645 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:08.658 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:08.679 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:17:08.703 +01:00 [INF] Request finished in 23.3856ms 307 
+2021-03-03 14:17:08.705 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:17:08.741 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:17:08.789 +01:00 [ERR] Health check random completed after 0.3131ms with status "Unhealthy" and 'Test'
+2021-03-03 14:17:08.817 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:17:08.818 +01:00 [INF] Received HTTP response after 160.1261ms - "ServiceUnavailable"
+2021-03-03 14:17:08.830 +01:00 [INF] Request finished in 124.0885ms 503 application/json
+2021-03-03 14:17:08.858 +01:00 [INF] End processing HTTP request after 212.6199ms - "ServiceUnavailable"
+2021-03-03 14:17:09.149 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:17:09.277 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:17:14.481 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api/ui-settings  
+2021-03-03 14:17:14.482 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:17:14.504 +01:00 [INF] Executing endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:17:14.516 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:14.526 +01:00 [INF] Executed endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:17:14.547 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:14.554 +01:00 [INF] Request finished in 73.722ms 200 application/json
+2021-03-03 14:17:14.581 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:14.589 +01:00 [INF] Request finished in 106.5384ms 200 application/json
+2021-03-03 14:17:19.296 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:19.302 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:19.305 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:19.308 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:17:19.311 +01:00 [INF] Request finished in 2.9928ms 307 
+2021-03-03 14:17:19.312 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:17:19.316 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:17:19.320 +01:00 [ERR] Health check random completed after 0.1259ms with status "Unhealthy" and 'Test'
+2021-03-03 14:17:19.324 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:17:19.324 +01:00 [INF] Received HTTP response after 19.6841ms - "ServiceUnavailable"
+2021-03-03 14:17:19.328 +01:00 [INF] Request finished in 16.25ms 503 application/json
+2021-03-03 14:17:19.331 +01:00 [INF] End processing HTTP request after 29.2854ms - "ServiceUnavailable"
+2021-03-03 14:17:19.338 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:17:19.342 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:17:24.602 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:17:24.605 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:24.611 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:24.619 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:24.622 +01:00 [INF] Request finished in 20.7474ms 200 application/json
+2021-03-03 14:17:29.359 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:29.369 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:29.387 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:29.396 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:17:29.403 +01:00 [INF] Request finished in 6.6471ms 307 
+2021-03-03 14:17:29.405 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:17:29.424 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:17:29.435 +01:00 [ERR] Health check random completed after 1.7861ms with status "Unhealthy" and 'Test'
+2021-03-03 14:17:29.465 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:17:29.465 +01:00 [INF] Received HTTP response after 78.3519ms - "ServiceUnavailable"
+2021-03-03 14:17:29.474 +01:00 [INF] Request finished in 69.7017ms 503 application/json
+2021-03-03 14:17:29.480 +01:00 [INF] End processing HTTP request after 110.6361ms - "ServiceUnavailable"
+2021-03-03 14:17:29.492 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:17:29.496 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:17:34.629 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:17:34.644 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:34.658 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:34.677 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:34.691 +01:00 [INF] Request finished in 62.3794ms 200 application/json
+2021-03-03 14:17:39.528 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:39.536 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:39.540 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:39.545 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:17:39.548 +01:00 [INF] Request finished in 2.7588ms 307 
+2021-03-03 14:17:39.549 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:17:39.553 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:17:39.556 +01:00 [ERR] Health check random completed after 0.1006ms with status "Unhealthy" and 'Test'
+2021-03-03 14:17:39.562 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:17:39.562 +01:00 [INF] Received HTTP response after 21.7924ms - "ServiceUnavailable"
+2021-03-03 14:17:39.571 +01:00 [INF] Request finished in 22.2476ms 503 application/json
+2021-03-03 14:17:39.581 +01:00 [INF] End processing HTTP request after 44.7632ms - "ServiceUnavailable"
+2021-03-03 14:17:39.595 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:17:39.601 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:17:44.707 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:17:44.710 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:44.714 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:44.719 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:44.722 +01:00 [INF] Request finished in 15.5318ms 200 application/json
+2021-03-03 14:17:49.621 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:49.629 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:49.633 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:49.639 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:17:49.642 +01:00 [INF] Request finished in 3.3779ms 307 
+2021-03-03 14:17:49.643 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:17:49.647 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:17:49.650 +01:00 [ERR] Health check random completed after 0.1062ms with status "Unhealthy" and 'Test'
+2021-03-03 14:17:49.655 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:17:49.655 +01:00 [INF] Received HTTP response after 21.6847ms - "ServiceUnavailable"
+2021-03-03 14:17:49.657 +01:00 [INF] Request finished in 14.2687ms 503 application/json
+2021-03-03 14:17:49.661 +01:00 [INF] End processing HTTP request after 32.2697ms - "ServiceUnavailable"
+2021-03-03 14:17:49.669 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:17:49.674 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:17:54.708 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-webhooks  
+2021-03-03 14:17:54.718 +01:00 [INF] Executing endpoint 'HealthChecks UI Webhooks'
+2021-03-03 14:17:54.731 +01:00 [INF] Executed endpoint 'HealthChecks UI Webhooks'
+2021-03-03 14:17:54.752 +01:00 [INF] Request finished in 44.6276ms 200 application/json
+2021-03-03 14:17:55.766 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:17:55.771 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:55.781 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:55.803 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:17:55.818 +01:00 [INF] Request finished in 52.2807ms 200 application/json
+2021-03-03 14:17:59.698 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:17:59.720 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:59.740 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:17:59.751 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:17:59.756 +01:00 [INF] Request finished in 4.9778ms 307 
+2021-03-03 14:17:59.760 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:17:59.772 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:17:59.788 +01:00 [ERR] Health check random completed after 0.4979ms with status "Unhealthy" and 'Test'
+2021-03-03 14:17:59.802 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:17:59.803 +01:00 [INF] Received HTTP response after 63.306ms - "ServiceUnavailable"
+2021-03-03 14:17:59.812 +01:00 [INF] Request finished in 52.6841ms 503 application/json
+2021-03-03 14:17:59.823 +01:00 [INF] End processing HTTP request after 103.2154ms - "ServiceUnavailable"
+2021-03-03 14:17:59.846 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:17:59.858 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:18:09.893 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:18:09.908 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:09.918 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:09.950 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:18:09.957 +01:00 [INF] Request finished in 7.0002ms 307 
+2021-03-03 14:18:09.982 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:18:09.992 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:18:10.012 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:18:10.012 +01:00 [INF] Received HTTP response after 93.7695ms - "OK"
+2021-03-03 14:18:10.021 +01:00 [INF] Request finished in 39.0623ms 200 application/json
+2021-03-03 14:18:10.027 +01:00 [INF] End processing HTTP request after 119.6101ms - "OK"
+2021-03-03 14:18:10.054 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:18:10.071 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:18:20.096 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:18:20.108 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:20.118 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:20.127 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:18:20.140 +01:00 [INF] Request finished in 13.1428ms 307 
+2021-03-03 14:18:20.142 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:18:20.151 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:18:20.164 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:18:20.165 +01:00 [INF] Received HTTP response after 47.375ms - "OK"
+2021-03-03 14:18:20.173 +01:00 [INF] Request finished in 30.9818ms 200 application/json
+2021-03-03 14:18:20.178 +01:00 [INF] End processing HTTP request after 69.9671ms - "OK"
+2021-03-03 14:18:20.196 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:18:30.215 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:18:30.220 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:30.223 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:30.243 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:18:30.260 +01:00 [INF] Request finished in 16.8721ms 307 
+2021-03-03 14:18:30.261 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:18:30.272 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:18:30.280 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:18:30.281 +01:00 [INF] Received HTTP response after 57.5975ms - "OK"
+2021-03-03 14:18:30.285 +01:00 [INF] Request finished in 24.206ms 200 application/json
+2021-03-03 14:18:30.290 +01:00 [INF] End processing HTTP request after 70.3679ms - "OK"
+2021-03-03 14:18:30.313 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:18:40.356 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:18:40.477 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:40.540 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:40.551 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:18:40.599 +01:00 [INF] Request finished in 47.8397ms 307 
+2021-03-03 14:18:40.601 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:18:40.700 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:18:40.708 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:18:40.709 +01:00 [INF] Received HTTP response after 168.35ms - "OK"
+2021-03-03 14:18:40.725 +01:00 [INF] Request finished in 117.346ms 200 application/json
+2021-03-03 14:18:40.726 +01:00 [INF] End processing HTTP request after 249.2407ms - "OK"
+2021-03-03 14:18:40.769 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:18:50.799 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:18:50.816 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:50.829 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:18:50.841 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:18:50.846 +01:00 [INF] Request finished in 5.4029ms 307 
+2021-03-03 14:18:50.847 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:18:50.854 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:18:50.872 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:18:50.872 +01:00 [INF] Received HTTP response after 43.2491ms - "OK"
+2021-03-03 14:18:50.896 +01:00 [INF] Request finished in 48.3246ms 200 application/json
+2021-03-03 14:18:50.901 +01:00 [INF] End processing HTTP request after 84.9856ms - "OK"
+2021-03-03 14:18:50.913 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:18:58.466 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-03-03 14:18:58.544 +01:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-03-03 14:18:58.571 +01:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-03-03 14:18:58.658 +01:00 [INF] Request finished in 191.8652ms 302 
+2021-03-03 14:18:58.728 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger  
+2021-03-03 14:18:58.740 +01:00 [INF] Request finished in 11.646ms 302 
+2021-03-03 14:18:58.751 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2021-03-03 14:18:58.841 +01:00 [INF] Request finished in 90.5634ms 200 text/html; charset=utf-8
+2021-03-03 14:18:58.940 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2021-03-03 14:18:58.951 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2021-03-03 14:18:58.951 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2021-03-03 14:18:59.421 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-03 14:18:59.685 +01:00 [INF] Request finished in 745.311ms 200 text/css
+2021-03-03 14:18:59.952 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-03-03 14:18:59.993 +01:00 [INF] Request finished in 1043.8609ms 200 application/javascript
+2021-03-03 14:19:00.064 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-03-03 14:19:00.075 +01:00 [INF] Request finished in 1126.1741ms 200 application/javascript
+2021-03-03 14:19:00.946 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:19:01.011 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/Api ze szkolenia/swagger.json  
+2021-03-03 14:19:01.188 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2021-03-03 14:19:01.254 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:19:01.301 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-03-03 14:19:01.351 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:19:01.390 +01:00 [INF] Request finished in 203.439ms 200 image/png
+2021-03-03 14:19:01.516 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:19:01.563 +01:00 [INF] Request finished in 47.4651ms 307 
+2021-03-03 14:19:01.567 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:19:01.595 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:19:01.616 +01:00 [ERR] Health check random completed after 0.1658ms with status "Unhealthy" and 'Test'
+2021-03-03 14:19:01.636 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:19:01.637 +01:00 [INF] Received HTTP response after 285.7154ms - "ServiceUnavailable"
+2021-03-03 14:19:01.649 +01:00 [INF] Request finished in 82.4573ms 503 application/json
+2021-03-03 14:19:01.657 +01:00 [INF] End processing HTTP request after 402.7532ms - "ServiceUnavailable"
+2021-03-03 14:19:01.673 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:19:01.681 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:19:02.073 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-03-03 14:19:02.073 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui-bundle.js.map  
+2021-03-03 14:19:02.112 +01:00 [INF] Request finished in 38.9172ms 404 
+2021-03-03 14:19:02.160 +01:00 [INF] Request finished in 86.7072ms 404 
+2021-03-03 14:19:02.253 +01:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-bundle.js.map  
+2021-03-03 14:19:02.249 +01:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:5001/swagger/swagger-ui-standalone-preset.js.map  
+2021-03-03 14:19:02.294 +01:00 [INF] Request finished in 40.7714ms 404 
+2021-03-03 14:19:02.309 +01:00 [INF] Request finished in 60.4341ms 404 
+2021-03-03 14:19:04.471 +01:00 [INF] Request finished in 3460.4978ms 200 application/json; charset=utf-8
+2021-03-03 14:19:11.722 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:19:11.732 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:19:11.736 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:19:11.740 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:19:11.747 +01:00 [INF] Request finished in 6.7082ms 307 
+2021-03-03 14:19:11.749 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:19:11.759 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:19:11.767 +01:00 [ERR] Health check random completed after 0.139ms with status "Unhealthy" and 'Test'
+2021-03-03 14:19:11.776 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:19:11.776 +01:00 [INF] Received HTTP response after 40.3463ms - "ServiceUnavailable"
+2021-03-03 14:19:11.782 +01:00 [INF] Request finished in 33.2695ms 503 application/json
+2021-03-03 14:19:11.785 +01:00 [INF] End processing HTTP request after 53.012ms - "ServiceUnavailable"
+2021-03-03 14:19:11.806 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:19:11.818 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:42:16.003 +01:00 [INF] Initializing UI Database
+2021-03-03 14:42:17.134 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:42:17.287 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-03 14:42:17.392 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:42:17.756 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 14:42:17.761 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 14:42:17.817 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:42:17.864 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:42:17.869 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:42:17.928 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 14:42:17.932 +01:00 [INF] Hosting environment: Development
+2021-03-03 14:42:17.939 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 14:42:17.966 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:42:17.994 +01:00 [INF] Request finished in 29.7148ms 307 
+2021-03-03 14:42:18.096 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:42:18.174 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:42:40.900 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/tables/A/"
+2021-03-03 14:42:40.908 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/tables/A/"
+2021-03-03 14:42:40.984 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 14:42:40.995 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:42:41.044 +01:00 [INF] Received HTTP response headers after 126.8558ms - 200
+2021-03-03 14:42:41.054 +01:00 [INF] End processing HTTP request after 153.8541ms - 200
+2021-03-03 14:42:44.865 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 14:42:45.230 +01:00 [WRN] Health check nbp-api completed after 10313.0194ms with status "Degraded" and 'API nie odpowiada'
+2021-03-03 14:42:45.256 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:42:45.256 +01:00 [INF] Received HTTP response headers after 27387.5838ms - 200
+2021-03-03 14:42:45.266 +01:00 [INF] End processing HTTP request after 27409.5646ms - 200
+2021-03-03 14:42:45.267 +01:00 [INF] Request finished in 27172.102ms 200 application/json
+2021-03-03 14:42:45.631 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:42:45.760 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:42:46.143 +01:00 [INF] Get Customers!
+2021-03-03 14:42:46.155 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 14:42:46.211 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 1333.5401ms
+2021-03-03 14:42:46.218 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:42:46.232 +01:00 [INF] Request finished in 5248.1893ms 200 application/json; charset=utf-8
+2021-03-03 14:42:46.405 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 14:42:46.444 +01:00 [INF] Request finished in 39.2833ms 404 
+2021-03-03 14:44:57.310 +01:00 [INF] Initializing UI Database
+2021-03-03 14:44:59.069 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:44:59.206 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-03 14:44:59.298 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:44:59.651 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 14:44:59.654 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 14:44:59.695 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:44:59.744 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:44:59.749 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:44:59.808 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 14:44:59.815 +01:00 [INF] Hosting environment: Development
+2021-03-03 14:44:59.820 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 14:44:59.845 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:44:59.925 +01:00 [INF] Request finished in 78.8715ms 307 
+2021-03-03 14:45:00.165 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:45:00.201 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:45:04.089 +01:00 [ERR] Health check random completed after 2752.2584ms with status "Unhealthy" and 'Test'
+2021-03-03 14:45:04.185 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 14:45:04.224 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:45:04.294 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:04.323 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:04.425 +01:00 [INF] Received HTTP response headers after 97.4164ms - 200
+2021-03-03 14:45:04.436 +01:00 [INF] End processing HTTP request after 142.1899ms - 200
+2021-03-03 14:45:04.520 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 14:45:05.327 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:45:05.328 +01:00 [INF] Received HTTP response headers after 5578.9616ms - 503
+2021-03-03 14:45:05.351 +01:00 [INF] End processing HTTP request after 5612.0535ms - 503
+2021-03-03 14:45:05.367 +01:00 [INF] Request finished in 5200.8776ms 503 application/json
+2021-03-03 14:45:05.967 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:45:06.519 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:45:07.657 +01:00 [INF] Get Customers!
+2021-03-03 14:45:07.704 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 14:45:07.967 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 3419.2104ms
+2021-03-03 14:45:07.975 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:45:07.997 +01:00 [INF] Request finished in 3812.1742ms 200 application/json; charset=utf-8
+2021-03-03 14:45:08.288 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 14:45:08.315 +01:00 [INF] Request finished in 27.3223ms 404 
+2021-03-03 14:45:12.698 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-ui  
+2021-03-03 14:45:12.705 +01:00 [INF] Executing endpoint '/healthchecks-ui HTTP: GET'
+2021-03-03 14:45:12.713 +01:00 [INF] Executed endpoint '/healthchecks-ui HTTP: GET'
+2021-03-03 14:45:12.722 +01:00 [INF] Request finished in 23.7036ms 200 text/html
+2021-03-03 14:45:12.753 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/healthchecksui-min.css  
+2021-03-03 14:45:12.753 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/healthchecks-bundle.js  
+2021-03-03 14:45:12.753 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/vendors-dll.js  
+2021-03-03 14:45:12.766 +01:00 [INF] Executing endpoint '/ui/resources/healthchecksui-min.css HTTP: GET'
+2021-03-03 14:45:12.772 +01:00 [INF] Executing endpoint '/ui/resources/healthchecks-bundle.js HTTP: GET'
+2021-03-03 14:45:12.786 +01:00 [INF] Executing endpoint '/ui/resources/vendors-dll.js HTTP: GET'
+2021-03-03 14:45:12.806 +01:00 [INF] Executed endpoint '/ui/resources/healthchecksui-min.css HTTP: GET'
+2021-03-03 14:45:12.859 +01:00 [INF] Executed endpoint '/ui/resources/healthchecks-bundle.js HTTP: GET'
+2021-03-03 14:45:12.859 +01:00 [INF] Request finished in 106.5679ms 200 text/css
+2021-03-03 14:45:12.912 +01:00 [INF] Request finished in 159.108ms 200 text/javascript
+2021-03-03 14:45:12.938 +01:00 [INF] Executed endpoint '/ui/resources/vendors-dll.js HTTP: GET'
+2021-03-03 14:45:12.955 +01:00 [INF] Request finished in 202.271ms 200 text/javascript
+2021-03-03 14:45:13.655 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api/ui-settings  
+2021-03-03 14:45:13.671 +01:00 [INF] Executing endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:45:13.904 +01:00 [INF] Executed endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:45:13.921 +01:00 [INF] Request finished in 265.9286ms 200 application/json
+2021-03-03 14:45:14.020 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:45:14.029 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:14.143 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:14.236 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:14.246 +01:00 [INF] Request finished in 225.6258ms 200 application/json
+2021-03-03 14:45:16.551 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:16.571 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:45:16.581 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:45:16.641 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:45:16.653 +01:00 [INF] Request finished in 11.5436ms 307 
+2021-03-03 14:45:16.667 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:45:16.694 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:45:16.708 +01:00 [ERR] Health check random completed after 1.3106ms with status "Unhealthy" and 'Test'
+2021-03-03 14:45:23.312 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:23.339 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:23.382 +01:00 [INF] Received HTTP response headers after 42.8315ms - 200
+2021-03-03 14:45:23.399 +01:00 [INF] End processing HTTP request after 86.7345ms - 200
+2021-03-03 14:45:23.407 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:45:23.408 +01:00 [INF] Received HTTP response headers after 6827.2979ms - 503
+2021-03-03 14:45:23.420 +01:00 [INF] Request finished in 6753.0836ms 503 application/json
+2021-03-03 14:45:23.429 +01:00 [INF] End processing HTTP request after 6857.3382ms - 503
+2021-03-03 14:45:23.446 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:45:23.474 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:45:24.272 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:45:24.276 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:24.297 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:24.325 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:24.370 +01:00 [INF] Request finished in 98.0233ms 200 application/json
+2021-03-03 14:45:24.402 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api/ui-settings  
+2021-03-03 14:45:24.412 +01:00 [INF] Executing endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:45:24.433 +01:00 [INF] Executed endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:45:24.457 +01:00 [INF] Request finished in 54.6214ms 200 application/json
+2021-03-03 14:45:33.485 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:33.496 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:45:33.502 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:45:33.507 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:45:33.510 +01:00 [INF] Request finished in 2.8766ms 307 
+2021-03-03 14:45:33.512 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:45:33.520 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:45:33.524 +01:00 [ERR] Health check random completed after 0.1365ms with status "Unhealthy" and 'Test'
+2021-03-03 14:45:33.525 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:33.531 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:33.562 +01:00 [INF] Received HTTP response headers after 30.2191ms - 200
+2021-03-03 14:45:33.566 +01:00 [INF] End processing HTTP request after 41.4416ms - 200
+2021-03-03 14:45:33.571 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:45:33.571 +01:00 [INF] Received HTTP response headers after 68.6053ms - 503
+2021-03-03 14:45:33.574 +01:00 [INF] Request finished in 62.3914ms 503 application/json
+2021-03-03 14:45:33.577 +01:00 [INF] End processing HTTP request after 80.7204ms - 503
+2021-03-03 14:45:33.586 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:45:33.591 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:45:34.411 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:45:34.416 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:34.428 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:34.436 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:34.440 +01:00 [INF] Request finished in 28.2777ms 200 application/json
+2021-03-03 14:45:43.616 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:43.626 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:45:43.635 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:45:43.648 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:45:43.653 +01:00 [INF] Request finished in 4.9472ms 307 
+2021-03-03 14:45:43.655 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:45:43.664 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:45:43.669 +01:00 [ERR] Health check random completed after 0.1115ms with status "Unhealthy" and 'Test'
+2021-03-03 14:45:43.669 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:43.680 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:43.728 +01:00 [INF] Received HTTP response headers after 47.4432ms - 200
+2021-03-03 14:45:43.734 +01:00 [INF] End processing HTTP request after 64.7856ms - 200
+2021-03-03 14:45:43.747 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:45:43.748 +01:00 [INF] Received HTTP response headers after 112.2925ms - 503
+2021-03-03 14:45:43.753 +01:00 [INF] Request finished in 98.259ms 503 application/json
+2021-03-03 14:45:43.766 +01:00 [INF] End processing HTTP request after 141.1548ms - 503
+2021-03-03 14:45:43.806 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:45:43.814 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:45:44.451 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:45:44.458 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:44.465 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:44.473 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:44.478 +01:00 [INF] Request finished in 27.0644ms 200 application/json
+2021-03-03 14:45:53.821 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:53.827 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:45:53.830 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:45:53.835 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:45:53.840 +01:00 [INF] Request finished in 4.6236ms 307 
+2021-03-03 14:45:53.842 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:45:53.846 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:45:53.852 +01:00 [ERR] Health check random completed after 0.0539ms with status "Unhealthy" and 'Test'
+2021-03-03 14:45:53.853 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:53.861 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:45:53.897 +01:00 [INF] Received HTTP response headers after 35.8297ms - 200
+2021-03-03 14:45:53.903 +01:00 [INF] End processing HTTP request after 50.3125ms - 200
+2021-03-03 14:45:53.908 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:45:53.908 +01:00 [INF] Received HTTP response headers after 78.3067ms - 503
+2021-03-03 14:45:53.914 +01:00 [INF] Request finished in 73.0051ms 503 application/json
+2021-03-03 14:45:53.919 +01:00 [INF] End processing HTTP request after 92.5057ms - 503
+2021-03-03 14:45:53.926 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:45:53.931 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:45:54.494 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:45:54.500 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:54.507 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:45:54.516 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:45:54.524 +01:00 [INF] Request finished in 30.1479ms 200 application/json
+2021-03-03 14:46:03.937 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:03.947 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:03.952 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:03.959 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:46:03.968 +01:00 [INF] Request finished in 8.4565ms 307 
+2021-03-03 14:46:03.970 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:46:03.976 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:46:03.980 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:03.983 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:04.016 +01:00 [INF] Received HTTP response headers after 33.747ms - 200
+2021-03-03 14:46:04.021 +01:00 [INF] End processing HTTP request after 41.3147ms - 200
+2021-03-03 14:46:04.028 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:46:04.038 +01:00 [INF] Received HTTP response headers after 85.6344ms - 200
+2021-03-03 14:46:04.046 +01:00 [INF] Request finished in 76.1889ms 200 application/json
+2021-03-03 14:46:04.051 +01:00 [INF] End processing HTTP request after 104.0955ms - 200
+2021-03-03 14:46:04.070 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:46:04.120 +01:00 [INF] Saved 4 entities to in-memory store.
+2021-03-03 14:46:04.542 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:46:04.548 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:04.554 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:04.563 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:04.567 +01:00 [INF] Request finished in 25.2953ms 200 application/json
+2021-03-03 14:46:14.148 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:14.157 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:14.167 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:14.177 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:46:14.184 +01:00 [INF] Request finished in 7.5415ms 307 
+2021-03-03 14:46:14.187 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:46:14.199 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:46:14.206 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:14.210 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:14.251 +01:00 [INF] Received HTTP response headers after 41.346ms - 200
+2021-03-03 14:46:14.271 +01:00 [INF] End processing HTTP request after 65.3471ms - 200
+2021-03-03 14:46:14.297 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:46:14.298 +01:00 [INF] Received HTTP response headers after 131.1126ms - 200
+2021-03-03 14:46:14.312 +01:00 [INF] Request finished in 124.8063ms 200 application/json
+2021-03-03 14:46:14.335 +01:00 [INF] End processing HTTP request after 178.3659ms - 200
+2021-03-03 14:46:14.360 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:46:14.579 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:46:14.593 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:14.602 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:14.616 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:14.644 +01:00 [INF] Request finished in 65.6094ms 200 application/json
+2021-03-03 14:46:24.383 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:24.388 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:24.393 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:24.413 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:46:24.427 +01:00 [INF] Request finished in 14.1526ms 307 
+2021-03-03 14:46:24.435 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:46:24.452 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:46:24.470 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:24.478 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:24.530 +01:00 [INF] Received HTTP response headers after 51.8975ms - 200
+2021-03-03 14:46:24.543 +01:00 [INF] End processing HTTP request after 73.1883ms - 200
+2021-03-03 14:46:24.565 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:46:24.567 +01:00 [INF] Received HTTP response headers after 174.3926ms - 200
+2021-03-03 14:46:24.572 +01:00 [INF] Request finished in 136.6051ms 200 application/json
+2021-03-03 14:46:24.577 +01:00 [INF] End processing HTTP request after 188.5145ms - 200
+2021-03-03 14:46:24.594 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:46:24.657 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:46:24.661 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:24.664 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:24.670 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:24.673 +01:00 [INF] Request finished in 15.738ms 200 application/json
+2021-03-03 14:46:34.615 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:34.642 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:34.667 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:34.674 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:46:34.687 +01:00 [INF] Request finished in 12.5929ms 307 
+2021-03-03 14:46:34.725 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:46:34.725 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:46:34.738 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:34.750 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:46:34.757 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:34.781 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:34.805 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:34.812 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:34.845 +01:00 [INF] Request finished in 120.2159ms 200 application/json
+2021-03-03 14:46:34.868 +01:00 [INF] Received HTTP response headers after 62.7416ms - 200
+2021-03-03 14:46:34.890 +01:00 [INF] End processing HTTP request after 108.794ms - 200
+2021-03-03 14:46:34.905 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:46:34.906 +01:00 [INF] Received HTTP response headers after 239.3952ms - 200
+2021-03-03 14:46:34.912 +01:00 [INF] Request finished in 186.376ms 200 application/json
+2021-03-03 14:46:34.920 +01:00 [INF] End processing HTTP request after 277.4816ms - 200
+2021-03-03 14:46:34.981 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:46:44.869 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:46:44.873 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:44.877 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:44.883 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:44.887 +01:00 [INF] Request finished in 17.9739ms 200 application/json
+2021-03-03 14:46:45.013 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:45.030 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:45.042 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:45.072 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:46:45.081 +01:00 [INF] Request finished in 9.0465ms 307 
+2021-03-03 14:46:45.082 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:46:45.091 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:46:45.096 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:45.100 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:45.138 +01:00 [INF] Received HTTP response headers after 37.954ms - 200
+2021-03-03 14:46:45.142 +01:00 [INF] End processing HTTP request after 45.401ms - 200
+2021-03-03 14:46:45.146 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:46:45.147 +01:00 [INF] Received HTTP response headers after 104.1884ms - 200
+2021-03-03 14:46:45.150 +01:00 [INF] Request finished in 67.4615ms 200 application/json
+2021-03-03 14:46:45.152 +01:00 [INF] End processing HTTP request after 122.0039ms - 200
+2021-03-03 14:46:45.160 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:46:54.925 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:46:54.934 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:54.942 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:54.952 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:46:54.963 +01:00 [INF] Request finished in 38.3228ms 200 application/json
+2021-03-03 14:46:55.173 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:46:55.185 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:55.198 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:46:55.213 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:46:55.217 +01:00 [INF] Request finished in 4.7258ms 307 
+2021-03-03 14:46:55.220 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:46:55.230 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:46:55.237 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:55.246 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:46:55.306 +01:00 [INF] Received HTTP response headers after 60.4991ms - 200
+2021-03-03 14:46:55.314 +01:00 [INF] End processing HTTP request after 76.8304ms - 200
+2021-03-03 14:46:55.324 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:46:55.325 +01:00 [INF] Received HTTP response headers after 126.8141ms - 200
+2021-03-03 14:46:55.337 +01:00 [INF] Request finished in 116.8114ms 200 application/json
+2021-03-03 14:46:55.342 +01:00 [INF] End processing HTTP request after 156.1722ms - 200
+2021-03-03 14:46:55.351 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:47:04.982 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:47:04.988 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:04.994 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:04.999 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:05.004 +01:00 [INF] Request finished in 22.5904ms 200 application/json
+2021-03-03 14:47:05.372 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:05.382 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:05.390 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:05.421 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:47:05.432 +01:00 [INF] Request finished in 10.3388ms 307 
+2021-03-03 14:47:05.459 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:47:05.464 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:47:05.468 +01:00 [ERR] Health check random completed after 0.0954ms with status "Unhealthy" and 'Test'
+2021-03-03 14:47:05.469 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:05.476 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:05.516 +01:00 [INF] Received HTTP response headers after 39.6238ms - 200
+2021-03-03 14:47:05.525 +01:00 [INF] End processing HTTP request after 55.8855ms - 200
+2021-03-03 14:47:05.533 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:47:05.533 +01:00 [INF] Received HTTP response headers after 142.7882ms - 503
+2021-03-03 14:47:05.536 +01:00 [INF] Request finished in 76.7686ms 503 application/json
+2021-03-03 14:47:05.539 +01:00 [INF] End processing HTTP request after 157.0056ms - 503
+2021-03-03 14:47:05.545 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:47:05.549 +01:00 [INF] Saved 4 entities to in-memory store.
+2021-03-03 14:47:15.026 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:47:15.035 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:15.042 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:15.054 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:15.059 +01:00 [INF] Request finished in 33.0209ms 200 application/json
+2021-03-03 14:47:15.567 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:15.577 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:15.581 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:15.587 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:47:15.609 +01:00 [INF] Request finished in 21.9324ms 307 
+2021-03-03 14:47:15.612 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:47:15.630 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:47:15.645 +01:00 [ERR] Health check random completed after 0.2504ms with status "Unhealthy" and 'Test'
+2021-03-03 14:47:15.646 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:15.673 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:15.713 +01:00 [INF] Received HTTP response headers after 40.748ms - 200
+2021-03-03 14:47:15.722 +01:00 [INF] End processing HTTP request after 75.9205ms - 200
+2021-03-03 14:47:15.739 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:47:15.740 +01:00 [INF] Received HTTP response headers after 158.4431ms - 503
+2021-03-03 14:47:15.744 +01:00 [INF] Request finished in 131.4138ms 503 application/json
+2021-03-03 14:47:15.749 +01:00 [INF] End processing HTTP request after 172.5303ms - 503
+2021-03-03 14:47:15.762 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:47:15.766 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:47:25.077 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:47:25.097 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:25.105 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:25.128 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:25.138 +01:00 [INF] Request finished in 60.8041ms 200 application/json
+2021-03-03 14:47:25.786 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:25.797 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:25.804 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:25.809 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:47:25.819 +01:00 [INF] Request finished in 9.5753ms 307 
+2021-03-03 14:47:25.834 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:47:25.841 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:47:25.857 +01:00 [ERR] Health check random completed after 0.0762ms with status "Unhealthy" and 'Test'
+2021-03-03 14:47:25.861 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:25.876 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:25.918 +01:00 [INF] Received HTTP response headers after 41.9183ms - 200
+2021-03-03 14:47:25.926 +01:00 [INF] End processing HTTP request after 64.4535ms - 200
+2021-03-03 14:47:25.935 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:47:25.936 +01:00 [INF] Received HTTP response headers after 131.5719ms - 503
+2021-03-03 14:47:25.940 +01:00 [INF] Request finished in 105.8416ms 503 application/json
+2021-03-03 14:47:25.946 +01:00 [INF] End processing HTTP request after 148.9995ms - 503
+2021-03-03 14:47:25.966 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:47:25.982 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:47:35.158 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:47:35.163 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:35.168 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:35.174 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:35.177 +01:00 [INF] Request finished in 19.1977ms 200 application/json
+2021-03-03 14:47:35.992 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:36.003 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:36.014 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:36.019 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:47:36.023 +01:00 [INF] Request finished in 3.7784ms 307 
+2021-03-03 14:47:36.025 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:47:36.030 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:47:36.034 +01:00 [ERR] Health check random completed after 0.0156ms with status "Unhealthy" and 'Test'
+2021-03-03 14:47:36.035 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:36.041 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:36.081 +01:00 [INF] Received HTTP response headers after 39.3456ms - 200
+2021-03-03 14:47:36.087 +01:00 [INF] End processing HTTP request after 52.4921ms - 200
+2021-03-03 14:47:36.093 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:47:36.094 +01:00 [INF] Received HTTP response headers after 79.8123ms - 503
+2021-03-03 14:47:36.098 +01:00 [INF] Request finished in 72.9305ms 503 application/json
+2021-03-03 14:47:36.101 +01:00 [INF] End processing HTTP request after 98.2833ms - 503
+2021-03-03 14:47:36.109 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:47:36.112 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:47:45.191 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:47:45.197 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:45.202 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:45.207 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:45.212 +01:00 [INF] Request finished in 20.8218ms 200 application/json
+2021-03-03 14:47:46.124 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:46.130 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:46.133 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:46.136 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:47:46.139 +01:00 [INF] Request finished in 2.7424ms 307 
+2021-03-03 14:47:46.139 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:47:46.143 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:47:46.146 +01:00 [ERR] Health check random completed after 0.0135ms with status "Unhealthy" and 'Test'
+2021-03-03 14:47:46.147 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:46.155 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:46.195 +01:00 [INF] Received HTTP response headers after 40.0108ms - 200
+2021-03-03 14:47:46.199 +01:00 [INF] End processing HTTP request after 52.4033ms - 200
+2021-03-03 14:47:46.204 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:47:46.204 +01:00 [INF] Received HTTP response headers after 71.2289ms - 503
+2021-03-03 14:47:46.207 +01:00 [INF] Request finished in 67.6285ms 503 application/json
+2021-03-03 14:47:46.210 +01:00 [INF] End processing HTTP request after 79.3658ms - 503
+2021-03-03 14:47:46.218 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:47:46.222 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:47:55.230 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:47:55.238 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:55.245 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:55.249 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:47:55.254 +01:00 [INF] Request finished in 24.1574ms 200 application/json
+2021-03-03 14:47:56.235 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:47:56.242 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:56.245 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:47:56.252 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:47:56.256 +01:00 [INF] Request finished in 4.2913ms 307 
+2021-03-03 14:47:56.257 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:47:56.260 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:47:56.263 +01:00 [ERR] Health check random completed after 0.0135ms with status "Unhealthy" and 'Test'
+2021-03-03 14:47:56.264 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:56.272 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:47:56.305 +01:00 [INF] Received HTTP response headers after 33.161ms - 200
+2021-03-03 14:47:56.309 +01:00 [INF] End processing HTTP request after 44.9322ms - 200
+2021-03-03 14:47:56.314 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:47:56.314 +01:00 [INF] Received HTTP response headers after 69.6288ms - 503
+2021-03-03 14:47:56.319 +01:00 [INF] Request finished in 61.6185ms 503 application/json
+2021-03-03 14:47:56.321 +01:00 [INF] End processing HTTP request after 79.1852ms - 503
+2021-03-03 14:47:56.327 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:47:56.330 +01:00 [INF] Saved 2 entities to in-memory store.
+2021-03-03 14:48:05.272 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:48:05.278 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:05.282 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:05.287 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:05.293 +01:00 [INF] Request finished in 20.6326ms 200 application/json
+2021-03-03 14:48:06.351 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:06.357 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:06.362 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:06.380 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:48:06.384 +01:00 [INF] Request finished in 4.7322ms 307 
+2021-03-03 14:48:06.386 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:48:06.392 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:48:06.399 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:06.404 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:06.456 +01:00 [INF] Received HTTP response headers after 51.8871ms - 200
+2021-03-03 14:48:06.462 +01:00 [INF] End processing HTTP request after 63.2331ms - 200
+2021-03-03 14:48:06.467 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:48:06.467 +01:00 [INF] Received HTTP response headers after 104.6772ms - 200
+2021-03-03 14:48:06.470 +01:00 [INF] Request finished in 84.1023ms 200 application/json
+2021-03-03 14:48:06.472 +01:00 [INF] End processing HTTP request after 115.3067ms - 200
+2021-03-03 14:48:06.479 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:48:06.482 +01:00 [INF] Saved 4 entities to in-memory store.
+2021-03-03 14:48:15.322 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:48:15.333 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:15.339 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:15.345 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:15.348 +01:00 [INF] Request finished in 25.8217ms 200 application/json
+2021-03-03 14:48:16.495 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:16.510 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:16.518 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:16.528 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:48:16.539 +01:00 [INF] Request finished in 10.6493ms 307 
+2021-03-03 14:48:16.540 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:48:16.549 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:48:16.556 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:16.561 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:16.589 +01:00 [INF] Received HTTP response headers after 28.1231ms - 200
+2021-03-03 14:48:16.593 +01:00 [INF] End processing HTTP request after 37.6665ms - 200
+2021-03-03 14:48:16.597 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:48:16.597 +01:00 [INF] Received HTTP response headers after 78.6073ms - 200
+2021-03-03 14:48:16.599 +01:00 [INF] Request finished in 59.25ms 200 application/json
+2021-03-03 14:48:16.602 +01:00 [INF] End processing HTTP request after 91.6692ms - 200
+2021-03-03 14:48:16.608 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:48:25.358 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:48:25.362 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:25.365 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:25.369 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:25.374 +01:00 [INF] Request finished in 15.9462ms 200 application/json
+2021-03-03 14:48:26.622 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:26.628 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:26.631 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:26.634 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:48:26.637 +01:00 [INF] Request finished in 2.4647ms 307 
+2021-03-03 14:48:26.638 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:48:26.654 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:48:26.666 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:26.671 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:26.720 +01:00 [INF] Received HTTP response headers after 49.3842ms - 200
+2021-03-03 14:48:26.724 +01:00 [INF] End processing HTTP request after 57.6329ms - 200
+2021-03-03 14:48:26.730 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:48:26.730 +01:00 [INF] Received HTTP response headers after 98.8044ms - 200
+2021-03-03 14:48:26.735 +01:00 [INF] Request finished in 96.6605ms 200 application/json
+2021-03-03 14:48:26.737 +01:00 [INF] End processing HTTP request after 108.9933ms - 200
+2021-03-03 14:48:26.744 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:48:35.389 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:48:35.393 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:35.396 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:35.401 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:35.404 +01:00 [INF] Request finished in 15.1481ms 200 application/json
+2021-03-03 14:48:36.753 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:36.768 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:36.773 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:36.776 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:48:36.779 +01:00 [INF] Request finished in 2.4315ms 307 
+2021-03-03 14:48:36.779 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:48:36.784 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:48:36.788 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:36.790 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:36.825 +01:00 [INF] Received HTTP response headers after 34.7921ms - 200
+2021-03-03 14:48:36.831 +01:00 [INF] End processing HTTP request after 43.528ms - 200
+2021-03-03 14:48:36.835 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:48:36.835 +01:00 [INF] Received HTTP response headers after 62.2048ms - 200
+2021-03-03 14:48:36.838 +01:00 [INF] Request finished in 58.2238ms 200 application/json
+2021-03-03 14:48:36.840 +01:00 [INF] End processing HTTP request after 72.6831ms - 200
+2021-03-03 14:48:36.846 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:48:45.432 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:48:45.443 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:45.456 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:45.472 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:48:45.479 +01:00 [INF] Request finished in 46.2729ms 200 application/json
+2021-03-03 14:48:46.855 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:48:46.865 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:46.869 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:48:46.875 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:48:46.880 +01:00 [INF] Request finished in 5.5459ms 307 
+2021-03-03 14:48:46.886 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:48:46.899 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:48:46.914 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:46.921 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:48:46.968 +01:00 [INF] Received HTTP response headers after 47.3613ms - 200
+2021-03-03 14:48:46.980 +01:00 [INF] End processing HTTP request after 66.2329ms - 200
+2021-03-03 14:48:46.992 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:48:46.993 +01:00 [INF] Received HTTP response headers after 124.014ms - 200
+2021-03-03 14:48:47.000 +01:00 [INF] Request finished in 114.0526ms 200 application/json
+2021-03-03 14:48:47.009 +01:00 [INF] End processing HTTP request after 143.2681ms - 200
+2021-03-03 14:48:47.034 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:49:25.993 +01:00 [INF] Initializing UI Database
+2021-03-03 14:49:27.492 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:49:27.810 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-03 14:49:27.916 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:49:28.642 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-03 14:49:28.645 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-03 14:49:28.771 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:49:28.876 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:49:28.908 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:49:29.204 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-03 14:49:29.216 +01:00 [INF] Hosting environment: Development
+2021-03-03 14:49:29.253 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-03 14:49:29.314 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:49:29.424 +01:00 [INF] Request finished in 133.5615ms 307 
+2021-03-03 14:49:29.649 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:49:29.764 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:49:29.835 +01:00 [ERR] Health check random completed after 9.0744ms with status "Unhealthy" and 'Test'
+2021-03-03 14:49:29.841 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:49:29.858 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:49:29.947 +01:00 [INF] Received HTTP response headers after 81.0492ms - 200
+2021-03-03 14:49:29.989 +01:00 [INF] End processing HTTP request after 146.812ms - 200
+2021-03-03 14:49:31.403 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:49:31.403 +01:00 [INF] Received HTTP response headers after 2499.9763ms - 503
+2021-03-03 14:49:31.422 +01:00 [INF] End processing HTTP request after 2560.8829ms - 503
+2021-03-03 14:49:31.436 +01:00 [INF] Request finished in 1782.8366ms 503 application/json
+2021-03-03 14:49:31.637 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-03 14:49:31.655 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:49:31.813 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-03 14:49:31.867 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:49:32.206 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:49:34.114 +01:00 [INF] Get Customers!
+2021-03-03 14:49:34.156 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-03 14:49:34.356 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 2506.4096ms
+2021-03-03 14:49:34.385 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-03 14:49:34.422 +01:00 [INF] Request finished in 2785.3345ms 200 application/json; charset=utf-8
+2021-03-03 14:49:34.632 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-03 14:49:34.645 +01:00 [INF] Request finished in 12.9172ms 404 
+2021-03-03 14:49:42.270 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:49:42.277 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:49:42.280 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:49:42.293 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:49:42.299 +01:00 [INF] Request finished in 5.9634ms 307 
+2021-03-03 14:49:42.301 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:49:42.307 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:49:42.310 +01:00 [ERR] Health check random completed after 0.1107ms with status "Unhealthy" and 'Test'
+2021-03-03 14:49:42.311 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:49:42.316 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:49:42.348 +01:00 [INF] Received HTTP response headers after 31.7634ms - 200
+2021-03-03 14:49:42.353 +01:00 [INF] End processing HTTP request after 42.4254ms - 200
+2021-03-03 14:49:42.358 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:49:42.358 +01:00 [INF] Received HTTP response headers after 77.3056ms - 503
+2021-03-03 14:49:42.363 +01:00 [INF] Request finished in 61.7665ms 503 application/json
+2021-03-03 14:49:42.368 +01:00 [INF] End processing HTTP request after 90.3849ms - 503
+2021-03-03 14:49:42.379 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:49:42.398 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:49:52.431 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:49:52.449 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:49:52.458 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:49:52.473 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:49:52.477 +01:00 [INF] Request finished in 4.3986ms 307 
+2021-03-03 14:49:52.479 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:49:52.487 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:49:52.520 +01:00 [ERR] Health check random completed after 0.2196ms with status "Unhealthy" and 'Test'
+2021-03-03 14:49:52.521 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:49:52.543 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:49:52.586 +01:00 [INF] Received HTTP response headers after 43.4648ms - 200
+2021-03-03 14:49:52.600 +01:00 [INF] End processing HTTP request after 78.6333ms - 200
+2021-03-03 14:49:52.613 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:49:52.614 +01:00 [INF] Received HTTP response headers after 156.1156ms - 503
+2021-03-03 14:49:52.638 +01:00 [INF] Request finished in 158.9266ms 503 application/json
+2021-03-03 14:49:52.643 +01:00 [INF] End processing HTTP request after 194.6024ms - 503
+2021-03-03 14:49:52.662 +01:00 [INF] Notification is sent on same window time.
+2021-03-03 14:49:52.669 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:49:55.227 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-ui  
+2021-03-03 14:49:55.236 +01:00 [INF] Executing endpoint '/healthchecks-ui HTTP: GET'
+2021-03-03 14:49:55.247 +01:00 [INF] Executed endpoint '/healthchecks-ui HTTP: GET'
+2021-03-03 14:49:55.252 +01:00 [INF] Request finished in 25.9006ms 200 text/html
+2021-03-03 14:49:55.300 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/healthchecksui-min.css  
+2021-03-03 14:49:55.300 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/vendors-dll.js  
+2021-03-03 14:49:55.300 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ui/resources/healthchecks-bundle.js  
+2021-03-03 14:49:55.310 +01:00 [INF] Executing endpoint '/ui/resources/healthchecksui-min.css HTTP: GET'
+2021-03-03 14:49:55.313 +01:00 [INF] Executing endpoint '/ui/resources/vendors-dll.js HTTP: GET'
+2021-03-03 14:49:55.314 +01:00 [INF] Executing endpoint '/ui/resources/healthchecks-bundle.js HTTP: GET'
+2021-03-03 14:49:55.338 +01:00 [INF] Executed endpoint '/ui/resources/healthchecksui-min.css HTTP: GET'
+2021-03-03 14:49:55.395 +01:00 [INF] Request finished in 95.698ms 200 text/css
+2021-03-03 14:49:55.395 +01:00 [INF] Executed endpoint '/ui/resources/healthchecks-bundle.js HTTP: GET'
+2021-03-03 14:49:55.441 +01:00 [INF] Request finished in 140.5724ms 200 text/javascript
+2021-03-03 14:49:55.476 +01:00 [INF] Executed endpoint '/ui/resources/vendors-dll.js HTTP: GET'
+2021-03-03 14:49:55.491 +01:00 [INF] Request finished in 190.5422ms 200 text/javascript
+2021-03-03 14:49:56.230 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api/ui-settings  
+2021-03-03 14:49:56.276 +01:00 [INF] Executing endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:49:56.576 +01:00 [INF] Executed endpoint '/healthchecks-api/ui-settings'
+2021-03-03 14:49:56.581 +01:00 [INF] Request finished in 352.032ms 200 application/json
+2021-03-03 14:49:56.723 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:49:56.737 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:49:56.793 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:49:56.970 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:49:56.988 +01:00 [INF] Request finished in 265.0354ms 200 application/json
+2021-03-03 14:50:02.689 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:02.700 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:02.709 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:02.716 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:50:02.749 +01:00 [INF] Request finished in 33.5712ms 307 
+2021-03-03 14:50:02.752 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:50:02.758 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:50:02.767 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:02.772 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:02.811 +01:00 [INF] Received HTTP response headers after 39.125ms - 200
+2021-03-03 14:50:02.817 +01:00 [INF] End processing HTTP request after 50.1843ms - 200
+2021-03-03 14:50:02.823 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:50:02.824 +01:00 [INF] Received HTTP response headers after 115.0818ms - 200
+2021-03-03 14:50:02.833 +01:00 [INF] Request finished in 80.924ms 200 application/json
+2021-03-03 14:50:02.837 +01:00 [INF] End processing HTTP request after 136.9177ms - 200
+2021-03-03 14:50:02.848 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-03 14:50:02.868 +01:00 [INF] Saved 4 entities to in-memory store.
+2021-03-03 14:50:06.997 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:50:07.002 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:07.006 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:07.014 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:07.020 +01:00 [INF] Request finished in 22.5308ms 200 application/json
+2021-03-03 14:50:12.884 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:12.897 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:12.903 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:12.908 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:50:12.910 +01:00 [INF] Request finished in 2.8525ms 307 
+2021-03-03 14:50:12.912 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:50:12.916 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:50:12.923 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:12.927 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:12.956 +01:00 [INF] Received HTTP response headers after 28.7144ms - 200
+2021-03-03 14:50:12.962 +01:00 [INF] End processing HTTP request after 39.5082ms - 200
+2021-03-03 14:50:12.967 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:50:12.968 +01:00 [INF] Received HTTP response headers after 64.3496ms - 200
+2021-03-03 14:50:12.971 +01:00 [INF] Request finished in 59.0474ms 200 application/json
+2021-03-03 14:50:12.973 +01:00 [INF] End processing HTTP request after 76.4626ms - 200
+2021-03-03 14:50:12.985 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:50:17.031 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:50:17.044 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:17.054 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:17.077 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:17.084 +01:00 [INF] Request finished in 52.5423ms 200 application/json
+2021-03-03 14:50:23.013 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:23.028 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:23.035 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:23.047 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:50:23.061 +01:00 [INF] Request finished in 15.0953ms 307 
+2021-03-03 14:50:23.065 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:50:23.079 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:50:23.090 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:23.097 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:23.144 +01:00 [INF] Received HTTP response headers after 47.1764ms - 200
+2021-03-03 14:50:23.153 +01:00 [INF] End processing HTTP request after 62.2948ms - 200
+2021-03-03 14:50:23.171 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:50:23.172 +01:00 [INF] Received HTTP response headers after 136.7921ms - 200
+2021-03-03 14:50:23.183 +01:00 [INF] Request finished in 118.8262ms 200 application/json
+2021-03-03 14:50:23.189 +01:00 [INF] End processing HTTP request after 161.4563ms - 200
+2021-03-03 14:50:23.218 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:50:27.117 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:50:27.126 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:27.141 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:27.168 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:27.183 +01:00 [INF] Request finished in 65.7452ms 200 application/json
+2021-03-03 14:50:33.236 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:33.242 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:33.245 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:33.253 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:50:33.257 +01:00 [INF] Request finished in 4.3088ms 307 
+2021-03-03 14:50:33.259 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:50:33.265 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:50:33.269 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:33.272 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:33.301 +01:00 [INF] Received HTTP response headers after 28.8722ms - 200
+2021-03-03 14:50:33.305 +01:00 [INF] End processing HTTP request after 35.7321ms - 200
+2021-03-03 14:50:33.309 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:50:33.309 +01:00 [INF] Received HTTP response headers after 63.694ms - 200
+2021-03-03 14:50:33.311 +01:00 [INF] Request finished in 52.3876ms 200 application/json
+2021-03-03 14:50:33.314 +01:00 [INF] End processing HTTP request after 72.1258ms - 200
+2021-03-03 14:50:33.323 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:50:37.199 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:50:37.203 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:37.206 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:37.212 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:37.217 +01:00 [INF] Request finished in 17.365ms 200 application/json
+2021-03-03 14:50:43.328 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:43.337 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:43.342 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:43.348 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:50:43.351 +01:00 [INF] Request finished in 3.791ms 307 
+2021-03-03 14:50:43.359 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:50:43.365 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:50:43.370 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:43.375 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:43.406 +01:00 [INF] Received HTTP response headers after 30.2603ms - 200
+2021-03-03 14:50:43.418 +01:00 [INF] End processing HTTP request after 48.2086ms - 200
+2021-03-03 14:50:43.427 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:50:43.427 +01:00 [INF] Received HTTP response headers after 84.9778ms - 200
+2021-03-03 14:50:43.432 +01:00 [INF] Request finished in 73.1286ms 200 application/json
+2021-03-03 14:50:43.435 +01:00 [INF] End processing HTTP request after 98.3133ms - 200
+2021-03-03 14:50:43.442 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:50:47.239 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:50:47.246 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:47.250 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:47.257 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:47.263 +01:00 [INF] Request finished in 23.8847ms 200 application/json
+2021-03-03 14:50:53.466 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:53.473 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:53.476 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-03 14:50:53.481 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-03 14:50:53.484 +01:00 [INF] Request finished in 3.2776ms 307 
+2021-03-03 14:50:53.485 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-03 14:50:53.488 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-03 14:50:53.492 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:53.497 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-03 14:50:53.536 +01:00 [INF] Received HTTP response headers after 40.3064ms - 200
+2021-03-03 14:50:53.540 +01:00 [INF] End processing HTTP request after 48.4134ms - 200
+2021-03-03 14:50:53.546 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-03 14:50:53.546 +01:00 [INF] Received HTTP response headers after 69.262ms - 200
+2021-03-03 14:50:53.549 +01:00 [INF] Request finished in 63.6178ms 200 application/json
+2021-03-03 14:50:53.551 +01:00 [INF] End processing HTTP request after 77.8052ms - 200
+2021-03-03 14:50:53.557 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-03 14:50:57.271 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/healthchecks-api  
+2021-03-03 14:50:57.276 +01:00 [INF] Executing endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:57.280 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-03 14:50:57.285 +01:00 [INF] Executed endpoint 'HealthChecks UI Api'
+2021-03-03 14:50:57.293 +01:00 [INF] Request finished in 21.6034ms 200 application/json

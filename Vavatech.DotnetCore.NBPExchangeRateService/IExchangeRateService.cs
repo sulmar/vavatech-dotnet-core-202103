@@ -20,10 +20,16 @@ namespace Vavatech.DotnetCore.NBPExchangeRateService
     {
         private readonly HttpClient client;
 
-        public NBPApiExchangeRateService(HttpClient client)
+        // dotnet add package Microsoft.Extensions.Http
+        public NBPApiExchangeRateService(IHttpClientFactory httpClientFactory)
         {
-            this.client = client;
+            client = httpClientFactory.CreateClient("nbpapi");
         }
+
+        //public NBPApiExchangeRateService(HttpClient client)
+        //{
+        //    this.client = client;
+        //}
 
         /// <summary>
         /// Aktualnie obowiązująca tabela kursów typu {table}

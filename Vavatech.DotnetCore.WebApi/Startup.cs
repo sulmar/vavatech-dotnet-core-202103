@@ -1,7 +1,9 @@
 using Bogus;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,6 +25,8 @@ using Vavatech.DotnetCore.FakeServices;
 using Vavatech.DotnetCore.IServices;
 using Vavatech.DotnetCore.Models;
 using Vavatech.DotnetCore.Models.Validators;
+using Vavatech.DotnetCore.NBPExchangeRateService;
+using Vavatech.DotnetCore.WebApi.HealthChecks;
 using Vavatech.DotnetCore.WebApi.RouteConstraints;
 
 namespace Vavatech.DotnetCore.WebApi
@@ -91,6 +95,31 @@ namespace Vavatech.DotnetCore.WebApi
                 options.Description = "Lorem ipsum";
             });
 
+            // Nazwani klienci (Named Clients)
+            services.AddHttpClient("nbpapi", config => 
+            {
+                config.BaseAddress = new Uri("http://api.nbp.pl/");
+                config.DefaultRequestHeaders.Add("Accept", "application/json");
+            });
+
+
+            services.AddTransient<IExchangeRateService, NBPApiExchangeRateService>();
+
+            services.AddHealthChecks()
+                .AddCheck<RandomHealthCheck>("random")
+                .AddCheck<NBPApiHealthCheck>("nbp-api");
+
+            // dotnet add package AspNetCore.HealthChecks.UI
+            // dotnet add package AspNetCore.HealthChecks.UI.Client
+            // dotnet add package AspNetCore.HealthChecks.UI.InMemory.Storage
+
+            services.AddHealthChecksUI(options =>
+            {
+                options.AddHealthCheckEndpoint("My API", "http://localhost:5000/health");
+                options.SetEvaluationTimeInSeconds(10);
+            })
+                .AddInMemoryStorage();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -136,6 +165,18 @@ namespace Vavatech.DotnetCore.WebApi
                 //});
 
                 endpoints.MapRedirect("/", "/swagger");
+
+                // dotnet add package AspNetCore.HealthChecks.UI.Client
+                
+
+                endpoints.MapHealthChecks("/health", new HealthCheckOptions()
+                { 
+                    Predicate = _ => true,
+                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+                });
+
+                // https://localhost:5001/healthchecks-ui
+                endpoints.MapHealthChecksUI();
 
                 endpoints.MapControllers();
             });
