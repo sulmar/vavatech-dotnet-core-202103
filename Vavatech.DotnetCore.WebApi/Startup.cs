@@ -17,7 +17,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 using Validators.Polish;
 using Vavatech.DotnetCore.Fakers;
 using Vavatech.DotnetCore.FakeServices;
@@ -130,11 +129,13 @@ namespace Vavatech.DotnetCore.WebApi
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", context =>
-                {
-                    context.Response.Redirect("/swagger");
-                    return Task.CompletedTask;
-                });
+                //endpoints.MapGet("/", context =>
+                //{
+                //    context.Response.Redirect("/swagger");
+                //    return Task.CompletedTask;
+                //});
+
+                endpoints.MapRedirect("/", "/swagger");
 
                 endpoints.MapControllers();
             });
