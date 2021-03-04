@@ -19,7 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.NBPExch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.ConsoleClient", "Vavatech.DotnetCore.ConsoleClient\Vavatech.DotnetCore.ConsoleClient.csproj", "{595D8C0F-7FFE-48A5-AFB4-BD161E149E13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.Api", "Vavatech.DotnetCore.Api\Vavatech.DotnetCore.Api.csproj", "{BE13FF2A-C075-4943-889A-F5D173D5B4E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.Api", "Vavatech.DotnetCore.Api\Vavatech.DotnetCore.Api.csproj", "{BE13FF2A-C075-4943-889A-F5D173D5B4E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.SignalRHub", "Vavatech.DotnetCore.SignalRHub\Vavatech.DotnetCore.SignalRHub.csproj", "{2CAF11BB-54F7-4110-B631-C23BA110B39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.SignalRSenderConsoleClient", "Vavatech.DotnetCore.SignalRSenderConsoleClient\Vavatech.DotnetCore.SignalRSenderConsoleClient.csproj", "{9FCF3F29-49B7-4567-8E4F-960A56445280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.SignalRReceiverConsoleClient", "Vavatech.DotnetCore.SignalRReceiverConsoleClient\Vavatech.DotnetCore.SignalRReceiverConsoleClient.csproj", "{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{BE13FF2A-C075-4943-889A-F5D173D5B4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE13FF2A-C075-4943-889A-F5D173D5B4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE13FF2A-C075-4943-889A-F5D173D5B4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CAF11BB-54F7-4110-B631-C23BA110B39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CAF11BB-54F7-4110-B631-C23BA110B39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CAF11BB-54F7-4110-B631-C23BA110B39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAF11BB-54F7-4110-B631-C23BA110B39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCF3F29-49B7-4567-8E4F-960A56445280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCF3F29-49B7-4567-8E4F-960A56445280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCF3F29-49B7-4567-8E4F-960A56445280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCF3F29-49B7-4567-8E4F-960A56445280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
