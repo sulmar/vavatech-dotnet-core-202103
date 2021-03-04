@@ -59,6 +59,13 @@ namespace Vavatech.DotnetCore.WebApi.AuthenticationHandlers
 
             identity.AddClaim(new Claim(ClaimTypes.Email, customer.Email));
 
+            //identity.AddClaim(new Claim("kat", "B"));
+            //identity.AddClaim(new Claim("kat", "C"));
+            
+
+            //identity.AddClaim(new Claim(ClaimTypes.Role, "Developer"));
+            //identity.AddClaim(new Claim(ClaimTypes.Role, "Trainer"));
+
             var ticket = new AuthenticationTicket(principal, Scheme.Name);
 
             return AuthenticateResult.Success(ticket);

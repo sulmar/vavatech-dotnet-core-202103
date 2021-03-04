@@ -29,6 +29,7 @@ using Vavatech.DotnetCore.Models.Validators;
 using Vavatech.DotnetCore.NBPExchangeRateService;
 using Vavatech.DotnetCore.WebApi.AuthenticationHandlers;
 using Vavatech.DotnetCore.WebApi.HealthChecks;
+using Vavatech.DotnetCore.WebApi.Identity;
 using Vavatech.DotnetCore.WebApi.RouteConstraints;
 
 namespace Vavatech.DotnetCore.WebApi
@@ -118,7 +119,7 @@ namespace Vavatech.DotnetCore.WebApi
             services.AddHealthChecksUI(options =>
             {
                 options.AddHealthCheckEndpoint("My API", "http://localhost:5000/health");
-                options.SetEvaluationTimeInSeconds(10);
+                options.SetEvaluationTimeInSeconds(60);
             })
                 .AddInMemoryStorage();
 
@@ -127,6 +128,7 @@ namespace Vavatech.DotnetCore.WebApi
                 .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);
 
             services.AddTransient<IServices.IAuthenticationService, Identity.AuthenticationService>();
+            services.AddScoped<IClaimsTransformation, CustomerClaimsTransformation>();
 
         }
 

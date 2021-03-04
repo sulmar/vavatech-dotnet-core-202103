@@ -1,0 +1,859 @@
+2021-03-04 08:27:59.466 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 08:27:59.546 +01:00 [INF] Initializing UI Database
+2021-03-04 08:28:00.164 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 08:28:00.339 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 08:28:00.427 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 08:28:00.978 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 08:28:00.987 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 08:28:01.081 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 08:28:01.127 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:01.135 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:01.198 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 08:28:01.203 +01:00 [INF] Hosting environment: Development
+2021-03-04 08:28:01.207 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 08:28:01.227 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 08:28:01.290 +01:00 [INF] Request finished in 58.1817ms 307 
+2021-03-04 08:28:01.403 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 08:28:01.932 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 08:28:01.937 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 08:28:01.965 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:01.969 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:02.034 +01:00 [INF] Received HTTP response headers after 61.0441ms - 200
+2021-03-04 08:28:02.041 +01:00 [INF] End processing HTTP request after 76.2093ms - 200
+2021-03-04 08:28:02.413 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 08:28:02.433 +01:00 [INF] Received HTTP response headers after 1298.8105ms - 200
+2021-03-04 08:28:02.527 +01:00 [INF] End processing HTTP request after 1407.8482ms - 200
+2021-03-04 08:28:02.543 +01:00 [INF] Request finished in 1140.0406ms 200 application/json
+2021-03-04 08:28:02.779 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 08:28:03.481 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 08:28:03.492 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 08:28:03.496 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 08:28:03.527 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria, Vavatech.DotnetCore.IServices.IMessageService) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-04 08:28:03.581 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-03-04 08:28:03.630 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 94.4347ms
+2021-03-04 08:28:03.636 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 08:28:03.647 +01:00 [INF] Request finished in 165.784ms 401 application/problem+json; charset=utf-8
+2021-03-04 08:28:03.715 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2021-03-04 08:28:03.724 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 08:28:03.731 +01:00 [INF] Request finished in 15.2254ms 404 
+2021-03-04 08:28:12.815 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 08:28:12.821 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:12.824 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:12.846 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 08:28:12.850 +01:00 [INF] Request finished in 4.3921ms 307 
+2021-03-04 08:28:12.853 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 08:28:12.858 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 08:28:12.862 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 08:28:12.869 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:12.877 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:12.917 +01:00 [INF] Received HTTP response headers after 39.6082ms - 200
+2021-03-04 08:28:12.922 +01:00 [INF] End processing HTTP request after 52.7296ms - 200
+2021-03-04 08:28:12.926 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 08:28:12.926 +01:00 [INF] Received HTTP response headers after 101.9147ms - 200
+2021-03-04 08:28:12.934 +01:00 [INF] Request finished in 81.1553ms 200 application/json
+2021-03-04 08:28:12.937 +01:00 [INF] End processing HTTP request after 115.5957ms - 200
+2021-03-04 08:28:12.965 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 08:28:22.994 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 08:28:23.001 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:23.004 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:23.010 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 08:28:23.014 +01:00 [INF] Request finished in 3.9287ms 307 
+2021-03-04 08:28:23.016 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 08:28:23.025 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 08:28:23.029 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 08:28:23.038 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:23.059 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:23.108 +01:00 [INF] Received HTTP response headers after 49.6039ms - 200
+2021-03-04 08:28:23.116 +01:00 [INF] End processing HTTP request after 78.4326ms - 200
+2021-03-04 08:28:23.123 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 08:28:23.123 +01:00 [INF] Received HTTP response headers after 118.4229ms - 200
+2021-03-04 08:28:23.128 +01:00 [INF] Request finished in 112.5664ms 200 application/json
+2021-03-04 08:28:23.131 +01:00 [INF] End processing HTTP request after 130.4994ms - 200
+2021-03-04 08:28:23.147 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 08:28:33.163 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 08:28:33.169 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:33.172 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:33.176 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 08:28:33.180 +01:00 [INF] Request finished in 4.6766ms 307 
+2021-03-04 08:28:33.182 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 08:28:33.195 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 08:28:33.205 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 08:28:33.213 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:33.221 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:33.262 +01:00 [INF] Received HTTP response headers after 41.1274ms - 200
+2021-03-04 08:28:33.266 +01:00 [INF] End processing HTTP request after 53.1563ms - 200
+2021-03-04 08:28:33.270 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 08:28:33.270 +01:00 [INF] Received HTTP response headers after 98.3519ms - 200
+2021-03-04 08:28:33.275 +01:00 [INF] Request finished in 92.5764ms 200 application/json
+2021-03-04 08:28:33.278 +01:00 [INF] End processing HTTP request after 108.7445ms - 200
+2021-03-04 08:28:33.327 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 08:28:43.350 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 08:28:43.383 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:43.388 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 08:28:43.417 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 08:28:43.423 +01:00 [INF] Request finished in 5.6428ms 307 
+2021-03-04 08:28:43.426 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 08:28:43.482 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 08:28:43.511 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 08:28:43.516 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:43.524 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 08:28:43.559 +01:00 [INF] Received HTTP response headers after 34.7658ms - 200
+2021-03-04 08:28:43.563 +01:00 [INF] End processing HTTP request after 47.1636ms - 200
+2021-03-04 08:28:43.569 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 08:28:43.569 +01:00 [INF] Received HTTP response headers after 181.4063ms - 200
+2021-03-04 08:28:43.573 +01:00 [INF] Request finished in 146.6824ms 200 application/json
+2021-03-04 08:28:43.575 +01:00 [INF] End processing HTTP request after 192.7068ms - 200
+2021-03-04 08:28:43.586 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 08:28:48.056 +01:00 [INF] Application is shutting down...
+2021-03-04 09:04:51.478 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:04:51.564 +01:00 [INF] Initializing UI Database
+2021-03-04 09:04:52.255 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:04:52.434 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:04:52.577 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:04:53.092 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:04:53.098 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:04:53.137 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:04:53.228 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:04:53.239 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:04:53.318 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:04:53.322 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:04:53.332 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:04:53.365 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:04:53.412 +01:00 [INF] Request finished in 50.8797ms 307 
+2021-03-04 09:04:53.543 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:04:55.346 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:04:55.360 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:04:55.391 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:04:55.397 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:04:55.491 +01:00 [INF] Received HTTP response headers after 79.4369ms - 200
+2021-03-04 09:04:55.507 +01:00 [INF] End processing HTTP request after 115.6286ms - 200
+2021-03-04 09:04:55.991 +01:00 [INF] Received HTTP response headers after 2751.9055ms - 200
+2021-03-04 09:04:55.991 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:04:55.997 +01:00 [INF] End processing HTTP request after 2786.2859ms - 200
+2021-03-04 09:04:56.017 +01:00 [INF] Request finished in 2474.6366ms 200 application/json
+2021-03-04 09:04:56.385 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:04:56.937 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:04:56.947 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:04:56.982 +01:00 [INF] Authorization failed.
+2021-03-04 09:04:56.988 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:04:57.006 +01:00 [INF] Request finished in 67.6359ms 401 
+2021-03-04 09:05:06.457 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:05:06.473 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:05:06.477 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:05:06.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:05:06.500 +01:00 [INF] Request finished in 5.6739ms 307 
+2021-03-04 09:05:06.503 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:05:06.547 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:05:06.573 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:05:06.608 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:05:06.641 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:05:06.643 +01:00 [ERR] Health check random completed after 1.4974ms with status "Unhealthy" and 'Test'
+2021-03-04 09:05:06.716 +01:00 [INF] Received HTTP response headers after 75.5639ms - 200
+2021-03-04 09:05:06.735 +01:00 [INF] End processing HTTP request after 127.0912ms - 200
+2021-03-04 09:05:06.768 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:05:06.768 +01:00 [INF] Received HTTP response headers after 290.9958ms - 503
+2021-03-04 09:05:06.786 +01:00 [INF] Request finished in 283.5958ms 503 application/json
+2021-03-04 09:05:06.797 +01:00 [INF] End processing HTTP request after 323.5654ms - 503
+2021-03-04 09:05:06.977 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:05:07.047 +01:00 [INF] Saved 4 entities to in-memory store.
+2021-03-04 09:06:23.138 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:06:23.280 +01:00 [INF] Initializing UI Database
+2021-03-04 09:06:24.182 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:06:24.413 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:06:24.550 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:06:25.121 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:06:25.130 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:06:25.214 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:06:25.284 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:06:25.290 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:06:25.425 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:06:25.433 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:06:25.440 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:06:25.494 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:06:25.565 +01:00 [INF] Request finished in 83.2685ms 307 
+2021-03-04 09:06:25.765 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:06:27.365 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:06:27.375 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:06:27.410 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:06:27.417 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:06:27.491 +01:00 [INF] Received HTTP response headers after 66.5838ms - 200
+2021-03-04 09:06:27.499 +01:00 [INF] End processing HTTP request after 87.8008ms - 200
+2021-03-04 09:06:27.626 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:06:27.654 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:06:27.681 +01:00 [INF] Authorization failed.
+2021-03-04 09:06:27.687 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:06:27.706 +01:00 [INF] Request finished in 80.1605ms 401 
+2021-03-04 09:06:28.022 +01:00 [INF] Received HTTP response headers after 2732.0744ms - 200
+2021-03-04 09:06:28.022 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:06:28.029 +01:00 [INF] End processing HTTP request after 2753.6416ms - 200
+2021-03-04 09:06:28.058 +01:00 [INF] Request finished in 2281.027ms 200 application/json
+2021-03-04 09:06:28.354 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:06:38.410 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:06:38.422 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:06:38.429 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:06:38.453 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:06:38.457 +01:00 [INF] Request finished in 3.7127ms 307 
+2021-03-04 09:06:38.458 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:06:38.469 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:06:38.476 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:06:38.484 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:06:38.488 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:06:38.526 +01:00 [INF] Received HTTP response headers after 38.0407ms - 200
+2021-03-04 09:06:38.534 +01:00 [INF] End processing HTTP request after 50.516ms - 200
+2021-03-04 09:06:38.540 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:06:38.540 +01:00 [INF] Received HTTP response headers after 110.8822ms - 200
+2021-03-04 09:06:38.548 +01:00 [INF] Request finished in 89.0049ms 200 application/json
+2021-03-04 09:06:38.552 +01:00 [INF] End processing HTTP request after 130.0292ms - 200
+2021-03-04 09:06:38.579 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:09:19.833 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:09:19.924 +01:00 [INF] Initializing UI Database
+2021-03-04 09:09:20.716 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:09:20.940 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:09:21.099 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:09:21.605 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:09:21.609 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:09:21.643 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:09:21.680 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:09:21.685 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:09:21.738 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:09:21.744 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:09:21.747 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:09:21.771 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:09:21.798 +01:00 [INF] Request finished in 28.7008ms 307 
+2021-03-04 09:09:21.945 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:09:23.509 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:09:23.516 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:09:23.538 +01:00 [ERR] Health check random completed after 1.649ms with status "Unhealthy" and 'Test'
+2021-03-04 09:09:23.540 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:09:23.547 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:09:23.644 +01:00 [INF] Received HTTP response headers after 93.054ms - 200
+2021-03-04 09:09:23.651 +01:00 [INF] End processing HTTP request after 110.6687ms - 200
+2021-03-04 09:09:23.977 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:09:23.977 +01:00 [INF] Received HTTP response headers after 2292.443ms - 503
+2021-03-04 09:09:24.001 +01:00 [INF] End processing HTTP request after 2327.4408ms - 503
+2021-03-04 09:09:24.015 +01:00 [INF] Request finished in 2070.4792ms 503 application/json
+2021-03-04 09:09:24.191 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:09:24.336 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:09:25.276 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:09:25.303 +01:00 [INF] Basic was not authenticated. Failure message: Invalid login or password
+2021-03-04 09:09:25.337 +01:00 [INF] Authorization failed.
+2021-03-04 09:09:25.343 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:09:25.347 +01:00 [INF] Request finished in 71.8825ms 401 
+2021-03-04 09:09:25.867 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:09:25.891 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:09:25.903 +01:00 [INF] Authorization failed.
+2021-03-04 09:09:25.911 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:09:25.924 +01:00 [INF] Request finished in 56.7111ms 401 
+2021-03-04 09:09:32.892 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:09:32.898 +01:00 [INF] Basic was not authenticated. Failure message: Invalid login or password
+2021-03-04 09:09:32.903 +01:00 [INF] Authorization failed.
+2021-03-04 09:09:32.924 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:09:32.936 +01:00 [INF] Request finished in 43.9111ms 401 
+2021-03-04 09:09:34.400 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:09:34.407 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:09:34.410 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:09:34.415 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:09:34.418 +01:00 [INF] Request finished in 3.4487ms 307 
+2021-03-04 09:09:34.420 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:09:34.432 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:09:34.446 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:09:34.454 +01:00 [ERR] Health check random completed after 0.2797ms with status "Unhealthy" and 'Test'
+2021-03-04 09:09:34.454 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:09:34.462 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:09:34.509 +01:00 [INF] Received HTTP response headers after 46.712ms - 200
+2021-03-04 09:09:34.527 +01:00 [INF] End processing HTTP request after 72.2766ms - 200
+2021-03-04 09:09:34.553 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:09:34.555 +01:00 [INF] Received HTTP response headers after 144.6142ms - 503
+2021-03-04 09:09:34.568 +01:00 [INF] Request finished in 147.5727ms 503 application/json
+2021-03-04 09:09:34.576 +01:00 [INF] End processing HTTP request after 169.0968ms - 503
+2021-03-04 09:09:34.616 +01:00 [INF] Notification is sent on same window time.
+2021-03-04 09:09:34.667 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:09:44.697 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:09:44.712 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:09:44.718 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:09:44.724 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:09:44.728 +01:00 [INF] Request finished in 4.1132ms 307 
+2021-03-04 09:09:44.731 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:09:51.675 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:09:51.676 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:09:51.680 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:09:52.589 +01:00 [INF] Basic was not authenticated. Failure message: Invalid login or password
+2021-03-04 09:09:52.590 +01:00 [ERR] Health check random completed after 0.0374ms with status "Unhealthy" and 'Test'
+2021-03-04 09:09:52.591 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:09:52.595 +01:00 [INF] Authorization failed.
+2021-03-04 09:09:52.601 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:09:52.606 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:09:52.614 +01:00 [INF] Request finished in 938.0077ms 401 
+2021-03-04 09:09:52.652 +01:00 [INF] Received HTTP response headers after 50.6058ms - 200
+2021-03-04 09:09:52.657 +01:00 [INF] End processing HTTP request after 66.2789ms - 200
+2021-03-04 09:09:52.664 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:09:52.664 +01:00 [INF] Received HTTP response headers after 7946.4368ms - 503
+2021-03-04 09:09:52.667 +01:00 [INF] Request finished in 7936.0101ms 503 application/json
+2021-03-04 09:09:52.673 +01:00 [INF] End processing HTTP request after 7961.5667ms - 503
+2021-03-04 09:09:52.698 +01:00 [INF] Notification is sent on same window time.
+2021-03-04 09:09:52.706 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:10:46.590 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:10:46.693 +01:00 [INF] Initializing UI Database
+2021-03-04 09:10:47.491 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:10:47.704 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:10:47.824 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:10:48.345 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:10:48.355 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:10:48.392 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:10:48.431 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:10:48.436 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:10:48.505 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:10:48.511 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:10:48.516 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:10:48.550 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:10:48.608 +01:00 [INF] Request finished in 61.0687ms 307 
+2021-03-04 09:10:48.713 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:10:52.377 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:10:52.392 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:10:52.435 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:10:52.452 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:10:53.192 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:10:53.209 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:10:53.232 +01:00 [INF] Authorization failed.
+2021-03-04 09:10:53.249 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:10:53.286 +01:00 [INF] Request finished in 850.4652ms 401 
+2021-03-04 09:10:53.301 +01:00 [INF] Received HTTP response headers after 76.7668ms - 200
+2021-03-04 09:10:53.316 +01:00 [INF] End processing HTTP request after 863.2781ms - 200
+2021-03-04 09:10:53.862 +01:00 [INF] Received HTTP response headers after 5425.5127ms - 200
+2021-03-04 09:10:53.863 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:10:53.873 +01:00 [INF] End processing HTTP request after 5448.2556ms - 200
+2021-03-04 09:10:53.899 +01:00 [INF] Request finished in 5185.4228ms 200 application/json
+2021-03-04 09:10:54.239 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:10:56.687 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:10:59.873 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at Vavatech.DotnetCore.WebApi.AuthenticationHandlers.BasicAuthenticationHandler.HandleAuthenticateAsync() in C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi\AuthenticationHandlers\BasicAuthenticationHandler.cs:line 62
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-04 09:11:00.028 +01:00 [INF] Request finished in 3341.4423ms 500 text/plain
+2021-03-04 09:11:04.286 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:11:04.292 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:11:04.295 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:11:04.308 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:11:04.311 +01:00 [INF] Request finished in 3.1885ms 307 
+2021-03-04 09:11:04.314 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:11:09.132 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:11:09.143 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:11:09.158 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:11:09.164 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:11:09.165 +01:00 [ERR] Health check random completed after 0.7585ms with status "Unhealthy" and 'Test'
+2021-03-04 09:11:09.203 +01:00 [INF] Received HTTP response headers after 38.7337ms - 200
+2021-03-04 09:11:09.215 +01:00 [INF] End processing HTTP request after 56.5048ms - 200
+2021-03-04 09:11:09.225 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:11:09.226 +01:00 [INF] Received HTTP response headers after 4930.7009ms - 503
+2021-03-04 09:11:09.234 +01:00 [INF] Request finished in 4919.8232ms 503 application/json
+2021-03-04 09:11:09.236 +01:00 [INF] End processing HTTP request after 4944.5421ms - 503
+2021-03-04 09:11:09.296 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:11:09.325 +01:00 [INF] Saved 4 entities to in-memory store.
+2021-03-04 09:11:11.608 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:11:24.937 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:11:25.019 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:11:25.065 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:11:25.075 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:11:25.079 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at Vavatech.DotnetCore.WebApi.AuthenticationHandlers.BasicAuthenticationHandler.HandleAuthenticateAsync() in C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi\AuthenticationHandlers\BasicAuthenticationHandler.cs:line 62
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-04 09:11:25.079 +01:00 [INF] Request finished in 4.5185ms 307 
+2021-03-04 09:11:25.093 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:11:32.558 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:11:32.558 +01:00 [INF] Request finished in 20950.6061ms 500 text/plain
+2021-03-04 09:11:32.562 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:11:32.588 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:11:33.862 +01:00 [ERR] Health check random completed after 1269.9934ms with status "Unhealthy" and 'Test'
+2021-03-04 09:11:33.865 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:11:33.903 +01:00 [INF] Received HTTP response headers after 38.4536ms - 200
+2021-03-04 09:11:33.907 +01:00 [INF] End processing HTTP request after 1319.6149ms - 200
+2021-03-04 09:11:33.911 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:11:33.911 +01:00 [INF] Received HTTP response headers after 8845.7298ms - 503
+2021-03-04 09:11:33.914 +01:00 [INF] Request finished in 8820.5898ms 503 application/json
+2021-03-04 09:11:33.917 +01:00 [INF] End processing HTTP request after 8897.789ms - 503
+2021-03-04 09:11:33.937 +01:00 [INF] Notification is sent on same window time.
+2021-03-04 09:11:33.945 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:11:43.952 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:11:43.959 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:11:43.963 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:11:43.968 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:11:43.971 +01:00 [INF] Request finished in 2.8074ms 307 
+2021-03-04 09:11:43.974 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:12:03.969 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:12:04.087 +01:00 [INF] Initializing UI Database
+2021-03-04 09:12:04.782 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:12:05.002 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:12:05.128 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:12:05.759 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:12:05.762 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:12:05.849 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:12:05.915 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:12:05.924 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:12:06.008 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:12:06.014 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:12:06.023 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:12:06.065 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:12:06.151 +01:00 [INF] Request finished in 88.8779ms 307 
+2021-03-04 09:12:06.313 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:12:10.116 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:12:10.126 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:12:10.186 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:12:10.199 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:12:10.216 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:12:11.060 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:12:11.079 +01:00 [INF] Authorization failed.
+2021-03-04 09:12:11.086 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:12:11.108 +01:00 [INF] Received HTTP response headers after 889.8897ms - 200
+2021-03-04 09:12:11.112 +01:00 [INF] Request finished in 896.8898ms 401 
+2021-03-04 09:12:11.123 +01:00 [INF] End processing HTTP request after 936.7874ms - 200
+2021-03-04 09:12:11.763 +01:00 [INF] Received HTTP response headers after 5839.8656ms - 200
+2021-03-04 09:12:11.763 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:12:11.767 +01:00 [INF] End processing HTTP request after 5872.1921ms - 200
+2021-03-04 09:12:11.793 +01:00 [INF] Request finished in 5480.0917ms 200 application/json
+2021-03-04 09:12:12.051 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:12:15.584 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:12:44.640 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at Vavatech.DotnetCore.WebApi.AuthenticationHandlers.BasicAuthenticationHandler.HandleAuthenticateAsync() in C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi\AuthenticationHandlers\BasicAuthenticationHandler.cs:line 62
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-04 09:12:44.730 +01:00 [INF] Request finished in 29146.184ms 500 text/plain
+2021-03-04 09:13:15.010 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:13:15.189 +01:00 [INF] Initializing UI Database
+2021-03-04 09:13:15.908 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:13:16.046 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:13:16.125 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:13:16.503 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:13:16.507 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:13:16.538 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:13:16.576 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:13:16.582 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:13:16.658 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:13:16.662 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:13:16.665 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:13:16.688 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:13:16.717 +01:00 [INF] Request finished in 29.8053ms 307 
+2021-03-04 09:13:16.840 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:13:20.337 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:13:20.351 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:13:20.379 +01:00 [ERR] Health check random completed after 1.8381ms with status "Unhealthy" and 'Test'
+2021-03-04 09:13:20.394 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:13:20.408 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:13:20.421 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:13:21.556 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:13:21.573 +01:00 [INF] Authorization failed.
+2021-03-04 09:13:21.585 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:13:21.614 +01:00 [INF] Request finished in 1192.7371ms 401 
+2021-03-04 09:13:21.624 +01:00 [INF] Received HTTP response headers after 1202.084ms - 200
+2021-03-04 09:13:21.652 +01:00 [INF] End processing HTTP request after 1258.4277ms - 200
+2021-03-04 09:13:22.311 +01:00 [INF] Received HTTP response headers after 5729.8582ms - 503
+2021-03-04 09:13:22.312 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:13:22.316 +01:00 [INF] End processing HTTP request after 5745.8252ms - 503
+2021-03-04 09:13:22.325 +01:00 [INF] Request finished in 5485.1144ms 503 application/json
+2021-03-04 09:13:22.492 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:13:22.720 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:13:26.155 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:13:33.342 +01:00 [INF] Authorization was successful.
+2021-03-04 09:13:33.348 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:13:33.418 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria, Vavatech.DotnetCore.IServices.IMessageService) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-04 09:13:56.219 +01:00 [INF] Send sms Send email to <marcin.sulecki@sulmar.pl>!
+2021-03-04 09:13:56.224 +01:00 [INF] Get Customers!
+2021-03-04 09:13:56.232 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-04 09:13:56.303 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 22867.477ms
+2021-03-04 09:13:56.310 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:13:56.315 +01:00 [INF] Request finished in 30159.0393ms 200 application/json; charset=utf-8
+2021-03-04 09:14:22.767 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:14:22.773 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:14:22.776 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:14:22.807 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:14:22.811 +01:00 [INF] Request finished in 4.0395ms 307 
+2021-03-04 09:14:22.839 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:19:33.504 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:19:33.509 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:19:33.510 +01:00 [ERR] GetHealthReport threw an exception when trying to get report from http://localhost:5000/health configured with name My API.
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operacja We/Wy została przerwana z powodu zakończenia wątku lub żądania aplikacji..
+ ---> System.Net.Sockets.SocketException (995): Operacja We/Wy została przerwana z powodu zakończenia wątku lub żądania aplikacji.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at HealthChecks.UI.Core.HostedService.HealthCheckReportCollector.GetHealthReport(HealthCheckConfiguration configuration)
+2021-03-04 09:19:36.523 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:19:36.588 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.Extensions.Diagnostics.HealthChecks.DefaultHealthCheckService.CheckHealthAsync(Func`2 predicate, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckMiddleware.InvokeAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-04 09:19:36.607 +01:00 [INF] Notification is sent on same window time.
+2021-03-04 09:19:36.619 +01:00 [INF] Request finished in 313780.572ms 500 text/plain
+2021-03-04 09:19:36.649 +01:00 [INF] Saved 4 entities to in-memory store.
+2021-03-04 09:20:41.386 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:20:41.511 +01:00 [INF] Initializing UI Database
+2021-03-04 09:20:42.209 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:20:42.406 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:20:42.533 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:20:42.983 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:20:42.995 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:20:43.034 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:20:43.083 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:20:43.089 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:20:43.233 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:20:43.239 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:20:43.244 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:20:43.280 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:20:43.346 +01:00 [INF] Request finished in 75.1246ms 307 
+2021-03-04 09:20:43.500 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:20:46.984 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:20:47.012 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:20:47.066 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:20:47.074 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:20:47.102 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:20:49.714 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:20:49.732 +01:00 [INF] Received HTTP response headers after 2648.0478ms - 408
+2021-03-04 09:20:49.747 +01:00 [INF] End processing HTTP request after 2679.8087ms - 408
+2021-03-04 09:20:49.754 +01:00 [INF] Authorization failed.
+2021-03-04 09:20:49.766 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:20:49.969 +01:00 [INF] Request finished in 2818.7639ms 401 
+2021-03-04 09:20:50.127 +01:00 [WRN] Health check nbp-api completed after 3078.7916ms with status "Degraded" and 'API nie odpowiada'
+2021-03-04 09:20:50.199 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:20:50.200 +01:00 [INF] Received HTTP response headers after 7110.9228ms - 200
+2021-03-04 09:20:50.214 +01:00 [INF] End processing HTTP request after 7136.5265ms - 200
+2021-03-04 09:20:50.221 +01:00 [INF] Request finished in 6721.0454ms 200 application/json
+2021-03-04 09:20:50.628 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:20:50.821 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:20:55.823 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:20:58.244 +01:00 [INF] Authorization failed.
+2021-03-04 09:20:58.249 +01:00 [INF] AuthenticationScheme: Basic was forbidden.
+2021-03-04 09:20:58.253 +01:00 [INF] Request finished in 2429.6783ms 403 
+2021-03-04 09:22:11.862 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:22:11.953 +01:00 [INF] Initializing UI Database
+2021-03-04 09:22:12.626 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:22:12.815 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:22:12.918 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:22:13.371 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:22:13.380 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:22:13.431 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:22:13.488 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:22:13.500 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:22:13.609 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:22:13.612 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:22:13.614 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:22:13.644 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:22:13.674 +01:00 [INF] Request finished in 30.9728ms 307 
+2021-03-04 09:22:13.758 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:22:15.317 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:22:15.395 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:22:15.395 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:22:15.405 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:22:15.415 +01:00 [INF] Authorization failed.
+2021-03-04 09:22:15.433 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:22:15.434 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:22:15.446 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:22:15.465 +01:00 [INF] Request finished in 147.5496ms 401 
+2021-03-04 09:22:15.523 +01:00 [INF] Received HTTP response headers after 70.6923ms - 200
+2021-03-04 09:22:15.538 +01:00 [INF] End processing HTTP request after 103.2684ms - 200
+2021-03-04 09:22:16.095 +01:00 [INF] Received HTTP response headers after 2595.5366ms - 200
+2021-03-04 09:22:16.095 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:22:16.100 +01:00 [INF] End processing HTTP request after 2622.6421ms - 200
+2021-03-04 09:22:16.117 +01:00 [INF] Request finished in 2358.0786ms 200 application/json
+2021-03-04 09:22:16.367 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:22:29.591 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:22:29.605 +01:00 [INF] Authorization failed.
+2021-03-04 09:22:29.617 +01:00 [INF] AuthenticationScheme: Basic was forbidden.
+2021-03-04 09:22:29.625 +01:00 [INF] Request finished in 33.5309ms 403 
+2021-03-04 09:22:47.609 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:22:47.698 +01:00 [INF] Initializing UI Database
+2021-03-04 09:22:48.225 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:22:48.377 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:22:48.462 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:22:48.803 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:22:48.806 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:22:48.842 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:22:48.887 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:22:48.892 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:22:48.946 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:22:48.957 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:22:48.968 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:22:48.997 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:22:49.024 +01:00 [INF] Request finished in 28.9538ms 307 
+2021-03-04 09:22:49.118 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:22:50.587 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:22:50.607 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:22:50.638 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:22:50.642 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:22:50.726 +01:00 [INF] Received HTTP response headers after 79.5753ms - 200
+2021-03-04 09:22:50.733 +01:00 [INF] End processing HTTP request after 94.1707ms - 200
+2021-03-04 09:22:51.089 +01:00 [INF] Received HTTP response headers after 2196.7003ms - 200
+2021-03-04 09:22:51.089 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:22:51.094 +01:00 [INF] End processing HTTP request after 2212.9573ms - 200
+2021-03-04 09:22:51.117 +01:00 [INF] Request finished in 1997.7451ms 200 application/json
+2021-03-04 09:22:51.408 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:22:52.903 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:22:52.911 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:22:52.933 +01:00 [INF] Authorization failed.
+2021-03-04 09:22:52.942 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:22:52.953 +01:00 [INF] Request finished in 50.6587ms 401 
+2021-03-04 09:22:56.367 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:22:56.384 +01:00 [INF] Authorization was successful.
+2021-03-04 09:22:56.391 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:22:56.450 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria, Vavatech.DotnetCore.IServices.IMessageService) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-04 09:23:12.229 +01:00 [INF] Send sms Send email to <marcin.sulecki@sulmar.pl>!
+2021-03-04 09:23:12.235 +01:00 [INF] Get Customers!
+2021-03-04 09:23:12.242 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-04 09:23:12.315 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 15853.5918ms
+2021-03-04 09:23:12.326 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:23:12.333 +01:00 [INF] Request finished in 15966.3742ms 200 application/json; charset=utf-8
+2021-03-04 09:29:04.728 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:29:04.886 +01:00 [INF] Initializing UI Database
+2021-03-04 09:29:05.637 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:29:05.897 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:29:06.042 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:29:06.395 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:29:06.406 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:29:06.438 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:29:06.475 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:29:06.482 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:29:06.545 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:29:06.552 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:29:06.555 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:29:06.583 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:29:06.649 +01:00 [INF] Request finished in 38.3934ms 307 
+2021-03-04 09:29:06.870 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:29:08.649 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:29:08.716 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:29:08.716 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:29:08.730 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:29:08.793 +01:00 [INF] Authorization failed.
+2021-03-04 09:29:08.805 +01:00 [ERR] Health check random completed after 5.7338ms with status "Unhealthy" and 'Test'
+2021-03-04 09:29:08.804 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:29:08.881 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:29:08.890 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:29:08.946 +01:00 [INF] Request finished in 296.6779ms 401 
+2021-03-04 09:29:08.994 +01:00 [INF] Received HTTP response headers after 104.0823ms - 200
+2021-03-04 09:29:09.013 +01:00 [INF] End processing HTTP request after 207.1874ms - 200
+2021-03-04 09:29:09.688 +01:00 [INF] Received HTTP response headers after 3206.8179ms - 503
+2021-03-04 09:29:09.689 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:29:09.698 +01:00 [INF] End processing HTTP request after 3228.6406ms - 503
+2021-03-04 09:29:09.716 +01:00 [INF] Request finished in 2846.5395ms 503 application/json
+2021-03-04 09:29:09.948 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:29:10.103 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:29:12.127 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:29:12.149 +01:00 [INF] Authorization was successful.
+2021-03-04 09:29:12.156 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:29:12.192 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria, Vavatech.DotnetCore.IServices.IMessageService) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-04 09:29:14.711 +01:00 [INF] Send sms Send email to <marcin.sulecki@sulmar.pl>!
+2021-03-04 09:29:15.194 +01:00 [INF] Get Customers!
+2021-03-04 09:29:27.808 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-04 09:29:27.900 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 15687.8665ms
+2021-03-04 09:29:27.906 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:29:27.920 +01:00 [INF] Request finished in 15793.0206ms 200 application/json; charset=utf-8
+2021-03-04 09:38:41.367 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:38:41.568 +01:00 [INF] Initializing UI Database
+2021-03-04 09:38:42.365 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:38:42.586 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:38:42.748 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:38:43.239 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:38:43.245 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:38:43.278 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:38:43.317 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:38:43.323 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:38:43.379 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:38:43.388 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:38:43.391 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:38:43.416 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:38:43.446 +01:00 [INF] Request finished in 32.1283ms 307 
+2021-03-04 09:38:43.564 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:38:45.201 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:38:45.209 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:38:45.248 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:38:45.252 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:38:45.319 +01:00 [INF] Received HTTP response headers after 63.5547ms - 200
+2021-03-04 09:38:45.327 +01:00 [INF] End processing HTTP request after 78.0687ms - 200
+2021-03-04 09:38:45.649 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:38:45.677 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:38:45.693 +01:00 [INF] Authorization failed.
+2021-03-04 09:38:45.699 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:38:45.708 +01:00 [INF] Request finished in 59.4806ms 401 
+2021-03-04 09:38:45.867 +01:00 [INF] Received HTTP response headers after 2544.2236ms - 200
+2021-03-04 09:38:45.867 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:38:45.873 +01:00 [INF] End processing HTTP request after 2562.3561ms - 200
+2021-03-04 09:38:45.897 +01:00 [INF] Request finished in 2332.4221ms 200 application/json
+2021-03-04 09:38:46.555 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:38:50.262 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:39:02.227 +01:00 [INF] Authorization was successful.
+2021-03-04 09:39:02.231 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:39:02.275 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria, Vavatech.DotnetCore.IServices.IMessageService) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-04 09:39:02.333 +01:00 [INF] Send sms Send email to <marcin.sulecki@sulmar.pl>!
+2021-03-04 09:39:02.338 +01:00 [INF] Get Customers!
+2021-03-04 09:39:02.347 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-04 09:39:02.424 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 134.796ms
+2021-03-04 09:39:02.429 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:39:02.433 +01:00 [INF] Request finished in 12170.8849ms 200 application/json; charset=utf-8
+2021-03-04 09:39:05.437 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:39:22.158 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:39:22.341 +01:00 [INF] Initializing UI Database
+2021-03-04 09:39:23.074 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:39:23.368 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:39:23.507 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:39:24.129 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:39:24.139 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:39:24.192 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:39:24.266 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:39:24.289 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:39:24.373 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:39:24.376 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:39:24.380 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:39:24.413 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:39:24.462 +01:00 [INF] Request finished in 52.3563ms 307 
+2021-03-04 09:39:24.697 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:39:26.021 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:39:37.788 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:40:07.456 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:40:17.959 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:40:17.960 +01:00 [INF] Authorization was successful.
+2021-03-04 09:40:17.962 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:40:17.965 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:40:17.974 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:40:20.772 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:40:20.780 +01:00 [INF] Authorization failed.
+2021-03-04 09:40:20.786 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:40:20.796 +01:00 [INF] Request finished in 2834.2958ms 401 
+2021-03-04 09:40:20.803 +01:00 [INF] Received HTTP response headers after 2830.488ms - 200
+2021-03-04 09:40:20.809 +01:00 [INF] End processing HTTP request after 2849.6902ms - 200
+2021-03-04 09:40:20.849 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria, Vavatech.DotnetCore.IServices.IMessageService) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-04 09:40:37.291 +01:00 [INF] Send sms Send email to <marcin.sulecki@sulmar.pl>!
+2021-03-04 09:40:37.296 +01:00 [INF] Get Customers!
+2021-03-04 09:40:37.365 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-04 09:40:37.494 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 6686.3433ms
+2021-03-04 09:40:37.502 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:40:37.506 +01:00 [INF] Request finished in 71485.6743ms 200 application/json; charset=utf-8
+2021-03-04 09:40:37.544 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:40:37.544 +01:00 [INF] Received HTTP response headers after 73261.9992ms - 200
+2021-03-04 09:40:37.561 +01:00 [INF] End processing HTTP request after 73303.2062ms - 200
+2021-03-04 09:40:37.573 +01:00 [INF] Request finished in 72873.7141ms 200 application/json
+2021-03-04 09:40:37.957 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:42:13.113 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:42:13.214 +01:00 [INF] Initializing UI Database
+2021-03-04 09:42:13.888 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:42:14.097 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:42:14.237 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:42:14.726 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:42:14.749 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:42:14.841 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:42:14.928 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:42:14.935 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:42:15.036 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:42:15.039 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:42:15.044 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:42:15.068 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:42:15.094 +01:00 [INF] Request finished in 27.4392ms 307 
+2021-03-04 09:42:15.177 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:42:19.495 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:42:19.511 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:42:19.549 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:42:19.559 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:42:19.579 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:42:21.048 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:42:21.060 +01:00 [INF] Authorization failed.
+2021-03-04 09:42:21.066 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:42:21.094 +01:00 [INF] Request finished in 1514.5925ms 401 
+2021-03-04 09:42:21.105 +01:00 [INF] Received HTTP response headers after 1534.6701ms - 200
+2021-03-04 09:42:21.115 +01:00 [INF] End processing HTTP request after 1566.1286ms - 200
+2021-03-04 09:42:21.564 +01:00 [INF] Received HTTP response headers after 6630.4009ms - 200
+2021-03-04 09:42:21.564 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:42:21.568 +01:00 [INF] End processing HTTP request after 6648.9642ms - 200
+2021-03-04 09:42:21.588 +01:00 [INF] Request finished in 6410.5588ms 200 application/json
+2021-03-04 09:42:21.842 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:42:25.010 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:42:29.159 +01:00 [INF] Authorization was successful.
+2021-03-04 09:42:29.163 +01:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:42:29.199 +01:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Vavatech.DotnetCore.Models.Customer]] Get(Vavatech.DotnetCore.Models.SearchCriterias.CustomerSearchCriteria, Vavatech.DotnetCore.IServices.IMessageService) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-04 09:42:29.266 +01:00 [INF] Send sms Send email to <marcin.sulecki@sulmar.pl>!
+2021-03-04 09:42:29.272 +01:00 [INF] Get Customers!
+2021-03-04 09:42:29.288 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Vavatech.DotnetCore.Models.Customer, Vavatech.DotnetCore.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-04 09:42:29.354 +01:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 138.0329ms
+2021-03-04 09:42:29.360 +01:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-04 09:42:29.363 +01:00 [INF] Request finished in 4354.2615ms 200 application/json; charset=utf-8
+2021-03-04 09:42:52.473 +01:00 [INF] User profile is available. Using 'C:\Users\marci\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-03-04 09:42:52.566 +01:00 [INF] Initializing UI Database
+2021-03-04 09:42:53.229 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:42:53.405 +01:00 [INF] Saving healthchecks configuration to database
+2021-03-04 09:42:53.534 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:42:54.064 +01:00 [INF] Now listening on: https://localhost:5001
+2021-03-04 09:42:54.069 +01:00 [INF] Now listening on: http://localhost:5000
+2021-03-04 09:42:54.142 +01:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-04 09:42:54.240 +01:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:42:54.246 +01:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-04 09:42:54.307 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-04 09:42:54.311 +01:00 [INF] Hosting environment: Development
+2021-03-04 09:42:54.314 +01:00 [INF] Content root path: C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi
+2021-03-04 09:42:54.332 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/health  
+2021-03-04 09:42:54.362 +01:00 [INF] Request finished in 31.615ms 307 
+2021-03-04 09:42:54.452 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/health  
+2021-03-04 09:43:00.522 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:43:00.532 +01:00 [INF] Executing endpoint 'Health checks'
+2021-03-04 09:43:00.601 +01:00 [ERR] Health check random completed after 3.4202ms with status "Unhealthy" and 'Test'
+2021-03-04 09:43:00.610 +01:00 [INF] Start processing HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:43:00.626 +01:00 [INF] Sending HTTP request GET "http://api.nbp.pl/api/exchangerates/rates/A/CHF/"
+2021-03-04 09:43:00.633 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/customers  
+2021-03-04 09:43:01.700 +01:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-04 09:43:01.718 +01:00 [INF] Authorization failed.
+2021-03-04 09:43:01.736 +01:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-04 09:43:01.751 +01:00 [INF] Received HTTP response headers after 1118.5593ms - 200
+2021-03-04 09:43:01.752 +01:00 [INF] Request finished in 1118.8074ms 401 
+2021-03-04 09:43:01.768 +01:00 [INF] End processing HTTP request after 1155.2029ms - 200
+2021-03-04 09:43:02.279 +01:00 [INF] Received HTTP response headers after 8034.1488ms - 503
+2021-03-04 09:43:02.280 +01:00 [INF] Executed endpoint 'Health checks'
+2021-03-04 09:43:02.285 +01:00 [INF] End processing HTTP request after 8052.524ms - 503
+2021-03-04 09:43:02.294 +01:00 [INF] Request finished in 7842.1511ms 503 application/json
+2021-03-04 09:43:02.469 +01:00 [INF] Saved 1 entities to in-memory store.
+2021-03-04 09:43:02.624 +01:00 [INF] Saved 3 entities to in-memory store.
+2021-03-04 09:43:05.870 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:43:10.247 +01:00 [INF] Authorization failed.
+2021-03-04 09:43:10.252 +01:00 [INF] AuthenticationScheme: Basic was forbidden.
+2021-03-04 09:43:10.258 +01:00 [INF] Request finished in 4387.9955ms 403 
+2021-03-04 09:43:14.488 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/customers  
+2021-03-04 09:43:18.513 +01:00 [INF] Authorization failed.
+2021-03-04 09:43:18.528 +01:00 [INF] AuthenticationScheme: Basic was forbidden.
+2021-03-04 09:43:18.538 +01:00 [INF] Request finished in 4049.7751ms 403 

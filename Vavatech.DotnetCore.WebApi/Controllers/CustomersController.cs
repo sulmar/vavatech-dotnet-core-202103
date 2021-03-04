@@ -18,7 +18,7 @@ using Vavatech.DotnetCore.Models.SearchCriterias;
 
 namespace Vavatech.DotnetCore.WebApi.Controllers
 {
-    
+    [Authorize]
     [ApiController]
     // [Route("api/customers")]
     [Route("api/[controller]")]
@@ -119,6 +119,7 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesDefaultResponseType]
+        [Authorize(Roles = "Developer")]
         public ActionResult<IEnumerable<Customer>> Get([FromQuery] CustomerSearchCriteria searchCriteria, [FromServices] IMessageService messageService)
         {
 
@@ -131,7 +132,12 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
 
             messageService.Send($"Send email to <{email}>!");
 
-            logger.LogInformation("Get Customers!");
+            logger.LogInformation("Get Customers!");            
+
+            if (User.IsInRole("Developer"))
+            {
+                searchCriteria.IsRemoved = true;
+            }
 
             var customers = customerService.Get(searchCriteria);
 
