@@ -6,6 +6,12 @@
 }
 
 
+
+@*@await Component.InvokeAsync("CustomerCard", @Model)*@
+
+<vc:customer-card customer="@Model"></vc:customer-card>
+
+
 <div class="card">
 
     <div class="card-header">
