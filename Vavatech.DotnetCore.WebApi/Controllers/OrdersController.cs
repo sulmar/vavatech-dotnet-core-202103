@@ -16,5 +16,11 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         {
             throw new NotImplementedException();
         }
+
+        [HttpGet("{id}")]
+        public IActionResult Get(int orderId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
