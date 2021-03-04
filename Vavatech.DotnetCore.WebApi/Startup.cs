@@ -3,6 +3,7 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -19,6 +20,7 @@ using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text.Json.Serialization;
 using Validators.Polish;
 using Vavatech.DotnetCore.Fakers;
@@ -129,6 +131,24 @@ namespace Vavatech.DotnetCore.WebApi
 
             services.AddTransient<IServices.IAuthenticationService, Identity.AuthenticationService>();
             services.AddScoped<IClaimsTransformation, CustomerClaimsTransformation>();
+
+
+            services.AddSingleton<IAuthorizationHandler, MinimumAgeHandler>();
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Adult", policy =>
+                {
+                    policy.RequireClaim(ClaimTypes.DateOfBirth);
+                    policy.Requirements.Add(new MinimumAgeRequirement(18));
+                });
+
+                options.AddPolicy("Administrator", policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                    policy.RequireRole("Administator");
+                });
+            });
 
         }
 

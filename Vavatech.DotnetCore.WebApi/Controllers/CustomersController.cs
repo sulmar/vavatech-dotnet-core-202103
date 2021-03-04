@@ -119,7 +119,8 @@ namespace Vavatech.DotnetCore.WebApi.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesDefaultResponseType]
-        [Authorize(Roles = "Developer")]
+        //[Authorize(Roles = "Developer")]
+        [Authorize(Policy = "Adult")]
         public ActionResult<IEnumerable<Customer>> Get([FromQuery] CustomerSearchCriteria searchCriteria, [FromServices] IMessageService messageService)
         {
 

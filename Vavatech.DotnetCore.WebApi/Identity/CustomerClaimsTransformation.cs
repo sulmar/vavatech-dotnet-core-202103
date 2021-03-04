@@ -22,6 +22,7 @@ namespace Vavatech.DotnetCore.WebApi.Identity
             identity.AddClaim(new Claim(ClaimTypes.Role, "Developer"));
             identity.AddClaim(new Claim(ClaimTypes.Role, "Trainer"));
 
+
             return Task.FromResult(clone);
         }
     }

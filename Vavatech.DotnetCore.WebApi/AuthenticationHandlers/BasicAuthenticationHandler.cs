@@ -58,6 +58,7 @@ namespace Vavatech.DotnetCore.WebApi.AuthenticationHandlers
             ClaimsPrincipal principal = new ClaimsPrincipal(identity);
 
             identity.AddClaim(new Claim(ClaimTypes.Email, customer.Email));
+            identity.AddClaim(new Claim(ClaimTypes.DateOfBirth, customer.Birthday.ToString()));
 
             //identity.AddClaim(new Claim("kat", "B"));
             //identity.AddClaim(new Claim("kat", "C"));
