@@ -1,0 +1,63 @@
+﻿@model Vavatech.DotnetCore.Models.Customer
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="card">
+
+    <div class="card-header">
+        <h4>@Model.FirstName @Model.LastName</h4>
+    </div>
+
+    <div class="card-body">
+
+        <form method="post">
+
+            <input type="hidden" asp-for="@Model.Id" />
+            <input type="hidden" asp-for="@Model.IsRemoved" />
+
+
+            @*<div asp-validation-summary="All" class="text-danger"></div>*@
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="@Model.FirstName">Imię</label>
+                    <input type="text" asp-for="@Model.FirstName" class="form-control" />
+                    <span asp-validation-for="@Model.FirstName" class="text-danger" ></span>
+                </div>
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="@Model.LastName">Nazwisko</label>
+                    <input type="text" asp-for="@Model.LastName" class="form-control" />
+                    <span asp-validation-for="@Model.LastName" class="text-danger" ></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="@Model.CreditAmount">CreditAmount</label>
+                    <input type="text" asp-for="@Model.CreditAmount" class="form-control" />
+                    <span asp-validation-for="@Model.CreditAmount" class="text-danger" ></span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label asp-for="@Model.Pesel">Pesel</label>
+                    <input type="text" asp-for="@Model.Pesel" class="form-control" />
+                    <span asp-validation-for="@Model.Pesel" class="text-danger" ></span>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Zapisz</button>
+        </form>
+    </div>
+
+
+</div>

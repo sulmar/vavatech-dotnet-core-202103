@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.SignalR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.SignalRReceiverConsoleClient", "Vavatech.DotnetCore.SignalRReceiverConsoleClient\Vavatech.DotnetCore.SignalRReceiverConsoleClient.csproj", "{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.MVCWebApp", "Vavatech.DotnetCore.MVCWebApp\Vavatech.DotnetCore.MVCWebApp.csproj", "{B2F078AB-D907-49D3-B318-9915EFFF3230}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9221F9D9-BACD-4BC8-BF3A-8FA05A10690F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F078AB-D907-49D3-B318-9915EFFF3230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F078AB-D907-49D3-B318-9915EFFF3230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F078AB-D907-49D3-B318-9915EFFF3230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F078AB-D907-49D3-B318-9915EFFF3230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

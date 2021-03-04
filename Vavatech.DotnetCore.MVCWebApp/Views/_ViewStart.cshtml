@@ -1,0 +1,11 @@
+﻿@{
+
+    if (DateTime.Now.TimeOfDay > TimeSpan.Parse("15:00"))
+    {
+        Layout = "_DarkLayout";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
+}

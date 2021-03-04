@@ -29,7 +29,7 @@ namespace Vavatech.DotnetCore.FakeServices
         {            
             customers = faker.Generate(options.Value.Count);
 
-            customers.Add(new Customer { Username = "marcin", HashedPassword = "12345", Email = "marcin.sulecki@sulmar.pl", Birthday = DateTime.Parse("2010-01-01")  });
+            customers.Add(new Customer { Id = 101, Username = "marcin", HashedPassword = "12345", Email = "marcin.sulecki@sulmar.pl", Birthday = DateTime.Parse("2010-01-01")  });
         }
 
         public void Add(Customer entity)
