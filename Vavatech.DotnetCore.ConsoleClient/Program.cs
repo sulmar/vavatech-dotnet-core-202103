@@ -20,32 +20,32 @@ namespace Vavatech.DotnetCore.ConsoleClient
 
             // client.DefaultRequestHeaders.Add("Authorization", "Basic base64({login:password})");
 
-            await GetExchangeRateTest(client);
+           // await GetExchangeRateTest(client);
 
            // await GetExchangeRatesTest(client);
 
         }
 
-        private static async Task GetExchangeRatesTest(HttpClient client)
-        {
-            IExchangeRateService exchangeRateService = new NBPApiExchangeRateService(client);
+        //private static async Task GetExchangeRatesTest(HttpClient client)
+        //{
+        //    IExchangeRateService exchangeRateService = new NBPApiExchangeRateService(client);
 
-            ExchangeRate exchangeRate = await exchangeRateService.GetAsync("A");
+        //    ExchangeRate exchangeRate = await exchangeRateService.GetAsync("A");
 
-            foreach (var rate in exchangeRate.Rates)
-            {
-                Console.WriteLine($"{rate.Currency} {rate.Mid}");
-            }
+        //    foreach (var rate in exchangeRate.Rates)
+        //    {
+        //        Console.WriteLine($"{rate.Currency} {rate.Mid}");
+        //    }
           
-        }
+        //}
 
-        private static async Task GetExchangeRateTest(HttpClient client)
-        {
-            IExchangeRateService exchangeRateService = new NBPApiExchangeRateService(client);
+        //private static async Task GetExchangeRateTest(HttpClient client)
+        //{
+        //    IExchangeRateService exchangeRateService = new NBPApiExchangeRateService(client);
 
-            ExchangeRate exchangeRate = await exchangeRateService.GetAsync("A", "CHF");
+        //    ExchangeRate exchangeRate = await exchangeRateService.GetAsync("A", "CHF");
 
-            Console.WriteLine(exchangeRate.Rates[0].Mid);
-        }
+        //    Console.WriteLine(exchangeRate.Rates[0].Mid);
+        //}
     }
 }

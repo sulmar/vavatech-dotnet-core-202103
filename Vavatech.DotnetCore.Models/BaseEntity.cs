@@ -10,5 +10,7 @@ namespace Vavatech.DotnetCore.Models
     public abstract class BaseEntity : BaseEntity<int>
     {
         public DateTime CreatedDate { get; set; }
+        public DateTime? ModifiedDate { get; set; }
+        public string ModifiedBy { get; set; }
     }
 }
