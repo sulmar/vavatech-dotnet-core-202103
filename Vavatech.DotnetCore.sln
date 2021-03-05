@@ -31,6 +31,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vavatech.DotnetCore.MVCWebA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.DbServices", "Vavatech.DotnetCore.DbServices\Vavatech.DotnetCore.DbServices.csproj", "{46E9A0C3-5A9A-433D-A4BB-2F4A109E2C90}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6CAA9FCF-F120-4B76-BBC5-1A99C75F009B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.BlazorClient.Server", "Vavatech.DotnetCore.BlazorClient\Server\Vavatech.DotnetCore.BlazorClient.Server.csproj", "{1CC4360F-2CEB-40A8-9124-AB4A56C6CBED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.BlazorClient.Client", "Vavatech.DotnetCore.BlazorClient\Client\Vavatech.DotnetCore.BlazorClient.Client.csproj", "{A540F2D0-DF5B-47AA-BB80-462176D32B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.BlazorClient.Shared", "Vavatech.DotnetCore.BlazorClient\Shared\Vavatech.DotnetCore.BlazorClient.Shared.csproj", "{50E96890-287D-4FF8-9FF2-23936792D205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vavatech.DotnetCore.BlazorServerClient", "Vavatech.DotnetCore.BlazorServerClient\Vavatech.DotnetCore.BlazorServerClient.csproj", "{FED683D0-AA99-420F-9BD6-19BA41EB3030}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +103,26 @@ Global
 		{46E9A0C3-5A9A-433D-A4BB-2F4A109E2C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E9A0C3-5A9A-433D-A4BB-2F4A109E2C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E9A0C3-5A9A-433D-A4BB-2F4A109E2C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAA9FCF-F120-4B76-BBC5-1A99C75F009B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAA9FCF-F120-4B76-BBC5-1A99C75F009B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAA9FCF-F120-4B76-BBC5-1A99C75F009B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAA9FCF-F120-4B76-BBC5-1A99C75F009B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CC4360F-2CEB-40A8-9124-AB4A56C6CBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CC4360F-2CEB-40A8-9124-AB4A56C6CBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CC4360F-2CEB-40A8-9124-AB4A56C6CBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CC4360F-2CEB-40A8-9124-AB4A56C6CBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A540F2D0-DF5B-47AA-BB80-462176D32B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A540F2D0-DF5B-47AA-BB80-462176D32B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A540F2D0-DF5B-47AA-BB80-462176D32B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A540F2D0-DF5B-47AA-BB80-462176D32B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E96890-287D-4FF8-9FF2-23936792D205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E96890-287D-4FF8-9FF2-23936792D205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E96890-287D-4FF8-9FF2-23936792D205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E96890-287D-4FF8-9FF2-23936792D205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED683D0-AA99-420F-9BD6-19BA41EB3030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED683D0-AA99-420F-9BD6-19BA41EB3030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED683D0-AA99-420F-9BD6-19BA41EB3030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED683D0-AA99-420F-9BD6-19BA41EB3030}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

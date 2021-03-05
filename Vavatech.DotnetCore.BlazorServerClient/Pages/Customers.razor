@@ -1,0 +1,27 @@
+﻿@page "/customers"
+
+<h3>Customers</h3>
+
+
+<table class="table table-hover table-light table-striped">
+    <thead>
+        <tr>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+        </tr>
+    </thead>
+
+    @foreach (var customer in customers)
+    {
+        <tr>
+            <td>@customer.FirstName</td>
+            <td>@customer.LastName</td>
+
+            <td>
+                <a class="btn btn-primary btn-circle">Edycja</a>
+            </td>
+        </tr>
+    }
+
+
+</table>

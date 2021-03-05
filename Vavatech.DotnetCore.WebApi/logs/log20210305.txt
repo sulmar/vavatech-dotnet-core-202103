@@ -1,0 +1,156 @@
+2021-03-05 11:53:37.568 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2021-03-05 11:53:37.663 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2021-03-05 11:53:37.681 +00:00 [INF] Initializing UI Database
+2021-03-05 11:53:38.752 +00:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-05 11:53:39.014 +00:00 [INF] Saving healthchecks configuration to database
+2021-03-05 11:53:39.199 +00:00 [INF] Saved 1 entities to in-memory store.
+2021-03-05 11:53:39.271 +00:00 [INF] Creating key {bcf90d36-afb4-4aae-ab17-8dfcf6d62c9c} with creation date 2021-03-05 11:53:39Z, activation date 2021-03-05 11:53:39Z, and expiration date 2021-06-03 11:53:39Z.
+2021-03-05 11:53:39.340 +00:00 [WRN] No XML encryptor configured. Key {bcf90d36-afb4-4aae-ab17-8dfcf6d62c9c} may be persisted to storage in unencrypted form.
+2021-03-05 11:53:39.372 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-bcf90d36-afb4-4aae-ab17-8dfcf6d62c9c.xml'.
+2021-03-05 11:53:40.338 +00:00 [INF] Now listening on: https://[::]:443
+2021-03-05 11:53:40.342 +00:00 [INF] Now listening on: http://[::]:80
+2021-03-05 11:53:40.717 +00:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-05 11:53:40.823 +00:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-05 11:53:40.836 +00:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-05 11:53:40.966 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-03-05 11:53:40.971 +00:00 [INF] Hosting environment: Development
+2021-03-05 11:53:40.978 +00:00 [INF] Content root path: /app
+2021-03-05 11:53:41.019 +00:00 [ERR] GetHealthReport threw an exception when trying to get report from http://localhost:5000/health configured with name My API.
+System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at HealthChecks.UI.Core.HostedService.HealthCheckReportCollector.GetHealthReport(HealthCheckConfiguration configuration)
+2021-03-05 11:53:41.322 +00:00 [INF] Saved 1 entities to in-memory store.
+2021-03-05 11:53:41.540 +00:00 [INF] Saved 2 entities to in-memory store.
+2021-03-05 11:53:43.638 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/weatherforecast  
+2021-03-05 11:53:45.352 +00:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-05 11:53:45.375 +00:00 [INF] Request finished in 1741.0008ms 404 
+2021-03-05 11:53:50.619 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/  
+2021-03-05 11:53:50.634 +00:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-05 11:53:50.646 +00:00 [INF] Executing endpoint '/ HTTP: GET'
+2021-03-05 11:53:50.659 +00:00 [INF] Executed endpoint '/ HTTP: GET'
+2021-03-05 11:53:50.674 +00:00 [INF] Request finished in 54.7434ms 302 
+2021-03-05 11:53:50.740 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/swagger  
+2021-03-05 11:53:50.758 +00:00 [INF] Request finished in 18.27ms 302 
+2021-03-05 11:53:50.791 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/swagger/index.html  
+2021-03-05 11:53:51.176 +00:00 [INF] Request finished in 386.7944ms 200 text/html; charset=utf-8
+2021-03-05 11:53:51.269 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/swagger/swagger-ui.css  
+2021-03-05 11:53:51.283 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/swagger/swagger-ui-bundle.js  
+2021-03-05 11:53:51.310 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/swagger/swagger-ui-standalone-preset.js  
+2021-03-05 11:53:51.670 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-03-05 11:53:51.694 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-03-05 11:53:51.782 +00:00 [INF] Request finished in 496.7325ms 200 application/javascript
+2021-03-05 11:53:51.782 +00:00 [INF] Request finished in 513.466ms 200 text/css
+2021-03-05 11:53:52.029 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-03-05 11:53:52.035 +00:00 [INF] Request finished in 752.1295ms 200 application/javascript
+2021-03-05 11:53:52.380 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:49153/swagger/swagger-ui-bundle.js.map  
+2021-03-05 11:53:52.400 +00:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-05 11:53:52.440 +00:00 [INF] Request finished in 60.6367ms 404 
+2021-03-05 11:53:52.466 +00:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:49153/swagger/swagger-ui-bundle.js.map  
+2021-03-05 11:53:52.476 +00:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-05 11:53:52.483 +00:00 [INF] Request finished in 17.4923ms 404 
+2021-03-05 11:53:52.628 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:49153/swagger/swagger-ui-standalone-preset.js.map  
+2021-03-05 11:53:52.635 +00:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-05 11:53:52.643 +00:00 [INF] Request finished in 16.0539ms 404 
+2021-03-05 11:53:52.684 +00:00 [INF] Request starting HTTP/1.1 GET https://127.0.0.1:49153/swagger/swagger-ui-standalone-preset.js.map  
+2021-03-05 11:53:52.695 +00:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-05 11:53:52.706 +00:00 [INF] Request finished in 21.4029ms 404 
+2021-03-05 11:53:52.846 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/swagger/Api ze szkolenia/swagger.json  
+2021-03-05 11:53:52.948 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/swagger/favicon-32x32.png  
+2021-03-05 11:53:52.964 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-03-05 11:53:52.972 +00:00 [INF] Request finished in 24.9715ms 200 image/png
+2021-03-05 11:53:56.433 +00:00 [INF] Request finished in 3586.8415ms 200 application/json; charset=utf-8
+2021-03-05 11:54:41.586 +00:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-05 11:54:41.602 +00:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-05 11:54:41.605 +00:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-05 11:54:41.629 +00:00 [ERR] GetHealthReport threw an exception when trying to get report from http://localhost:5000/health configured with name My API.
+System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at HealthChecks.UI.Core.HostedService.HealthCheckReportCollector.GetHealthReport(HealthCheckConfiguration configuration)
+2021-03-05 11:54:41.654 +00:00 [INF] Notification is sent on same window time.
+2021-03-05 11:54:41.694 +00:00 [INF] Saved 1 entities to in-memory store.
+2021-03-05 11:54:44.287 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/swagger/Api ze szkolenia/swagger.json  
+2021-03-05 11:54:44.295 +00:00 [INF] Request finished in 7.5829ms 200 application/json; charset=utf-8
+2021-03-05 11:54:46.851 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/api/Customers/female  
+2021-03-05 11:54:46.864 +00:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-05 11:54:46.921 +00:00 [INF] Authorization failed.
+2021-03-05 11:54:46.932 +00:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-05 11:54:46.947 +00:00 [INF] Request finished in 96.1901ms 401 
+2021-03-05 11:54:48.740 +00:00 [INF] Request starting HTTP/2 GET https://localhost:49153/api/Customers/female  
+2021-03-05 11:54:48.749 +00:00 [INF] Basic was not authenticated. Failure message: Missing authorization header
+2021-03-05 11:54:48.760 +00:00 [INF] Authorization failed.
+2021-03-05 11:54:48.779 +00:00 [INF] AuthenticationScheme: Basic was challenged.
+2021-03-05 11:54:48.794 +00:00 [INF] Request finished in 52.8712ms 401 
+2021-03-05 11:55:14.701 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:49153/api/customers/10  
+2021-03-05 11:55:14.804 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Vavatech.DotnetCore.WebApi.AuthenticationHandlers.BasicAuthenticationHandler.HandleAuthenticateAsync() in C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi\AuthenticationHandlers\BasicAuthenticationHandler.cs:line 50
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-05 11:55:14.871 +00:00 [INF] Request finished in 170.7132ms 500 text/plain
+2021-03-05 11:55:20.955 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:49153/api/customers/1  
+2021-03-05 11:55:21.036 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Vavatech.DotnetCore.WebApi.AuthenticationHandlers.BasicAuthenticationHandler.HandleAuthenticateAsync() in C:\Users\marci\source\repos\vavatech-dotnet-core-202103\Vavatech.DotnetCore\Vavatech.DotnetCore.WebApi\AuthenticationHandlers\BasicAuthenticationHandler.cs:line 50
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-05 11:55:21.068 +00:00 [INF] Request finished in 109.636ms 500 text/plain
+2021-03-05 11:55:32.582 +00:00 [INF] Request starting HTTP/1.1 GET https://localhost:49153/api/customers/1  
+2021-03-05 11:56:15.585 +00:00 [INF] Entity Framework Core 3.1.3 initialized 'HealthChecksDb' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=HealthChecksUI 
+2021-03-05 11:56:16.376 +00:00 [INF] Start processing HTTP request GET "http://localhost:5000/health"
+2021-03-05 11:56:16.399 +00:00 [INF] Sending HTTP request GET "http://localhost:5000/health"
+2021-03-05 11:56:18.603 +00:00 [INF] Authorization was successful.
+2021-03-05 11:56:18.608 +00:00 [INF] Executing endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-05 11:56:18.609 +00:00 [ERR] GetHealthReport threw an exception when trying to get report from http://localhost:5000/health configured with name My API.
+System.Net.Http.HttpRequestException: Cannot assign requested address
+ ---> System.Net.Sockets.SocketException (99): Cannot assign requested address
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at HealthChecks.UI.Core.HostedService.HealthCheckReportCollector.GetHealthReport(HealthCheckConfiguration configuration)
+2021-03-05 11:56:18.647 +00:00 [INF] Notification is sent on same window time.
+2021-03-05 11:56:18.656 +00:00 [INF] Saved 1 entities to in-memory store.
+2021-03-05 11:56:18.712 +00:00 [INF] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Vavatech.DotnetCore.Models.Customer] Get(Int32) on controller Vavatech.DotnetCore.WebApi.Controllers.CustomersController (Vavatech.DotnetCore.WebApi).
+2021-03-05 11:56:18.772 +00:00 [INF] Executing ObjectResult, writing value of type 'Vavatech.DotnetCore.Models.Customer'.
+2021-03-05 11:56:18.833 +00:00 [INF] Executed action Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi) in 102.5851ms
+2021-03-05 11:56:18.839 +00:00 [INF] Executed endpoint 'Vavatech.DotnetCore.WebApi.Controllers.CustomersController.Get (Vavatech.DotnetCore.WebApi)'
+2021-03-05 11:56:18.843 +00:00 [INF] Request finished in 46261.0801ms 200 application/json; charset=utf-8

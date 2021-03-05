@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  vavatech.dotnetcore.webapi:
+    image: ${DOCKER_REGISTRY-}vavatechdotnetcorewebapi
+    build:
+      context: .
+      dockerfile: Vavatech.DotnetCore.WebApi/Dockerfile
+
