@@ -18,6 +18,8 @@ namespace Vavatech.DotnetCore.ConsoleClient
             client.BaseAddress = new Uri(baseAddress);
             client.DefaultRequestHeaders.Add("Accept", "application/json");
 
+            // client.DefaultRequestHeaders.Add("Authorization", "Basic base64({login:password})");
+
             await GetExchangeRateTest(client);
 
            // await GetExchangeRatesTest(client);

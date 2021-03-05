@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vavatech.DotnetCore.IServices\Vavatech.DotnetCore.IServices.csproj" />
+    <ProjectReference Include="..\Vavatech.DotnetCore.Models\Vavatech.DotnetCore.Models.csproj" />
+  </ItemGroup>
+
+</Project>
